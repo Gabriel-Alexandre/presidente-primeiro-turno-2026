@@ -21,7 +21,7 @@
 
 |  | 2018 | 2022 | 2026 |
 |---|---|---|---|
-| Candidato do PL | 46,0% | 43,2% | 47,0% |
+| Candidato do PL (em 2018, Jair Bolsonaro pelo PSL) | 46,0% | 43,2% | 47,0% |
 | Lula (ou Haddad) | 29,3% | 48,4% | 45,2% |
 | Outros | 24,7% | 8,4% | 7,8% |
 | Margem (PL menos PT), pontos | +16,8 | -5,2 | +1,9 |

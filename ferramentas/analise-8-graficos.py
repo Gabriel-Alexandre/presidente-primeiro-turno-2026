@@ -131,7 +131,7 @@ def g05():
     on = ["Lula", "Jair", "Ciro, Tebet e outros", "Branco/nulo", "Abstenção"]
     dn = ["Flávio", "Lula", "Caiado", "Cury", "Renan", "Zema", "Outros", "Branco/nulo", "Abstenção"]
     M = t.pivot(index="origem", columns="destino", values="B").loc[om, dm].to_numpy()
-    f, ax = fig("Para onde foi o voto de 2022 (estimativa ecológica)", "De cada 100 eleitores de 2022 (linhas), quantos aparecem em cada destino de 2026 (colunas). Inferência entre lugares, não o voto de ninguém. Em preto, fluxos estáveis entre regiões e especificações; em cinza, fluxos que variam demais e não entram nas conclusões", "Regressão ecológica com restrições, 5.570 municípios, 300 reamostragens. Estável = as duas especificações diferem em até 3 pontos e a amplitude entre as cinco regiões é de até 15 (resultados/a4_estabilidade.csv)")
+    f, ax = fig("Para onde foi o voto de 2022 (estimativa ecológica)", "De cada 100 eleitores de 2022 (linhas), quantos aparecem em cada destino de 2026 (colunas). Inferência entre lugares, não o voto de ninguém. Em preto, fluxos estáveis entre regiões e especificações; em cinza, fluxos que variam demais e não entram nas conclusões", "Regressão ecológica com restrições, 5.570 municípios, 300 reamostragens. Estável = as duas especificações diferem em até 3 pontos, a amplitude entre as cinco regiões é de até 15 e o valor nacional fica dentro do intervalo das regiões (resultados/a4_estabilidade.csv)")
     ax.imshow(M, cmap="Blues", vmin=0, vmax=1)
     ax.set_xticks(range(9), dn, rotation=25, ha="right", fontsize=16)
     ax.set_yticks(range(5), on, fontsize=18)
@@ -188,7 +188,7 @@ def g07():
 def g08():
     e = pd.read_csv(RES / "b2_erro_por_instituto.csv")
     e = e[e.verificada]
-    f, ax = fig("As pesquisas subestimaram o candidato do PL em 2022 e em 2026, e o erro típico foi parecido", "Erro da margem na última pesquisa de cada instituto (pesquisa menos urna, pontos; negativo = mostrou o candidato do PL pior do que foi). Barra preta: mediana; losango: média", "Cada ponto é um instituto. 2018: Datafolha e outros; 2022 e 2026: institutos com pesquisa na véspera (2026: só as verificadas na fonte). Em 2022 dois institutos muito fora da curva puxam a média para cima")
+    f, ax = fig("As pesquisas subestimaram o candidato do PL em 2022 e em 2026, e o erro típico foi parecido", "Erro da margem na última pesquisa de cada instituto (pesquisa menos urna, pontos; negativo = mostrou o candidato do PL pior do que foi). Barra preta: mediana; losango: média", "Cada ponto é um instituto. 2018: Datafolha e outros (em 2018, Jair Bolsonaro concorreu pelo PSL); 2022 e 2026: institutos com pesquisa na véspera (2026: só as verificadas na fonte). Em 2022 dois institutos muito fora da curva puxam a média para cima")
     rng = np.random.default_rng(1)
     for i, a in enumerate((2018, 2022, 2026)):
         x = e[e.ano == a]

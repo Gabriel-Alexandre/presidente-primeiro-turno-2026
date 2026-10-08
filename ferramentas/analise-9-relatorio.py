@@ -123,7 +123,7 @@ def relatorio() -> str:
     tab_porte.columns = ["Porte do município", "Contribuição (pontos)", "% da virada"]
     top = ufs[ufs.uf != "ZZ"].head(3)
     base = ufs[ufs.uf != "ZZ"].tail(3)
-    tab_res = pd.DataFrame({"": ["Candidato do PL", "Lula (ou Haddad)", "Outros", "Margem (PL menos PT), pontos", "Abstenção, com o exterior"],
+    tab_res = pd.DataFrame({"": ["Candidato do PL (em 2018, Jair Bolsonaro pelo PSL)", "Lula (ou Haddad)", "Outros", "Margem (PL menos PT), pontos", "Abstenção, com o exterior"],
                             "2018": [pc(a1["pl_pct_2018"]), pc(a1["pt_pct_2018"]), pc(100 - a1["pl_pct_2018"] - a1["pt_pct_2018"]), sg(a1["margem_2018"]), pc(abst[2018])],
                             "2022": [pc(a1["pl_pct_2022"]), pc(a1["pt_pct_2022"]), pc(100 - a1["pl_pct_2022"] - a1["pt_pct_2022"]), sg(a1["margem_2022"]), pc(abst[2022])],
                             "2026": [pc(a1["pl_pct_2026"]), pc(a1["pt_pct_2026"]), pc(100 - a1["pl_pct_2026"] - a1["pt_pct_2026"]), sg(a1["margem_2026"]), pc(abst[2026])]})
