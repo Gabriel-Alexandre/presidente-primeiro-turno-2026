@@ -1,5 +1,209 @@
 {
  "arquivos": {
+  "dados/brutos/capturas-eventos/055abf52bc515a3a.html": {
+   "baixado_utc": "2026-10-08T01:55:33+00:00",
+   "bytes": 54608,
+   "sha256": "182991a25b99bdce71c6cb95480566e8647aab6e2f7a86d7ba19cf9b015e741f",
+   "url": "https://exame.com/brasil/senado-confirma-derrubada-do-decreto-do-iof-e-congresso-impoe-derrota-historica-ao-governo"
+  },
+  "dados/brutos/capturas-eventos/134d86f0af4daa89.html": {
+   "baixado_utc": "2026-10-08T01:57:02+00:00",
+   "bytes": 366160,
+   "sha256": "de86466f06011756f235bcd9d0d9095759e3d092ed562328b28d9f7585130bbc",
+   "url": "https://www.folhavitoria.com.br/politica/julgamento-de-bolsonaro-quais-os-proximos-passos-quando-a-pena-deve-passar-a-ser-cumprida/"
+  },
+  "dados/brutos/capturas-eventos/1726b269cb84368c.html": {
+   "baixado_utc": "2026-10-08T01:56:29+00:00",
+   "bytes": 417678,
+   "sha256": "7111ff5851d8781f0b03e568658417178724d72e72d642d25ee746c249bcc1a6",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/tv-globo-cancela-debate-presidencial/"
+  },
+  "dados/brutos/capturas-eventos/1dcb9e5dfcb17907.html": {
+   "baixado_utc": "2026-10-08T01:55:38+00:00",
+   "bytes": 80759,
+   "sha256": "83d01912b047dec03cd941eb882a794d8b06dfd0dd133cbedb244b4ad9f4a2f6",
+   "url": "https://www.mobiletime.com.br/noticias/30/07/2025/trump-tarifa-50-porcento/"
+  },
+  "dados/brutos/capturas-eventos/2007789788fe4c70.html": {
+   "baixado_utc": "2026-10-08T01:56:24+00:00",
+   "bytes": 341699,
+   "sha256": "fe5c879e5088e3cbdb7c43c143cf59068e2a5d3892eea9a55ca233a0a2ada157",
+   "url": "https://tribunadejundiai.com.br/politica/eleicoes-2026/globo-cancela-ultimo-debate-presidencial-apos-ausencias-de-lula-e-flavio-bolsonaro-e-decisoes-da-justica/"
+  },
+  "dados/brutos/capturas-eventos/205b88544eca9580.html": {
+   "baixado_utc": "2026-10-08T01:56:05+00:00",
+   "bytes": 73956,
+   "sha256": "f0e33d6578044c273440266d66e64377f01f23c45562bf5dfae033f6183fecc6",
+   "url": "https://www.opovo.com.br/agencia/bbc/2026/05/13/amp/ligacao-de-flavio-bolsonaro-e-vorcaro-abre-crise-na-campanha-bolsonarista-balde-de-agua-fria.html"
+  },
+  "dados/brutos/capturas-eventos/377f13f711920cab.html": {
+   "baixado_utc": "2026-10-08T01:55:54+00:00",
+   "bytes": 278484,
+   "sha256": "1582cba2487eb99dd2b7c9ad45160ceaa607279f8f093f823618cdb1e22f6877",
+   "url": "https://gazetadopovo.com.br/eleicoes/2026/moraes-vota-em-colegio-de-sao-paulo-sob-crise-no-stf-por-relacao-com-vorcaro"
+  },
+  "dados/brutos/capturas-eventos/3896f1744457015e.html": {
+   "baixado_utc": "2026-10-08T01:56:16+00:00",
+   "bytes": 163956,
+   "sha256": "4b7bf6407d30c6f43824f4e0253729191b4af46adf4b5213cd7962b426bb80bd",
+   "url": "https://diariodonordeste.verdesmares.com.br/pontopoder/entenda-a-polemica-envolvendo-flavio-bolsonaro-e-nossa-senhora-aparecida-1.3794211"
+  },
+  "dados/brutos/capturas-eventos/3edc254bd82c1fb8.html": {
+   "baixado_utc": "2026-10-08T01:56:10+00:00",
+   "bytes": 269851,
+   "sha256": "5c56c74251990966f94a51eff070df080893e70530e3a6806597e5f20d3bbcb0",
+   "url": "https://www.band.com.br/nacional/por-que-a-policia-federal-quer-investigar-lulinha"
+  },
+  "dados/brutos/capturas-eventos/408b5b7383a7069a.html": {
+   "baixado_utc": "2026-10-08T01:55:22+00:00",
+   "bytes": 322449,
+   "sha256": "d9cf06ec16122ed8585f3f98c14f2321dbdb19472892444f2545b4e042241e61",
+   "url": "https://www.nsctotal.com.br/?p=7489108"
+  },
+  "dados/brutos/capturas-eventos/417318edeb973452.html": {
+   "baixado_utc": "2026-10-08T01:55:56+00:00",
+   "bytes": 257544,
+   "sha256": "7e3f230515ea1bbe3640edc25c034c1f5985a9646a8fa7846205e1de9f61ba90",
+   "url": "https://www.poder360.com.br/poder-internacional/eua-retiram-moraes-mulher-e-empresa-da-familia-da-magnitsky/"
+  },
+  "dados/brutos/capturas-eventos/43b134a649a55487.html": {
+   "baixado_utc": "2026-10-08T01:57:00+00:00",
+   "bytes": 165489,
+   "sha256": "5b60f87650aa6d91acfb957e6fcf4386223b16de9bbbb05b199eb8d2f127e5a1",
+   "url": "https://diariodonordeste.verdesmares.com.br/pontopoder/primeira-turma-do-stf-aprova-ata-do-julgamento-que-condenou-bolsonaro-1.3693468"
+  },
+  "dados/brutos/capturas-eventos/452298029b3e136c.html": {
+   "baixado_utc": "2026-10-08T01:56:23+00:00",
+   "bytes": 267411,
+   "sha256": "07558d6bcac92dbe9389fd262bcf37eb8bdbd3d58cb5a1320d366530a3fc991b",
+   "url": "https://www.bemparana.com.br/eleicoes-2026/lula-confirma-que-nao-vai-participar-do-debate-da-globo-nesta-quinta/"
+  },
+  "dados/brutos/capturas-eventos/48084491cbc74c03.html": {
+   "baixado_utc": "2026-10-08T01:55:47+00:00",
+   "bytes": 157837,
+   "sha256": "174f6ecabfcb8c1c656ac700018fa8df3ae8126792df032b882e6c0da71dec81",
+   "url": "https://digital.correiodamanha.com.br/jornalcorreiodamanha/2025/09/12/23188e/pdf/1209cmanha04.pdf"
+  },
+  "dados/brutos/capturas-eventos/59ff714841827a4b.html": {
+   "baixado_utc": "2026-10-08T01:56:58+00:00",
+   "bytes": 212149,
+   "sha256": "71d85232834f9b7b554aa89fe76d5b5d7d095519ef4df76c2e741f7cac9523d8",
+   "url": "https://sbtnews.sbt.com.br/noticia/politica/senado-derruba-alta-do-iof-e-impoe-derrota-ao-governo"
+  },
+  "dados/brutos/capturas-eventos/5c9b58fc8b5539d2.html": {
+   "baixado_utc": "2026-10-08T01:57:04+00:00",
+   "bytes": 968025,
+   "sha256": "bf76a69dd31551aff9617e0ff941b32279ae89d317326f5c5e6a5fb052a8cce8",
+   "url": "https://investidor10.com.br/noticias/flavio-quer-tirar-de-nossa-senhora-aparecida-o-titulo-de-padroeira-do-brasil-entenda-122845/"
+  },
+  "dados/brutos/capturas-eventos/7113b8fa2194c4f8.html": {
+   "baixado_utc": "2026-10-08T01:56:00+00:00",
+   "bytes": 263970,
+   "sha256": "c8fe0ef47fa05947651e3605026a24870dd09ebea9cb3e8ed38d17e7a6092728",
+   "url": "https://www.poder360.com.br/poder-eleicoes/preco-para-nao-me-candidatar-e-bolsonaro-livre-nas-urnas-diz-flavio/"
+  },
+  "dados/brutos/capturas-eventos/81142c6c8dcf70fd.html": {
+   "baixado_utc": "2026-10-08T01:56:02+00:00",
+   "bytes": 179892,
+   "sha256": "6929371cd40576b8086c3bfa903fed60069116bcad0fcd7d948cd7d94956ce34",
+   "url": "https://www.congressoemfoco.com.br/noticia/114591/flavio-bolsonaro-fala-em-preco-para-desistir-de-disputar-planalto"
+  },
+  "dados/brutos/capturas-eventos/8958b9a5914282cb.html": {
+   "baixado_utc": "2026-10-08T01:57:29+00:00",
+   "bytes": 194225,
+   "sha256": "ebbde088a1ab961d26b4c69fb3c44f4d5b244d2d21c4c9aabb70b468f274455b",
+   "url": "https://www.metropoles.com/brasil/trama-golpista-stf-condena-bolsonaro-a-27-anos-e-3-meses-de-prisao"
+  },
+  "dados/brutos/capturas-eventos/9b1b0e20108c1d6d.html": {
+   "baixado_utc": "2026-10-08T01:56:04+00:00",
+   "bytes": 223464,
+   "sha256": "71f7bb116f2c7a759b3299c7cae2ab1bb70d5db29b3144cb060476cc3b0d4151",
+   "url": "https://www.intercept.com.br/2026/05/13/flavio-bolsonaro-mentiu-banco-master-duas-vezes/"
+  },
+  "dados/brutos/capturas-eventos/a250b210179a59e1.html": {
+   "baixado_utc": "2026-10-08T01:55:50+00:00",
+   "bytes": 140056,
+   "sha256": "3c8f775eec1ed9c963bf61bd259976c6e2eaedc9c24b5c7611297b36868fba5c",
+   "url": "https://www.gazetasp.com.br/politica/flavio-bolsonaro-diz-que-mensagens-de-vorcaro-indicam-protecao-do-proprio-alexandre-de-moraes/"
+  },
+  "dados/brutos/capturas-eventos/ae4179bcb23b40b8.html": {
+   "baixado_utc": "2026-10-08T01:56:31+00:00",
+   "bytes": 181137,
+   "sha256": "4f7872d03a45f0dbe76f17d64c318d7f94de32298d6031ec4fe12dc41becf747",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/globo-cancela-debate-presidencial-apos-decisoes-do-tse-e-do-stf-874361/"
+  },
+  "dados/brutos/capturas-eventos/b448a5784df0845e.html": {
+   "baixado_utc": "2026-10-08T01:56:18+00:00",
+   "bytes": 40669,
+   "sha256": "c6c27c8603dab996063aaab9183b3aae5b3c69151356eaf974540c3380e40417",
+   "url": "https://sbtnews.sbt.com.br/noticia/politica/entenda-a-polemica-envolvendo-flavio-e-a-padroeira-do-brasil"
+  },
+  "dados/brutos/capturas-eventos/b4d54798ed588c36.html": {
+   "baixado_utc": "2026-10-08T01:56:07+00:00",
+   "bytes": 92370,
+   "sha256": "709a3a72e5cdc7612ffcfa6a5b31a93e3a1295b2025fad0d111af8932bdec203",
+   "url": "https://www.opovo.com.br/noticias/mundo/2026/08/01/por-que-a-policia-federal-quer-investigar-lulinha.html"
+  },
+  "dados/brutos/capturas-eventos/c0bfdd6e4cd3ac9b.html": {
+   "baixado_utc": "2026-10-08T01:55:25+00:00",
+   "bytes": 377943,
+   "sha256": "34b7d0955d316352d37c43a8ae17ebb32aff52af2ee4d5053f7693498f470e0d",
+   "url": "https://www.itatiaia.com.br/brasil/presidente-do-inss-e-afastado-em-operacao-que-apura-fraude-bilionaria-contra-aposentados/"
+  },
+  "dados/brutos/capturas-eventos/c973fcaa2f4131b5.html": {
+   "baixado_utc": "2026-10-08T01:56:14+00:00",
+   "bytes": 229745,
+   "sha256": "c7b4e97e64749deb184561c6f3383e40ac6cec8d9473cd2648084588bccf8041",
+   "url": "https://www.oliberal.com/eleicoes/record-confirma-cancelamento-do-debate-presidencial-marcado-para-domingo-1.1172294"
+  },
+  "dados/brutos/capturas-eventos/cdbbaa9311c73204.html": {
+   "baixado_utc": "2026-10-08T01:55:29+00:00",
+   "bytes": 256362,
+   "sha256": "ed6b9c0d3b17a050f08c4a9a714ee4115c9a226cef98e87d0057ded8ee028ec5",
+   "url": "https://www.band.com.br/noticias/camara-derruba-decreto-de-aumento-do-iof-202506251932"
+  },
+  "dados/brutos/capturas-eventos/e2d0d6ab06668e68.html": {
+   "baixado_utc": "2026-10-08T01:56:56+00:00",
+   "bytes": 122384,
+   "sha256": "15b64124bcf80bbe51eb2f0ac4efb30ce8534c9f107af130114132c9b32072c6",
+   "url": "https://diariodonordeste.verdesmares.com.br/negocios/congresso-aprova-derrubada-do-decreto-de-lula-sobre-aumento-do-iof-1.3663739"
+  },
+  "dados/brutos/capturas-eventos/e6768cf5a4c900b0.html": {
+   "baixado_utc": "2026-10-08T01:56:12+00:00",
+   "bytes": 247429,
+   "sha256": "5a2e053a2dfb74517145baa50ae8d3c3d6d62d3afede18dead4ce1d49d119dd4",
+   "url": "https://www.poder360.com.br/poder-midia/sem-lula-nem-flavio-record-cancela-debate-do-dia-27/"
+  },
+  "dados/brutos/capturas-eventos/eb15a230305f5bcc.html": {
+   "baixado_utc": "2026-10-08T01:57:06+00:00",
+   "bytes": 59651,
+   "sha256": "38180b06724f30029300b5fc366f5645d8ecab29d2b652808ac059a95c47cf51",
+   "url": "https://ncnews.com.br/?p=52608"
+  },
+  "dados/brutos/capturas-eventos/eee591d735f0ad27.html": {
+   "baixado_utc": "2026-10-08T01:55:41+00:00",
+   "bytes": 229746,
+   "sha256": "0525a202c64525405d2ede3645c4f6c1a30bfe1706ac3886e4c045b3397aa3d3",
+   "url": "https://sbtnews.sbt.com.br/noticia/politica/sbt-noticias-trump-oficializa-tarifa-de-50-ao-brasil-e-impoe-sancoes-a-alexandre-de-moraes"
+  },
+  "dados/brutos/capturas-eventos/f065441c23fcdff5.html": {
+   "baixado_utc": "2026-10-08T01:57:30+00:00",
+   "bytes": 55271,
+   "sha256": "c5095b79ac5450486990b69d288401a14617d5d818ffb82d803596380093a795",
+   "url": "https://mais.opovo.com.br/jornal/politica/2025/09/13/prisao-de-bolsonaro-para-cumprimento-de-pena-tem-estimativa-de-ocorrer-ate-dezembro.html"
+  },
+  "dados/brutos/capturas-eventos/f2817a0a0f41d676.html": {
+   "baixado_utc": "2026-10-08T01:55:58+00:00",
+   "bytes": 352757,
+   "sha256": "b596066bb440ec2c0141749acc1ede3e5dfcaab2972e3f6e7bee6be3af579f5d",
+   "url": "https://www.infomoney.com.br/politica/eua-retiram-alexandre-de-moraes-da-lista-de-sancionados-pela-lei-magnitsky/"
+  },
+  "dados/brutos/capturas-eventos/fcb50ee86895befa.html": {
+   "baixado_utc": "2026-10-08T01:55:44+00:00",
+   "bytes": 315628,
+   "sha256": "db49dc12279aa24851c3c2100530108e111a23349d118cb2219daa13feb46864",
+   "url": "https://monitormercantil.com.br/primeira-turma-do-stf-mantem-pena-de-27-anos-para-bolsonaro/"
+  },
   "dados/brutos/capturas-pesquisas/00966adcb9fc6a59.html": {
    "baixado_utc": "2026-10-08T01:28:17+00:00",
    "bytes": 419011,
@@ -288,6 +492,42 @@
    "sha256": "c36889618a0369dcd8b5cd670870beea9b17ca8e84f1eaa496e51dbb5ac902c5",
    "url": "https://www.cnnbrasil.com.br/eleicoes/cnt-mda-lula-tem-478-dos-votos-validos-no-1o-turno-flavio-421/"
   },
+  "dados/brutos/economia/desocupacao_brasil.json": {
+   "baixado_utc": "2026-10-08T02:02:05+00:00",
+   "bytes": 18651,
+   "sha256": "80f5992b2db6c043f510befbad704adcb597022e702a59777c57b3e0f22ae687",
+   "url": "https://apisidra.ibge.gov.br/values/t/4099/n1/all/v/4099/p/all"
+  },
+  "dados/brutos/economia/desocupacao_uf.json": {
+   "baixado_utc": "2026-10-08T02:02:00+00:00",
+   "bytes": 27609,
+   "sha256": "ba537b30dc8159c23b8b06afc36072e2e95118122d824a48a4b0244214998e36",
+   "url": "https://apisidra.ibge.gov.br/values/t/4099/n3/all/v/4099/p/202202,202302,202602"
+  },
+  "dados/brutos/economia/ipca_12m_geral_e_alimentos.json": {
+   "baixado_utc": "2026-10-08T02:02:09+00:00",
+   "bytes": 35014,
+   "sha256": "db25a26a4b59cf777638b85cee16d15bc866f8ea76d09c015bcd816b3f613b8e",
+   "url": "https://apisidra.ibge.gov.br/values/t/7060/n1/all/v/69/p/202201-202609/c315/7169,7170"
+  },
+  "dados/brutos/economia/rendimento_brasil.json": {
+   "baixado_utc": "2026-10-08T02:02:07+00:00",
+   "bytes": 22906,
+   "sha256": "30dc9920bb3e0e9fe42274ec95a7f84f36a3eb781fcf01972b6196ddd5e76628",
+   "url": "https://apisidra.ibge.gov.br/values/t/5436/n1/all/v/5933/p/all/c2/6794"
+  },
+  "dados/brutos/economia/rendimento_uf.json": {
+   "baixado_utc": "2026-10-08T02:02:02+00:00",
+   "bytes": 38574,
+   "sha256": "67a48ff0ce7102c0fa862880e184236a50710718e3f0ad032662fca9e1ce75c0",
+   "url": "https://apisidra.ibge.gov.br/values/t/5436/n3/all/v/5933/p/202202,202302,202602/c2/6794"
+  },
+  "dados/brutos/economia/selic_meta.json": {
+   "baixado_utc": "2026-10-08T02:02:22+00:00",
+   "bytes": 65860,
+   "sha256": "4fdfc6e4c16a3d0bbe71b19defcc9e596a8bab43a520b744bae398158df57fa3",
+   "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados?formato=json&dataInicial=01/01/2022&dataFinal=30/09/2026"
+  },
   "dados/brutos/tse/consulta_cand_2024.zip": {
    "baixado_utc": "2026-10-08T01:24:41+00:00",
    "bytes": 63903857,
@@ -323,6 +563,18 @@
    "bytes": 5911445,
    "sha256": "c544c683f3ac1f31a2b0b2bff3cfa856dc844187a5626b00794242e59a0cb657",
    "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/pesquisa_eleitoral/pesquisa_eleitoral_2026.zip"
+  },
+  "dados/brutos/tse/votacao_candidato_munzona_2018.zip": {
+   "baixado_utc": "2026-10-08T01:34:03+00:00",
+   "bytes": 395389280,
+   "sha256": "f880848ef4ba340b15cb91ff0754aa370d34ca7b7e605d6607c0f2a75009adc8",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
+  },
+  "dados/brutos/tse/votacao_candidato_munzona_2022.zip": {
+   "baixado_utc": "2026-10-08T01:33:32+00:00",
+   "bytes": 575045663,
+   "sha256": "c872d2e0dda728a7d103bc4d377cc0dd852b672ab41ba750affa506383a553f8",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
   },
   "dados/brutos/tse/votacao_candidato_munzona_2024.zip": {
    "baixado_utc": "2026-10-08T01:24:35+00:00",

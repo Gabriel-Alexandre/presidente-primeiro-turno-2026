@@ -49,6 +49,10 @@ def verificar_fontes() -> dict:
     achado = sha256(APURACAO / ap["manifesto"])
     if achado != ap["manifesto_sha256"]:
         raise RuntimeError(f"manifesto da apuracao mudou: {achado} != {ap['manifesto_sha256']}")
+    for rel, esperado in ap.get("arquivos", {}).items():
+        achado = sha256(APURACAO / rel)
+        if achado != esperado:
+            raise RuntimeError(f"{rel} (apuracao) mudou: {achado} != {esperado}")
     for rel, esperado in co["arquivos"].items():
         achado = sha256(CONGRESSO / rel)
         if achado != esperado:

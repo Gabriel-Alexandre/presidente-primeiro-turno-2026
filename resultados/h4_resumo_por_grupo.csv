@@ -1,0 +1,5 @@
+grupo,ids,alvos,institutos_testados,coincide_com_movimento,sentido,mediana_delta,tamanho_pontos,leitura,institutos_acima_do_normal,institutos_acima_p95_agrupado,institutos_acima_limiar_amostral
+V16 + V12,"V16,V12",ambos+flavio_oposicao,0,False,,,,nao testavel (menos de 2 institutos com par antes e depois em ate 45 dias),,,
+V17,V17,flavio_oposicao,6,True,desce (Lula melhora),-5.397530808125705,5.849979254499345,coincide com movimento no sentido esperado pelo alvo,4.0,4.0,2.0
+V19,V19,lula_governo,9,True,sobe (Flavio melhora),1.2115839243498812,4.66036924277611,coincide com movimento no sentido esperado pelo alvo,4.0,2.0,1.0
+V09 + V21 + V23 + V26 + V27,"V09,V21,V23,V26,V27",ambos+flavio_oposicao+lula_governo,3,True,sobe (Flavio melhora),4.516129032258064,5.663905782382514,coincide com movimento (alvo dos dois lados: sem sentido esperado),2.0,1.0,1.0

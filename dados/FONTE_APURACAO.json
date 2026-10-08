@@ -11,5 +11,11 @@
     "secoes_2026": "dados/derivados/uf/<uf>-secoes.parquet",
     "historico": "dados/derivados/historico/<ano>-<turno>-<uf>-{votos,secoes}.parquet (2018 e 2022)"
   },
-  "aviso": "dados/brutos e dados/derivados NÃO estão no git do projeto de origem. O que se fixa é o sha256 do MANIFESTO.json e o commit dos scripts que geram os derivados; o REPLICAR.md daqui diz como regenerar."
+  "aviso": "dados/brutos e dados/derivados NÃO estão no git do projeto de origem. O que se fixa é o sha256 do MANIFESTO.json e o commit dos scripts que geram os derivados; o REPLICAR.md daqui diz como regenerar.",
+  "arquivos": {
+    "dados/apoios.csv": "497b6ec1ce8d5b22b10f689ce30f75770b65dac61cac5cd7d56fbc4f31a0706e"
+  },
+  "o_que_cada_arquivo_traz": {
+    "dados/apoios.csv": "apoio declarado de cada governador eleito a Flavio, Lula ou outro, 2026 (20 UFs decididas), 2022 e 2018, com fonte por linha (arquivo versionado no git de origem)"
+  }
 }

@@ -1,0 +1,30 @@
+id,evento,alvo,tipo,data_confirmada,confirmado,fontes_ok
+V01,INSS: operação da PF e da CGU sobre descontos em benefícios,lula_governo,exposicao,2025-04-23,True,2
+V02,IOF: decreto do governo e derrubada pelo Congresso,lula_governo,exposicao,2025-06-25,True,3
+V03,Tarifa dos EUA e sanções da Lei Magnitsky ao ministro Alexandre de Moraes,flavio_oposicao,exposicao,2025-07-30,True,2
+V04,Condenação de Jair Bolsonaro pela 1ª Turma do STF,flavio_oposicao,exposicao,2025-09-11,True,3
+V05,PEC da Blindagem e urgência da anistia na Câmara,flavio_oposicao,exposicao,,False,0
+V06,Início do cumprimento de pena de Jair Bolsonaro,flavio_oposicao,exposicao,,False,0
+V07,Liquidação do Banco Master pelo Banco Central,lula_governo,exposicao,,False,0
+V08,Contrato do escritório da esposa do ministro Alexandre de Moraes com o Banco Master,lula_governo,exposicao,,False,0
+V09,Mensagens entre Daniel Vorcaro e o ministro Alexandre de Moraes divulgadas e crise do STF (1 a 15 de setembro),lula_governo,exposicao,2026-09-01,True,2
+V10,Menções ao ministro Dias Toffoli no caso Master,lula_governo,exposicao,,False,0
+V11,Nova tarifa dos EUA,flavio_oposicao,exposicao,,False,0
+V12,Fim das sanções da Lei Magnitsky ao ministro,ambos,exposicao,2025-12-12,True,2
+V13,Operação Contenção no Rio de Janeiro,ambos,exposicao,,False,0
+V14,Preocupações com a idade e a saúde de Lula (matéria da Economist),lula_governo,exposicao,,False,0
+V15,Flávio Bolsonaro anuncia a candidatura com o aval do pai,flavio_oposicao,marco,,False,0
+V16,Fala de Flávio sobre desistir em troca de favores e retratação,flavio_oposicao,exposicao,2025-12-07,True,2
+V17,Banco Master: relações de Flávio Bolsonaro com Daniel Vorcaro,flavio_oposicao,exposicao,2026-05-13,True,2
+V18,Banco Master: relações de Jaques Wagner e de Ciro Nogueira com Daniel Vorcaro,ambos,exposicao,,False,0
+V19,INSS: investigação de Fábio Luís Lula da Silva e do chefe de gabinete Marco Aurélio Santana,lula_governo,exposicao,2026-07-30,True,2
+V20,Lançamento das campanhas de Lula e de Flávio,ambos,marco,,False,0
+V21,Debate da Record cancelado sem Lula e Flávio,ambos,exposicao,2026-09-23,True,2
+V22,"Plataforma ""Tem Meu Voto"" no programa de Luciano Huck e a investigação aberta",ambos,exposicao,,False,0
+V23,Nossa Senhora Aparecida: reportagem da GloboNews e reação de Flávio e da CNBB,flavio_oposicao,exposicao,2026-09-24,True,3
+V24,Interferência estrangeira: Rockbridge Network citada e notificação da ABIN,flavio_oposicao,exposicao,,False,0
+V25,Decisões do TSE sobre painéis de LED em atos de Lula e sobre o vídeo que associa Flávio ao Master,lula_governo,exposicao,,False,0
+V26,Lula avisa que não vai ao debate da Globo,lula_governo,exposicao,2026-09-30,True,2
+V27,TV Globo cancela o debate e Flávio desiste de comparecer,ambos,exposicao,2026-10-01,True,2
+V28,Ricardo Salles (Novo) desiste do Senado por SP para apoiar a chapa de Flávio,flavio_oposicao,marco,,False,0
+V29,Zema condiciona a retirada da candidatura a uma desistência em bloco,flavio_oposicao,marco,,False,0

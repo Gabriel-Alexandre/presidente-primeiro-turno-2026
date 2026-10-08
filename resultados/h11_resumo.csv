@@ -1,0 +1,24 @@
+outro,trimestre,pares,institutos,dif_media,dif_mediana,institutos_com_dif_maior_que_tolerancia,institutos_com_dif_menor_que_menos_tolerancia,leitura
+Caiado,2025Q2,1,1,-16.049382716049383,-16.049382716049383,0,1,nao testavel (menos de 2 institutos)
+Caiado,2025Q3,2,2,-12.151335158066434,-12.151335158066434,0,2,rende menos que Flavio
+Caiado,2025Q4,5,4,-19.22235013729946,-17.1563595928492,0,4,rende menos que Flavio
+Caiado,2026Q1,7,4,-31.176573311097375,-32.33974358974359,0,4,rende menos que Flavio
+Caiado,2026Q2,3,2,-25.30219072963523,-25.589366812381762,0,2,rende menos que Flavio
+Caiado,2026Q3,1,1,-28.188813547040354,-28.188813547040354,0,1,nao testavel (menos de 2 institutos)
+Ciro,2025Q3,1,1,-6.2944338477544655,-6.2944338477544655,0,1,nao testavel (menos de 2 institutos)
+Ciro,2025Q4,1,1,-11.498160978530493,-11.498160978530493,0,1,nao testavel (menos de 2 institutos)
+Leite,2026Q1,1,1,-38.6971897379064,-38.6971897379064,0,1,nao testavel (menos de 2 institutos)
+Ratinho,2025Q2,1,1,-9.87654320987654,-9.87654320987654,0,1,nao testavel (menos de 2 institutos)
+Ratinho,2025Q3,1,1,-5.1348250143430825,-5.1348250143430825,0,1,nao testavel (menos de 2 institutos)
+Ratinho,2025Q4,5,4,-18.096555356854076,-15.0507027219356,0,4,rende menos que Flavio
+Ratinho,2026Q1,3,2,-30.265350157898514,-29.85691346281694,0,2,rende menos que Flavio
+Tarcisio,2025Q2,1,1,2.4691358024691397,2.4691358024691397,1,0,nao testavel (menos de 2 institutos)
+Tarcisio,2025Q3,2,2,3.816646357035067,3.816646357035067,2,0,rende mais que Flavio
+Tarcisio,2025Q4,4,4,0.7619033859107356,0.593515601804274,2,2,rende mais que Flavio
+Tarcisio,2026Q1,10,6,-4.818755444065471,-5.616903026958141,1,5,rende menos que Flavio
+Zema,2025Q2,1,1,-16.049382716049383,-16.049382716049383,0,1,nao testavel (menos de 2 institutos)
+Zema,2025Q3,2,2,-14.123607810319282,-14.123607810319282,0,2,rende menos que Flavio
+Zema,2025Q4,5,4,-21.509773547942963,-22.01094209471209,0,4,rende menos que Flavio
+Zema,2026Q1,10,5,-32.86465777658607,-34.17327220914301,0,5,rende menos que Flavio
+Zema,2026Q2,3,2,-25.36890563213011,-26.05287454280743,0,2,rende menos que Flavio
+Zema,2026Q3,1,1,-31.369475124648496,-31.369475124648496,0,1,nao testavel (menos de 2 institutos)
