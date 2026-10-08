@@ -1,0 +1,30 @@
+{
+ "b0": {
+  "amostra_divergentes": 1,
+  "amostra_total": 20,
+  "cenarios_na_serie": 197,
+  "pesquisas_2025_removidas_por_nao_conferir": 4,
+  "pesquisas_casadas_no_registro_tse": 131,
+  "pesquisas_de_2025_fora_do_registro_por_lei": 39,
+  "pesquisas_de_2026_fora_do_registro": 0,
+  "pesquisas_na_serie": 144,
+  "pesquisas_wikipedia": 170,
+  "verificacao": {
+   "2025": {
+    "confere": 9,
+    "diverge": 3,
+    "nao_verificavel": 1
+   },
+   "amostra": {
+    "confere": 19,
+    "diverge": 1
+   },
+   "vespera": {
+    "confere": 11,
+    "nao_verificavel": 3
+   }
+  },
+  "vespera_total": 14,
+  "vespera_verificadas": 11
+ }
+}

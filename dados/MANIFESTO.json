@@ -1,0 +1,370 @@
+{
+ "arquivos": {
+  "dados/brutos/capturas-pesquisas/00966adcb9fc6a59.html": {
+   "baixado_utc": "2026-10-08T01:28:17+00:00",
+   "bytes": 419011,
+   "sha256": "73bf9373fc206a7262010dd176ef53dcb383c293cd3a629549610a2faa0cf1a9",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/vox-flavio-registra-482-no-2o-turno-lula-452/"
+  },
+  "dados/brutos/capturas-pesquisas/024317e8261de974.html": {
+   "baixado_utc": "2026-10-08T01:28:40+00:00",
+   "bytes": 414120,
+   "sha256": "38bc308bbe9103e4df70109b6795ae7f505d9827dbff29b09c9dc51bc8b03273",
+   "url": "https://www.cnnbrasil.com.br/politica/parana-pesquisas-lula-empata-com-bolsonaro-e-michelle-no-primeiro-turno/"
+  },
+  "dados/brutos/capturas-pesquisas/05bbd48e49ac9df8.html": {
+   "baixado_utc": "2026-10-08T01:28:00+00:00",
+   "bytes": 297795,
+   "sha256": "73790c4a2adeff74f7d28e9147f296c73e7605c5840b3982ab598225dd0072c7",
+   "url": "https://www.poder360.com.br/poderdata/lula-e-flavio-tem-46-cada-um-no-2o-turno-diz-poderdata-aya/"
+  },
+  "dados/brutos/capturas-pesquisas/06aba989ac28ea98.html": {
+   "baixado_utc": "2026-10-08T01:28:36+00:00",
+   "bytes": 430339,
+   "sha256": "af85352111426dff2c726814dd100e670c9a3a90e147e3c194b2cd50aa45d49e",
+   "url": "https://www.cnnbrasil.com.br/blogs/iuri-pitta/eleicoes/ipsos-ipec-lula-lidera-e-michelle-pontua-mais-que-flavio-e-tarcisio/"
+  },
+  "dados/brutos/capturas-pesquisas/0cf7d1e6105c2074.html": {
+   "baixado_utc": "2026-10-08T01:28:42+00:00",
+   "bytes": 240733,
+   "sha256": "b4e83b24594bc26248b33965aa12e30c4e71f7a023626a5c452ed9a4efdda836",
+   "url": "https://www.cartacapital.com.br/politica/lula-amplia-vantagem-contra-candidatos-da-direita-em-pesquisa-eleitoral-sobre-2026-veja-os-resultados/"
+  },
+  "dados/brutos/capturas-pesquisas/106c5af9361480bf.html": {
+   "baixado_utc": "2026-10-08T01:29:17+00:00",
+   "bytes": 1233950,
+   "sha256": "097ba7f7e7246ec1f84f5c5c126dc7d992feffee126a95aaafb432520a561d1c",
+   "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/08/14/quaest-presidente-1o-turno-14-agosto.ghtml"
+  },
+  "dados/brutos/capturas-pesquisas/1c7bcb14a2595ae4.html": {
+   "baixado_utc": "2026-10-08T01:29:00+00:00",
+   "bytes": 412755,
+   "sha256": "4941bc0c63bd8e621e8acc0daf9eb691cbd87fbfe264ac4d1ce9698c2e0e8f54",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/futura-apex-lula-e-flavio-tem-empate-tecnico-no-1o-turno/"
+  },
+  "dados/brutos/capturas-pesquisas/1e32b1e1daa68ef4.html": {
+   "baixado_utc": "2026-10-08T01:29:41+00:00",
+   "bytes": 407873,
+   "sha256": "859a319e2e90f22b24643f8edc8b94717ac62ab78c6b5fadfc8b0565fb32a6c3",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/futura-lula-tem-392-das-intencoes-de-voto-no-1o-turno-flavio-336/"
+  },
+  "dados/brutos/capturas-pesquisas/1f67466e7c2859f2.html": {
+   "baixado_utc": "2026-10-08T01:27:58+00:00",
+   "bytes": 54865,
+   "sha256": "d0842046db8c0993bf5fb7f15493c95035e36398729f817a4e417f456fa26604",
+   "url": "https://exame.com/brasil/pesquisa-palver-para-presidente-flavio-bolsonaro-tem-47-e-lula-43-no-1o-turno/"
+  },
+  "dados/brutos/capturas-pesquisas/2429ec1745285677.html": {
+   "baixado_utc": "2026-10-08T01:27:43+00:00",
+   "bytes": 1203742,
+   "sha256": "25da952da03622bc1ff5062b924c734e10640486c840a43ccb77e46a34fbcaec",
+   "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/03/datafolha-presidente-3-outubro.ghtml"
+  },
+  "dados/brutos/capturas-pesquisas/261437bd6c24edd2.html": {
+   "baixado_utc": "2026-10-08T01:29:26+00:00",
+   "bytes": 408223,
+   "sha256": "fe63d32aaaa9cd5e9339b10c67f73fd988c26d8f15255ed9d03ac86deb8fcb1f",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/quaest-lula-tem-37-contra-32-de-flavio-no-1o-turno/"
+  },
+  "dados/brutos/capturas-pesquisas/26f03dfeebcf1c66.html": {
+   "baixado_utc": "2026-10-08T01:28:04+00:00",
+   "bytes": 1214939,
+   "sha256": "2d29e1757be0e4211459a7ac69686df93b99eb76947f4e274e7109d55004b03b",
+   "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/03/quaest-presidente-3-outubro.ghtml"
+  },
+  "dados/brutos/capturas-pesquisas/383688f1756c9112.html": {
+   "baixado_utc": "2026-10-08T01:28:45+00:00",
+   "bytes": 369185,
+   "sha256": "225bd1d76e83fd7253ba0b75eadf90a396d430a1453305ffd67ad7ea4d32f239",
+   "url": "https://paranapesquisas.com.br/pesquisas/parana-pesquisas-divulga-pesquisa-nacional-situacao-eleitoral-para-o-executivo-federal-em-2026-novembro-2025/"
+  },
+  "dados/brutos/capturas-pesquisas/3b919020ada0b547.html": {
+   "baixado_utc": "2026-10-08T01:29:55+00:00",
+   "bytes": 277287,
+   "sha256": "764f4d22f27b807bb4fe9b6e8e2f05825da5f891b29c7470e05ba7691444967d",
+   "url": "https://www.poder360.com.br/poderdata/poderdata-aya-lula-tem-37-contra-36-de-flavio-no-1o-turno/"
+  },
+  "dados/brutos/capturas-pesquisas/44b5c0e8bf2e084c.html": {
+   "baixado_utc": "2026-10-08T01:29:47+00:00",
+   "bytes": 457193,
+   "sha256": "482341e0b94fb0dac10ef1a081c167fb7b1989d09fdcf24a625c556f7e7095fb",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/pesquisa-instituto-gerp-presidente-da-republica-fevereiro-2026/"
+  },
+  "dados/brutos/capturas-pesquisas/49b545587ee78169.html": {
+   "baixado_utc": "2026-10-08T01:29:12+00:00",
+   "bytes": 256914,
+   "sha256": "6446acb7987a0abb23f8ca1917fd05abc16cb7f0d0b430ea5e554537a280314b",
+   "url": "https://www.poder360.com.br/poder-eleicoes/lula-e-flavio-empatam-no-1o-turno-diz-parana-pesquisas/"
+  },
+  "dados/brutos/capturas-pesquisas/52632914f8f2bf0f.html": {
+   "baixado_utc": "2026-10-08T01:28:20+00:00",
+   "bytes": 237332,
+   "sha256": "3bc9b1029fb11bc16e8912b72b97ee8d050652a7cee1724ff765a3f5c8009c0b",
+   "url": "https://www.cartacapital.com.br/politica/lula-lidera-com-folga-as-disputas-contra-flavio-tarcisio-e-michelle-veja-a-nova-pesquisa-sobre-2026/"
+  },
+  "dados/brutos/capturas-pesquisas/57ad3c9c8d07fb28.html": {
+   "baixado_utc": "2026-10-08T01:29:57+00:00",
+   "bytes": 261012,
+   "sha256": "a4f00b17536f2466bb05c0482896e0754e50bcc1e8657bbe3936b8d224fd47e4",
+   "url": "https://www.poder360.com.br/poder-eleicoes/lula-e-flavio-empatam-no-2o-turno-diz-futura-apex/"
+  },
+  "dados/brutos/capturas-pesquisas/588120df9fc33eba.html": {
+   "baixado_utc": "2026-10-08T01:29:52+00:00",
+   "bytes": 426055,
+   "sha256": "7ef0ed5960bbcbdd6925fc76689087af6d9c2afbf6a49dc098e0701591060c60",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-no-1-turno-lula-tem-40-flavio-36-e-cury-7/"
+  },
+  "dados/brutos/capturas-pesquisas/5df13598d4f5eafc.html": {
+   "baixado_utc": "2026-10-08T01:29:02+00:00",
+   "bytes": 253333,
+   "sha256": "42816224246061de4c196261e56101ad423abb9a8345415123f377e6d9c16266",
+   "url": "https://www.poder360.com.br/poder-eleicoes/flavio-tem-438-e-lula-402-no-2o-turno-diz-vox/"
+  },
+  "dados/brutos/capturas-pesquisas/699548d73c64a819.html": {
+   "baixado_utc": "2026-10-08T01:28:28+00:00",
+   "bytes": 341492,
+   "sha256": "f99dc75c2df5444aeb53055e6c68a066e81092c7e2495b65d135ac9262505474",
+   "url": "https://www1.folha.uol.com.br/poder/2025/12/datafolha-lula-bate-flavio-bolsonaro-por-15-pontos-e-tarcisio-por-5-no-2o-turno.shtml"
+  },
+  "dados/brutos/capturas-pesquisas/6fb8498d5f865c68.html": {
+   "baixado_utc": "2026-10-08T01:28:08+00:00",
+   "bytes": 416722,
+   "sha256": "11a82295d17e0acb839eba950c4c255faae82cdfc7428c57554ef4c4d285695b",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-lula-tem-43-no-1o-turno-flavio-39/"
+  },
+  "dados/brutos/capturas-pesquisas/714e1214f7d8e1c8.html": {
+   "baixado_utc": "2026-10-08T01:28:47+00:00",
+   "bytes": 262084,
+   "sha256": "34b4adca8f8040207718ffa6b87cd83081f697a49e13387b77aa5fa8d56e1bdb",
+   "url": "https://www.poder360.com.br/poder-eleicoes/lula-lidera-em-5-de-7-cenarios-no-1o-turno-diz-pesquisa/"
+  },
+  "dados/brutos/capturas-pesquisas/738d235b6fbeef41.html": {
+   "baixado_utc": "2026-10-08T01:27:37+00:00",
+   "bytes": 13730,
+   "sha256": "569795111380c03211be3c5e2f0c73648caa2d3e9f2d5f242ac89a03cc490874",
+   "url": "https://docs.google.com/viewerng/viewer?url=https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Pesquisa-Atlas_Bloomberg-Nacional-261003.pdf"
+  },
+  "dados/brutos/capturas-pesquisas/7d12177c0c58fcc8.html": {
+   "baixado_utc": "2026-10-08T01:28:13+00:00",
+   "bytes": 416473,
+   "sha256": "81eda9f0e63d2bfea362ba0e51a00b8c46d4c12a1429336b2615f5b22dd4053b",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/vox-lula-tem-411-das-intencoes-de-voto-no-1o-turno-flavio-378/"
+  },
+  "dados/brutos/capturas-pesquisas/83f57da14f400acc.html": {
+   "baixado_utc": "2026-10-08T01:29:22+00:00",
+   "bytes": 409004,
+   "sha256": "87a4fff4ed3c90af127f21d797300447989f0925de7d7184c8b3d9bb55c5f57f",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-lula-aparece-com-40-e-flavio-com-35-no-1o-turno/"
+  },
+  "dados/brutos/capturas-pesquisas/8485a2f8e83fc632.html": {
+   "baixado_utc": "2026-10-08T01:29:37+00:00",
+   "bytes": 446466,
+   "sha256": "d48c5485f5593f0a3678a7b652ddb1bf0698ddf0daaac4cc0bbe18c6fa8d607e",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/pesquisa-100-cidades-futura-presidente-da-republica-fevereiro-2026/"
+  },
+  "dados/brutos/capturas-pesquisas/856efa2ad732a7a4.html": {
+   "baixado_utc": "2026-10-08T01:29:30+00:00",
+   "bytes": 403248,
+   "sha256": "b603087a9ae9c05be2fa4ea3f8611560ec8cd5902c0c16585249845386ed16cb",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/atlas-lula-tem-47-das-intencoes-de-voto-no-1o-turno-flavio-343/"
+  },
+  "dados/brutos/capturas-pesquisas/8986efa62a523ba1.html": {
+   "baixado_utc": "2026-10-08T01:28:32+00:00",
+   "bytes": 208045,
+   "sha256": "cad960694f2844bedb379bed5aa8d5d8c532c21cd5763def2c71c8999bf4344f",
+   "url": "https://jovempan.com.br/noticias/politica/pesquisa-gerp-lula-lidera-primeiro-turno-mas-empata-com-flavio-bolsonaro-no-segundo.html"
+  },
+  "dados/brutos/capturas-pesquisas/8d28df35eb09e211.html": {
+   "baixado_utc": "2026-10-08T01:27:34+00:00",
+   "bytes": 544323,
+   "sha256": "c3e8e043087898f09d7cfa4e16f172e9825878bd50d734194886ad951bc4f74a",
+   "url": "https://noticias.uol.com.br/eleicoes/2026/09/29/atlasbloomberg-lula-e-flavio-tem-empate-tecnico-no-2-turno.ghtm"
+  },
+  "dados/brutos/capturas-pesquisas/96656da37aa359f2.html": {
+   "baixado_utc": "2026-10-08T01:29:32+00:00",
+   "bytes": 57547,
+   "sha256": "4b8a3b1d2d5439740330f5f8c3878b80edfd72f3c59ad4bce88cfddb96d9e50a",
+   "url": "https://iclnoticias.com.br/cnt-mda-lula-tem-10-pontos-de-vantagem/"
+  },
+  "dados/brutos/capturas-pesquisas/974ee6b82ff4862b.html": {
+   "baixado_utc": "2026-10-08T01:28:25+00:00",
+   "bytes": 1198487,
+   "sha256": "d787578f374abc546669a7ff8368d0b4bf4c22da3a0501b7c6c59a05d46d0333",
+   "url": "https://g1.globo.com/politica/noticia/2025/06/14/datafolha-cenarios-eleicoes-2026.ghtml"
+  },
+  "dados/brutos/capturas-pesquisas/97e0bfdde8d7023c.html": {
+   "baixado_utc": "2026-10-08T01:31:05+00:00",
+   "bytes": 245000,
+   "sha256": "84262f0c9c095ea4ec6a463b2425c3ac1e53cf21471a63e83915937431147cb5",
+   "url": "https://revistaforum.com.br/politica/ultimas-pesquisas-primeiro-turno-presidente/"
+  },
+  "dados/brutos/capturas-pesquisas/a8104aba2b1070cf.html": {
+   "baixado_utc": "2026-10-08T01:29:42+00:00",
+   "bytes": 276771,
+   "sha256": "78c3808f7ec08eba432aa1eabb565cbb96801f8d24c3781f37f48385b4e5f0af",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-bolsonaro-empatam-com-44-no-2o-turno-diz-pesquisa/"
+  },
+  "dados/brutos/capturas-pesquisas/aa81ce432e8c2809.html": {
+   "baixado_utc": "2026-10-08T01:27:49+00:00",
+   "bytes": 13898,
+   "sha256": "b5e3c8380c021f374f108e0d112e847c886bc3705a2b8ea3f9fd55366c1654ca",
+   "url": "https://docs.google.com/viewerng/viewer?url=https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Relatorio_Tracking_Nacional_1_Turno_Final_Votos_Validos-3-1.pdf"
+  },
+  "dados/brutos/capturas-pesquisas/b00e9448d80e5412.html": {
+   "baixado_utc": "2026-10-08T01:30:01+00:00",
+   "bytes": 1216561,
+   "sha256": "274538a085cee0bbf4e8b5eb6aff95029bfd99594bcc6ea48df9ce50fc22c018",
+   "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/24/datafolha-presidente-24-setembro.ghtml"
+  },
+  "dados/brutos/capturas-pesquisas/b0fcb0d1a6fb5e69.html": {
+   "baixado_utc": "2026-10-08T01:28:56+00:00",
+   "bytes": 1193254,
+   "sha256": "aa715a7489db50524776d325976d2e440cc502ce0c9d08891721d70368f474a2",
+   "url": "https://g1.globo.com/politica/noticia/2025/12/16/quaest-primeiro-turno-2026.ghtml"
+  },
+  "dados/brutos/capturas-pesquisas/b11bf028273f7659.html": {
+   "baixado_utc": "2026-10-08T01:28:51+00:00",
+   "bytes": 1221209,
+   "sha256": "f4e7ba592aed446a7fe9fe01bb32b51b9692ea3dd9f77b428642c56aa0eaed68",
+   "url": "https://g1.globo.com/politica/noticia/2025/08/21/quaest-eleicao-2026-lula-cenarios-agosto.ghtml"
+  },
+  "dados/brutos/capturas-pesquisas/beb2b8b92724df08.html": {
+   "baixado_utc": "2026-10-08T01:29:06+00:00",
+   "bytes": 1234764,
+   "sha256": "0df47737917c1a882e50b9d57a05286e777c7e301fa583011caee7d7c8b33296",
+   "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/08/21/datafolha-primeiro-turno-21-agosto.ghtml"
+  },
+  "dados/brutos/capturas-pesquisas/c5be34ebd44443f6.html": {
+   "baixado_utc": "2026-10-08T01:28:18+00:00",
+   "bytes": 252297,
+   "sha256": "8c906d0964240c47f40587425773b06d58e48811718f6950a837f2341ddb2396",
+   "url": "https://www.poder360.com.br/poder-pesquisas/atlasintel-lula-lidera-em-todos-os-cenarios-de-1o-turno/"
+  },
+  "dados/brutos/capturas-pesquisas/ca205d8b0c6039ff.html": {
+   "baixado_utc": "2026-10-08T01:27:38+00:00",
+   "bytes": 367778,
+   "sha256": "b9a880ddf1471d44113bd514b2497dd5a870382ae47777cae4270426d7d1c044",
+   "url": "https://www1.folha.uol.com.br/poder/2026/10/datafolha-lula-tem-45-e-flavio-bolsonaro-40-em-votos-validos-no-1o-turno.shtml"
+  },
+  "dados/brutos/capturas-pesquisas/de6b38902893ea80.html": {
+   "baixado_utc": "2026-10-08T01:27:47+00:00",
+   "bytes": 425509,
+   "sha256": "41fc9ddbd3a2257d24eab40167bdcfacbf1c6fb0ebbf7a5d725e69442fd7492a",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-422-das-intencoes-de-voto-no-1o-turno-lula-394/"
+  },
+  "dados/brutos/capturas-pesquisas/dfe6eb6118a1c210.html": {
+   "baixado_utc": "2026-10-08T01:27:53+00:00",
+   "bytes": 400695,
+   "sha256": "0ff480c217e852bf57b8a696f28694867f8972efd2f8b86c1cd76ae51dbf511f",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/indexa-broadcast-lula-tem-39-no-1o-turno-flavio-34/"
+  },
+  "dados/brutos/capturas-pesquisas/eca0e94eb8d02f82.html": {
+   "baixado_utc": "2026-10-08T01:30:06+00:00",
+   "bytes": 412855,
+   "sha256": "fd0b6805dceac69b1b18c24e26fd4f754fb600e59934b5679d9dfaa9238e1d1e",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/real-time-lula-lidera-contra-todos-os-adversarios-no-1o-turno/"
+  },
+  "dados/brutos/capturas-pesquisas/ed575e3f13f117db.html": {
+   "baixado_utc": "2026-10-08T01:29:10+00:00",
+   "bytes": 407608,
+   "sha256": "4f7cd197aee67febbabaacecf0130d1afb06fc24d29ff53e9dfdafb3d338bdc0",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/lula-tem-441-no-1o-turno-flavio-417-diz-atlas/"
+  },
+  "dados/brutos/capturas-pesquisas/faf06c59fc2dcb2c.html": {
+   "baixado_utc": "2026-10-08T01:29:53+00:00",
+   "bytes": 85854,
+   "sha256": "0615758f331e1a82f08d5b6c272cfd762b3acfd633203348d58939a447e54106",
+   "url": "https://www.jota.info/eleicoes/eleicoes-2026/lula-lidera-com-39-e-flavio-bolsonaro-tem-30-no-1o-turno-diz-indexa-pesquisas"
+  },
+  "dados/brutos/capturas-pesquisas/fc9a36109a19b8c2.html": {
+   "baixado_utc": "2026-10-08T01:28:27+00:00",
+   "bytes": 337921,
+   "sha256": "4d5f74878962143539e13650bbcd87efcf3a520f8b267fa1ec71191a8dcbbd5b",
+   "url": "https://www1.folha.uol.com.br/poder/2025/08/datafolha-lula-ganha-vantagem-sobre-bolsonarismo-em-1o-e-2o-turnos.shtml"
+  },
+  "dados/brutos/capturas-pesquisas/fcfe6d2dbe15701e.html": {
+   "baixado_utc": "2026-10-08T01:27:57+00:00",
+   "bytes": 409238,
+   "sha256": "c36889618a0369dcd8b5cd670870beea9b17ca8e84f1eaa496e51dbb5ac902c5",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/cnt-mda-lula-tem-478-dos-votos-validos-no-1o-turno-flavio-421/"
+  },
+  "dados/brutos/tse/consulta_cand_2024.zip": {
+   "baixado_utc": "2026-10-08T01:24:41+00:00",
+   "bytes": 63903857,
+   "sha256": "e8a3f2b96f40bc38b4b547f4595927cf5f103f4ba321cf5c0e113f9377487d85",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2024.zip"
+  },
+  "dados/brutos/tse/eleitorado_local_votacao_2022.zip": {
+   "baixado_utc": "2026-10-08T01:24:12+00:00",
+   "bytes": 24028146,
+   "sha256": "6dc19c1ddb746cc067469e70ad5018f202334d97cd540edc8c9de3321e66da23",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/eleitorado_locais_votacao/eleitorado_local_votacao_2022.zip"
+  },
+  "dados/brutos/tse/eleitorado_local_votacao_2026.zip": {
+   "baixado_utc": "2026-10-08T01:24:28+00:00",
+   "bytes": 175534873,
+   "sha256": "e852caec2511137edbb9c235cade4645a1ac5f305439964abc4f602de8a3587b",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/eleitorado_locais_votacao/eleitorado_local_votacao_2026.zip"
+  },
+  "dados/brutos/tse/perfil_eleitorado_2022.zip": {
+   "baixado_utc": "2026-10-08T01:23:32+00:00",
+   "bytes": 76699889,
+   "sha256": "4bccad7e39ec13ea22a0ce4612d6147b4f06ee2c672cd5978112943951fb87e8",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/perfil_eleitorado/perfil_eleitorado_2022.zip"
+  },
+  "dados/brutos/tse/perfil_eleitorado_2026.zip": {
+   "baixado_utc": "2026-10-08T01:24:09+00:00",
+   "bytes": 408490728,
+   "sha256": "0952e9d9577be19380b444bfcc6a9a99397005e8dc839de9d5ec49914d75648b",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/perfil_eleitorado/perfil_eleitorado_2026.zip"
+  },
+  "dados/brutos/tse/pesquisa_eleitoral_2026.zip": {
+   "baixado_utc": "2026-10-08T01:23:25+00:00",
+   "bytes": 5911445,
+   "sha256": "c544c683f3ac1f31a2b0b2bff3cfa856dc844187a5626b00794242e59a0cb657",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/pesquisa_eleitoral/pesquisa_eleitoral_2026.zip"
+  },
+  "dados/brutos/tse/votacao_candidato_munzona_2024.zip": {
+   "baixado_utc": "2026-10-08T01:24:35+00:00",
+   "bytes": 48250802,
+   "sha256": "acd5dc516a9ff9ebcc09b41fb0f19114c390421cf2b9eb1379b75118d36d902a",
+   "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2024.zip"
+  },
+  "dados/brutos/wikipedia/eleicao-2026-en.json": {
+   "baixado_utc": "2026-10-08T01:23:19+00:00",
+   "bytes": 156329,
+   "sha256": "cb9b540d8a41d8f9aead2052e00fbc6ae74f9bc4976c2f8730224b10ccdd9c36",
+   "url": "https://en.wikipedia.org/w/api.php?action=parse&page=2026_Brazilian_general_election&prop=wikitext&format=json&formatversion=2"
+  },
+  "dados/brutos/wikipedia/eleicao-presidencial-2026-pt.json": {
+   "baixado_utc": "2026-10-08T01:23:22+00:00",
+   "bytes": 175295,
+   "sha256": "8266e10c661423e56b8dec4da1dca3a6ef49c0e5c9c3d37b502de8cee67f3e2e",
+   "url": "https://pt.wikipedia.org/w/api.php?action=parse&page=Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2026&prop=wikitext&format=json&formatversion=2"
+  },
+  "dados/brutos/wikipedia/pesquisas-2022-en-html.json": {
+   "baixado_utc": "2026-10-08T01:24:30+00:00",
+   "bytes": 1357067,
+   "sha256": "b2d615c51aa141be801ad20895df8da91336ee0b4132ca229a9d075fedbf52cd",
+   "url": "https://en.wikipedia.org/w/api.php?action=parse&page=Opinion_polling_for_the_2022_Brazilian_presidential_election&prop=text&format=json&formatversion=2"
+  },
+  "dados/brutos/wikipedia/pesquisas-2022-en.json": {
+   "baixado_utc": "2026-10-08T01:23:16+00:00",
+   "bytes": 288777,
+   "sha256": "a753f9a9b88a5fdd3f57811ad6a01cb761c5fa93d54fec8bdd108d63a079388f",
+   "url": "https://en.wikipedia.org/w/api.php?action=parse&page=Opinion_polling_for_the_2022_Brazilian_presidential_election&prop=wikitext&format=json&formatversion=2"
+  },
+  "dados/brutos/wikipedia/pesquisas-2026-en-html.json": {
+   "baixado_utc": "2026-10-08T01:24:26+00:00",
+   "bytes": 1947031,
+   "sha256": "6ab24eab345c25ef00d54eb1af4eaec2b808b4269b6e2d94101585e724ada584",
+   "url": "https://en.wikipedia.org/w/api.php?action=parse&page=Opinion_polling_for_the_2026_Brazilian_presidential_election&prop=text&format=json&formatversion=2"
+  },
+  "dados/brutos/wikipedia/pesquisas-2026-en.json": {
+   "baixado_utc": "2026-10-08T01:23:13+00:00",
+   "bytes": 311227,
+   "sha256": "f86fbc62b05d52de500740866efed83a6e3817fde2399a87151be6dcf5052994",
+   "url": "https://en.wikipedia.org/w/api.php?action=parse&page=Opinion_polling_for_the_2026_Brazilian_presidential_election&prop=wikitext&format=json&formatversion=2"
+  }
+ }
+}
