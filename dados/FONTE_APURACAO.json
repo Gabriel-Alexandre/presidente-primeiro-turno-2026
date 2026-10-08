@@ -1,0 +1,15 @@
+{
+  "o_que_e": "boletins de urna de 2026 e votos por seção de 2018 e 2022, coletados pelo projeto apuracao-eleicoes-2026, lidos sem cópia e conferidos por hash antes de qualquer leitura",
+  "repositorio": "https://github.com/Gabriel-Alexandre/apuracao-eleicoes-2026",
+  "caminho_local_padrao": "../apuracao-eleicoes-2026",
+  "commit": "740fe519140b04199de8668bd3a69591cc71e6f8",
+  "manifesto": "dados/MANIFESTO.json",
+  "manifesto_sha256": "af668b8422b96cea876771b2e145e2f1d20abaddc09ae66dc4bf8b48e395a6ec",
+  "oficial_2026": "dados/brutos/oficial.sqlite (tabela raw; presidente nacional em resultados.tse.jus.br/oficial/ele2026/6257/dados/br/br-c0001-e006257-u.json)",
+  "derivados_prontos": {
+    "votos_por_secao_2026": "dados/derivados/uf/<uf>-votos.parquet (cargo 1 = presidente; colunas uf, mun, zona, secao, cargo, tipo, partido, numero, votos)",
+    "secoes_2026": "dados/derivados/uf/<uf>-secoes.parquet",
+    "historico": "dados/derivados/historico/<ano>-<turno>-<uf>-{votos,secoes}.parquet (2018 e 2022)"
+  },
+  "aviso": "dados/brutos e dados/derivados NÃO estão no git do projeto de origem. O que se fixa é o sha256 do MANIFESTO.json e o commit dos scripts que geram os derivados; o REPLICAR.md daqui diz como regenerar."
+}

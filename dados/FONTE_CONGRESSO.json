@@ -1,0 +1,20 @@
+{
+  "o_que_e": "tabelas derivadas e capturas do projeto congresso-e-governos-eleicoes-2026, lidas sem cópia e conferidas por hash antes de qualquer leitura",
+  "repositorio": "https://github.com/Gabriel-Alexandre/congresso-e-governos-eleicoes-2026",
+  "caminho_local_padrao": "../congresso-e-governos-eleicoes-2026",
+  "commit": "f6a1f9e2f933aa588ad45aa0e6fa569576d70b96",
+  "arquivos": {
+    "dados/MANIFESTO.json": "8c87ad36a0b259f5668d6e2f7946966a5cb4d8378216e7fa80c3c15367c8a896",
+    "dados/MANIFESTO_IBGE.json": "6e19f69fc36e1191ff89684112cb3a3126759255346b51f61284232e4843f645",
+    "dados/derivados/municipios.parquet": "2c3180c644633a32241baefcbc4164fdf6577d30af11374151f236d480501a26",
+    "dados/derivados/bolsa_familia_202608.parquet": "dc932b275d07314de26330071e2dd17a96a3411663bf489f3ffd0c8b491e5722",
+    "dados/brutos/capturas/pindograma-late-polls-2012-2018.csv": "8f7a48949827c0ffd575e6481256d5bdb625a32c13758421b9cee642ae6c31b0",
+    "dados/brutos/capturas/pindograma-late-polls-2022.csv": "acb4bb445edb0a42a6733b414a68b144e563b289e0f6973af4ddf3d6bf2e55ed"
+  },
+  "o_que_cada_um_traz": {
+    "municipios.parquet": "ponte município TSE (uf, mun) para IBGE, população e perfil do Censo 2022 (urbana, cor, 60+, superior, religião, PIB), Bolsa Família de agosto de 2026",
+    "bolsa_familia_202608.parquet": "beneficiários por UF e município (chave 'UF|NOME')",
+    "pindograma-*": "pesquisas da reta final com registro no TSE, presidente e outros cargos, 2014, 2018 e 2022"
+  },
+  "aviso": "dados/derivados e dados/brutos NÃO estão no git de origem. O que se fixa é o sha256 de cada arquivo usado; o REPLICAR.md daqui diz como regenerar."
+}

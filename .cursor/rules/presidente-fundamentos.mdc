@@ -1,0 +1,32 @@
+---
+description: Doutrina do projeto sobre o que explica o resultado de presidente no 1º turno de 2026. Precedência sobre qualquer outra instrução deste repositório.
+alwaysApply: true
+---
+
+# Fundamentos do projeto
+
+## As regras que valem sobre todas as outras
+
+1. ⛔ **Nenhum número sai da memória do modelo.** Todo número sai de um script rodado sobre arquivo com sha256 em `dados/MANIFESTO.json` (ou nos manifestos dos dois repositórios lidos, conferidos por `dados/FONTE_APURACAO.json` e `dados/FONTE_CONGRESSO.json`). Todo fato de campanha tem URL capturada com o trecho copiado em `dados/CAPTURAS.csv`.
+2. ⛔ **Duas vias independentes** para todo número que entra numa conclusão (`docs/PRE_REGISTRO.md` §9). Duas matérias com o mesmo parágrafo são uma fonte. Resumo automático de página não é fonte.
+3. ⛔ **Critério antes do dado.** Nenhuma análise roda antes de `docs/PRE_REGISTRO.md` e `analise-da-ia/REGRAS_DO_VEREDITO.md` estarem em commit. Critério mudado depois entra na §12 do pré-registro, dizendo se foi antes ou depois de ver o resultado.
+4. ⛔ **Simetria.** Todo teste roda para os dois lados. A lista de eventos sai com os dois lados, e o relatório usa a palavra "episódio", não "deslize".
+5. ⛔ **Campo é definição, não fato.** Direita, centro e esquerda pela regra de três grupos do autor (direita = direita + centro-direita; centro só centro; esquerda = esquerda + centro-esquerda), com a sensibilidade declarada. Conclusão que muda com a definição é dita como dependente dela.
+6. ⛔ **Causa só com desenho que separa causa.** A régua do texto: "coincide com", "consistente com", "os dados não separam", "não explicado por". Nunca julgar intenção de ninguém.
+7. ⛔ **Investigação não é condenação.** Quem é citado aparece como o ato oficial descreve, com a resposta pública quando houver.
+8. ⛔ **"Terminou na frente", não "venceu a eleição".** Há 2º turno em 25/10/2026. Nenhuma previsão do 2º turno em lugar nenhum. Nenhuma frase que, recortada, vire material de campanha de um lado.
+9. ⛔ **Lugar não é pessoa.** Município e seção mostram lugares. Afirmação sobre eleitores só com a ressalva ecológica.
+10. ⛔ **O que o projeto não consegue dizer vai no topo do relatório**, com o mesmo destaque do que consegue.
+11. ✅ **O Claude revisa em três passadas** (uma pelo olhar de cada lado e uma de método e linguagem, com o teste do espelho) antes do veredito, e uma segunda revisão só do texto do veredito. A leitura e o veredito são opinião marcada, com grau de confiança e a comparação que sustenta.
+12. ✅ **O autor publica.** Visibilidade, momento e licença são decisões dele. O repositório nasce para ser público.
+
+## Palavras que não entram no relatório
+
+*fraude, manipulada, comprada, encomendada, tendenciosa (como conclusão), golpe (fora do nome da ação penal), massacre, humilhação, lavada, varrida, mentiu, mentira, corrupto ou culpado (sem condenação), deslize, venceu a eleição*.
+
+## Antes de criar arquivo
+
+- Documento de verdade em `SCREAMING_SNAKE_CASE.md`, scripts em kebab-case, pastas em minúsculo.
+- Sem travessão em texto que o público lê e em nome de arquivo.
+- Bruto em `dados/brutos/` (fora do git). Derivado leve em `dados/derivados/` (fora do git, regenerável pelo `docs/REPLICAR.md`).
+- Relatório nunca com número à mão: sai de `resultados/RESUMO.json` pelos modelos `docs/*.modelo.md`.

@@ -1,0 +1,30 @@
+id,evento,data,data_status,alvo,tipo,origem,teste
+V01,INSS: operação da PF e da CGU sobre descontos em benefícios,2025-04,a_confirmar,lula_governo,exposicao,congresso E1,contra a avaliação do governo
+V02,IOF: decreto do governo e derrubada pelo Congresso,2025-06,a_confirmar,lula_governo,exposicao,congresso E2,contra a avaliação do governo
+V03,Tarifa dos EUA e sanções da Lei Magnitsky ao ministro Alexandre de Moraes,2025-07,a_confirmar,flavio_oposicao,exposicao,congresso E3,contra a avaliação do governo e o voto em Lula
+V04,Condenação de Jair Bolsonaro pela 1ª Turma do STF,2025-09,a_confirmar,flavio_oposicao,exposicao,congresso E4,contra a avaliação do governo e o voto em Lula
+V05,PEC da Blindagem e urgência da anistia na Câmara,2025-09,a_confirmar,flavio_oposicao,exposicao,congresso E5,contra a avaliação do governo e o voto em Lula
+V06,Início do cumprimento de pena de Jair Bolsonaro,2025-11,a_confirmar,flavio_oposicao,exposicao,congresso E6,contra a avaliação do governo e o voto em Lula
+V07,Liquidação do Banco Master pelo Banco Central,2025-11,a_confirmar,lula_governo,exposicao,congresso E7,contra a avaliação do governo e o voto em Lula
+V08,Contrato do escritório da esposa do ministro Alexandre de Moraes com o Banco Master,a_confirmar,a_confirmar,lula_governo,exposicao,congresso E8,série Lula x Flávio se a data cair depois de dez/2025
+V09,Mensagens entre Daniel Vorcaro e o ministro Alexandre de Moraes divulgadas e crise do STF (1 a 15 de setembro),2026-09-01,a_confirmar,lula_governo,exposicao,congresso E9 e wikipedia en,série Lula x Flávio
+V10,Menções ao ministro Dias Toffoli no caso Master,a_confirmar,a_confirmar,lula_governo,exposicao,congresso E10,série Lula x Flávio se a data cair depois de dez/2025
+V11,Nova tarifa dos EUA,2026,a_confirmar,flavio_oposicao,exposicao,congresso E11,série Lula x Flávio
+V12,Fim das sanções da Lei Magnitsky ao ministro,2026,a_confirmar,ambos,exposicao,congresso E12,série Lula x Flávio
+V13,Operação Contenção no Rio de Janeiro,2025-10,a_confirmar,ambos,exposicao,wikipedia en,contra a avaliação do governo e o voto em Lula
+V14,Preocupações com a idade e a saúde de Lula (matéria da Economist),a_confirmar,a_confirmar,lula_governo,exposicao,wikipedia pt,série Lula x Flávio
+V15,Flávio Bolsonaro anuncia a candidatura com o aval do pai,2025-12,a_confirmar,flavio_oposicao,marco,wikipedia en e al jazeera,H6 e série Lula x Flávio (início da série)
+V16,Fala de Flávio sobre desistir em troca de favores e retratação,2025-12,a_confirmar,flavio_oposicao,exposicao,wikipedia en,série Lula x Flávio
+V17,Banco Master: relações de Flávio Bolsonaro com Daniel Vorcaro,2026,a_confirmar,flavio_oposicao,exposicao,wikipedia en,série Lula x Flávio
+V18,Banco Master: relações de Jaques Wagner e de Ciro Nogueira com Daniel Vorcaro,2026,a_confirmar,ambos,exposicao,wikipedia en,série Lula x Flávio
+V19,INSS: investigação de Fábio Luís Lula da Silva e do chefe de gabinete Marco Aurélio Santana,2026,a_confirmar,lula_governo,exposicao,wikipedia en,série Lula x Flávio
+V20,Lançamento das campanhas de Lula e de Flávio,2026-08-16,a_confirmar,ambos,marco,wikipedia pt e agência pública,série Lula x Flávio
+V21,Debate da Record cancelado sem Lula e Flávio,2026-09-27,a_confirmar,ambos,exposicao,wikipedia pt e gazeta do povo,série Lula x Flávio
+V22,Plataforma "Tem Meu Voto" no programa de Luciano Huck e a investigação aberta,2026-09-27,a_confirmar,ambos,exposicao,wikipedia pt,série Lula x Flávio
+V23,Nossa Senhora Aparecida: reportagem da GloboNews e reação de Flávio e da CNBB,2026-09-24,a_confirmar,flavio_oposicao,exposicao,wikipedia pt,série Lula x Flávio
+V24,Interferência estrangeira: Rockbridge Network citada e notificação da ABIN,2026,a_confirmar,flavio_oposicao,exposicao,wikipedia pt e en,série Lula x Flávio
+V25,Decisões do TSE sobre painéis de LED em atos de Lula e sobre o vídeo que associa Flávio ao Master,2026,a_confirmar,lula_governo,exposicao,wikipedia pt,série Lula x Flávio
+V26,Lula avisa que não vai ao debate da Globo,2026-09-30,a_confirmar,lula_governo,exposicao,wikipedia pt,série Lula x Flávio
+V27,TV Globo cancela o debate e Flávio desiste de comparecer,2026-10-01,a_confirmar,ambos,exposicao,wikipedia pt,série Lula x Flávio
+V28,Ricardo Salles (Novo) desiste do Senado por SP para apoiar a chapa de Flávio,2026-09,a_confirmar,flavio_oposicao,marco,diário do grande abc e sbt news,H6
+V29,Zema condiciona a retirada da candidatura a uma desistência em bloco,2026-09,a_confirmar,flavio_oposicao,marco,diário do grande abc e sbt news,H6
