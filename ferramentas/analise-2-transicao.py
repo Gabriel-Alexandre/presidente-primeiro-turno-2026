@@ -18,7 +18,7 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from presidente.comum import DER, REGIAO, RES, SEMENTE, verificar_fontes  # noqa: E402
-from presidente.ecologica import ajustar, reamostrar  # noqa: E402
+from presidente.ecologica import ajustar, estabilidade, reamostrar  # noqa: E402
 from presidente.saida import registrar, tabela  # noqa: E402
 
 ORIGEM_ENXUTA = ["lula22", "jair22", "terceiros22", "bn22", "abst22"]
@@ -109,31 +109,11 @@ def main() -> None:
     t = pd.DataFrame(todas)
     tabela("a4_matriz_transicao", t)
     registrar("a4.ajustes", resumo)
-    # estabilidade: um fluxo e robusto se (a) amplo e enxuto nacionais diferem em ate 0,03; (b) o intervalo entre as 5 regioes (amplo) e <= 0,15
-    fluxos = [("jair22", "flavio26"), ("jair22", "lula26"), ("jair22", "abst26"), ("lula22", "lula26"), ("lula22", "flavio26"), ("lula22", "abst26"),
-              ("abst22", "flavio26"), ("abst22", "lula26"), ("abst22", "abst26"), ("terceiros22", "flavio26"), ("terceiros22", "lula26"), ("terceiros22", "caiado26"),
-              ("terceiros22", "cury26"), ("terceiros22", "renan26"), ("bn22", "flavio26"), ("bn22", "lula26")]
-    am = t[(t.spec == "amplo")].set_index(["ajuste", "origem", "destino"]).B
-    en = t[(t.spec == "enxuto")].set_index(["ajuste", "origem", "destino"]).B
-    amp_ci = t[(t.spec == "amplo") & (t.ajuste == "nacional")].set_index(["origem", "destino"])
-    regs = ["Centro-Oeste", "Nordeste", "Norte", "Sudeste", "Sul"]
-    linhas = []
-    for o, dd in fluxos:
-        if o == "terceiros22":
-            nac_am = sum(am[("nacional", oo, dd)] * w for oo, w in ())  # placeholder, calculado abaixo
-        # enxuto direto
-        b_en = en.get(("nacional", o, dd), np.nan)
-        # amplo: media ponderada de ciro, tebet e outros pelos votos de origem nao esta disponivel aqui; compara so fluxos de origem comum
-        b_am = am.get(("nacional", o, dd), np.nan)
-        reg_b = [en.get((r, o, dd), np.nan) for r in regs]
-        linhas.append({"origem": o, "destino": dd, "B_amplo": b_am, "B_enxuto": b_en,
-                       "dif_amplo_enxuto": abs(b_am - b_en) if not np.isnan(b_am) and not np.isnan(b_en) else np.nan,
-                       "min_regioes": np.nanmin(reg_b), "max_regioes": np.nanmax(reg_b), "amplitude_regioes": np.nanmax(reg_b) - np.nanmin(reg_b)})
-    est = pd.DataFrame(linhas)
-    est["robusto"] = (est.amplitude_regioes <= 0.15) & (est.dif_amplo_enxuto.fillna(0) <= 0.03)
+    est = estabilidade(t)
     tabela("a4_estabilidade", est)
     for r in est.itertuples():
-        registrar(f"a4.fluxo.{r.origem}_para_{r.destino}", {"B_amplo": r.B_amplo, "B_enxuto": r.B_enxuto, "min_regioes": r.min_regioes, "max_regioes": r.max_regioes, "robusto": bool(r.robusto)})
+        registrar(f"a4.fluxo.{r.origem}_para_{r.destino}", {"B_amplo": None if pd.isna(r.B_amplo) else r.B_amplo, "B_enxuto": r.B_enxuto, "min_regioes": r.min_regioes, "max_regioes": r.max_regioes,
+                                                              "nacional_dentro_das_regioes": r.nacional_dentro_das_regioes, "robusto": bool(r.robusto)})
     print(est.round(3).to_string())
 
 

@@ -38,3 +38,21 @@
 - A Wikipédia é um índice de pesquisas com fonte em cada linha, **não** a fonte do valor. O pré-registro (§3) exige o registro do TSE e a conferência por amostra.
 - As pesquisas publicam percentuais da amostra bruta; os válidos são calculados (pré-registro §1).
 - Os derivados do projeto da apuração não estão no git de lá; o `REPLICAR.md` diz como regenerar.
+
+## Resultado da coleta e da aplicação das condições (07/out/2026)
+
+| # | O que saiu | Observação |
+|---|---|---|
+| N1 | 170 pesquisas na tabela; 131 de 2026 casam com o registro do TSE; 39 de 2025 sem registro por lei; 4 removidas por não conferir | `resultados/pesq_*.csv`, `resultados/pesq_verificacao.csv` |
+| N2 | só a tabela da Wikipédia em inglês (2023 a nov/2025), no máximo 6 medições por instituto | **abaixo do mínimo de 8: H2(i) não executa** |
+| N3, N4, B5, H5 | **não coletados** | A6, B5 e H5 não executam |
+| N5 | perfil do eleitorado de 2022 e 2026 por município, conferido contra os boletins (diferença de 0,000% e 0,004%) | usado em H13 |
+| N5 e N6 | renda por setor censitário **não existe** na pasta de agregados por setor do IBGE (lista de 20/mai/2026) | **A5 não executa** |
+| N7 e N8 | religião, cor, idade e escolaridade do Censo 2022 (do projeto do Congresso); Bolsa Família de ago/2026; **o de ago/2022 não está nas URLs públicas** | H3 por município não executa |
+| N8 | SIDRA (desocupação e renda por UF e no Brasil, IPCA em 12 meses) e Selic meta (Banco Central), coletados com hash | H3 descritivo e por UF |
+| N9 | prefeitos de 2024: 5.332 municípios com disputa, 2.861 elegíveis ao teste, 51 decididos em 2º turno | H7 |
+| N10 | 13 de 25 episódios com data confirmada em duas reportagens; 12 saíram | `dados/eventos_confirmados.csv` |
+| N11 e N12 | **não coletados** | H10 não executa |
+| N13 | cenários da tabela de pesquisas de 2025 e 2026 (Tarcísio, Ratinho Júnior, Zema, Caiado, Ciro, Leite); **Michelle Bolsonaro não está** | H11 |
+
+A Wikipédia em português e em inglês sobre a eleição (seções de campanha e controvérsias) é a origem da lista de episódios; ela muda com o tempo, e o hash da versão usada está no manifesto.

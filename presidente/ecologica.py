@@ -45,3 +45,33 @@ def reamostrar(X, Y, w, B0, rep: int, semente: int):
         idx = rng.integers(0, n, n)
         out[k] = ajustar(X[idx], Y[idx], w[idx], B0)
     return out
+
+
+FLUXOS = [("jair22", "flavio26"), ("jair22", "lula26"), ("jair22", "abst26"), ("lula22", "lula26"), ("lula22", "flavio26"), ("lula22", "abst26"),
+          ("abst22", "flavio26"), ("abst22", "lula26"), ("abst22", "abst26"), ("terceiros22", "flavio26"), ("terceiros22", "lula26"), ("terceiros22", "caiado26"),
+          ("terceiros22", "cury26"), ("terceiros22", "renan26"), ("bn22", "flavio26"), ("bn22", "lula26")]
+REGIOES = ["Centro-Oeste", "Nordeste", "Norte", "Sudeste", "Sul"]
+
+
+def estabilidade(t):
+    """Marca como robusto o fluxo que passa nos tres criterios (pre-registro, secao 12, emendas 7 e 8):
+    (1) amplo e enxuto nacionais diferem em ate 0,03; (2) amplitude entre as cinco regioes de ate 0,15;
+    (3) o valor nacional fica dentro do intervalo das regioes (uma media ponderada das regioes nao sai do intervalo delas), folga de 0,01."""
+    import numpy as np
+    import pandas as pd
+
+    am = t[t.spec == "amplo"].set_index(["ajuste", "origem", "destino"]).B
+    en = t[t.spec == "enxuto"].set_index(["ajuste", "origem", "destino"]).B
+    linhas = []
+    for o, d in FLUXOS:
+        b_en = en.get(("nacional", o, d), np.nan)
+        b_am = am.get(("nacional", o, d), np.nan)
+        reg = [en.get((r, o, d), np.nan) for r in REGIOES]
+        lo, hi = np.nanmin(reg), np.nanmax(reg)
+        nac = b_en
+        linhas.append({"origem": o, "destino": d, "B_amplo": b_am, "B_enxuto": b_en,
+                       "dif_amplo_enxuto": abs(b_am - b_en) if not np.isnan(b_am) and not np.isnan(b_en) else np.nan,
+                       "min_regioes": lo, "max_regioes": hi, "amplitude_regioes": hi - lo, "nacional_dentro_das_regioes": bool(lo - 0.01 <= nac <= hi + 0.01)})
+    est = pd.DataFrame(linhas)
+    est["robusto"] = (est.amplitude_regioes <= 0.15) & (est.dif_amplo_enxuto.fillna(0) <= 0.03) & est.nacional_dentro_das_regioes
+    return est

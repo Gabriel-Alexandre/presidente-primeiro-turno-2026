@@ -1272,41 +1272,47 @@
     "B_enxuto": 0.8156606577859492,
     "max_regioes": 0.8727917938153913,
     "min_regioes": 0.6291208912177918,
+    "nacional_dentro_das_regioes": true,
     "robusto": false
    },
    "abst22_para_flavio26": {
     "B_amplo": 0.1435948939897328,
-    "B_enxuto": 0.14378217093039472,
+    "B_enxuto": 0.1437821709303947,
     "max_regioes": 0.2954473387583984,
     "min_regioes": 0.0,
+    "nacional_dentro_das_regioes": true,
     "robusto": false
    },
    "abst22_para_lula26": {
     "B_amplo": 0.0,
     "B_enxuto": 1.0512843545728342e-17,
-    "max_regioes": 0.19628056244284614,
+    "max_regioes": 0.1962805624428461,
     "min_regioes": 2.0817324086850282e-18,
+    "nacional_dentro_das_regioes": true,
     "robusto": false
    },
    "bn22_para_flavio26": {
     "B_amplo": 0.0,
     "B_enxuto": 1.8004744085074222e-16,
-    "max_regioes": 0.09835408808277753,
+    "max_regioes": 0.0983540880827775,
     "min_regioes": 0.0,
+    "nacional_dentro_das_regioes": true,
     "robusto": true
    },
    "bn22_para_lula26": {
-    "B_amplo": 1.6591555639364127e-17,
+    "B_amplo": 1.659155563936413e-17,
     "B_enxuto": 2.8430872632827404e-17,
     "max_regioes": 8.495994570844809e-17,
     "min_regioes": 0.0,
+    "nacional_dentro_das_regioes": true,
     "robusto": true
    },
    "jair22_para_abst26": {
-    "B_amplo": 0.012642325865144757,
-    "B_enxuto": 0.014535393479251665,
-    "max_regioes": 0.05873061482792618,
+    "B_amplo": 0.0126423258651447,
+    "B_enxuto": 0.0145353934792516,
+    "max_regioes": 0.0587306148279261,
     "min_regioes": 0.0,
+    "nacional_dentro_das_regioes": true,
     "robusto": true
    },
    "jair22_para_flavio26": {
@@ -1314,48 +1320,55 @@
     "B_enxuto": 0.9715290795376632,
     "max_regioes": 1.0,
     "min_regioes": 0.891663821761777,
+    "nacional_dentro_das_regioes": true,
     "robusto": true
    },
    "jair22_para_lula26": {
     "B_amplo": 0.0,
     "B_enxuto": 0.0,
     "max_regioes": 1.3677672965303178e-17,
-    "min_regioes": 1.8944950656526495e-18,
+    "min_regioes": 1.894495065652649e-18,
+    "nacional_dentro_das_regioes": true,
     "robusto": true
    },
    "lula22_para_abst26": {
-    "B_amplo": 0.018710451208052665,
-    "B_enxuto": 0.0027517871216844875,
-    "max_regioes": 0.16225705849104613,
-    "min_regioes": 0.04742859155759919,
-    "robusto": true
+    "B_amplo": 0.0187104512080526,
+    "B_enxuto": 0.0027517871216844,
+    "max_regioes": 0.1622570584910461,
+    "min_regioes": 0.0474285915575991,
+    "nacional_dentro_das_regioes": false,
+    "robusto": false
    },
    "lula22_para_flavio26": {
-    "B_amplo": 0.019007144606514786,
-    "B_enxuto": 0.018596744550345965,
-    "max_regioes": 0.12159241917996572,
+    "B_amplo": 0.0190071446065147,
+    "B_enxuto": 0.0185967445503459,
+    "max_regioes": 0.1215924191799657,
     "min_regioes": 0.0,
+    "nacional_dentro_das_regioes": true,
     "robusto": true
    },
    "lula22_para_lula26": {
-    "B_amplo": 0.9262547326648981,
+    "B_amplo": 0.926254732664898,
     "B_enxuto": 0.9325202590890022,
     "max_regioes": 0.9316647072888736,
     "min_regioes": 0.7021513143134765,
+    "nacional_dentro_das_regioes": true,
     "robusto": false
    },
    "terceiros22_para_caiado26": {
     "B_amplo": null,
-    "B_enxuto": 0.14188337374070928,
-    "max_regioes": 0.14585223531106337,
+    "B_enxuto": 0.1418833737407092,
+    "max_regioes": 0.1458522353110633,
     "min_regioes": 0.092128524878077,
+    "nacional_dentro_das_regioes": true,
     "robusto": true
    },
    "terceiros22_para_cury26": {
     "B_amplo": null,
-    "B_enxuto": 0.21677311711680658,
+    "B_enxuto": 0.2167731171168065,
     "max_regioes": 0.3299419733520859,
-    "min_regioes": 0.06429095297636787,
+    "min_regioes": 0.0642909529763678,
+    "nacional_dentro_das_regioes": true,
     "robusto": false
    },
    "terceiros22_para_flavio26": {
@@ -1363,20 +1376,23 @@
     "B_enxuto": 9.870964625276993e-18,
     "max_regioes": 0.296565634672916,
     "min_regioes": 0.0,
+    "nacional_dentro_das_regioes": true,
     "robusto": false
    },
    "terceiros22_para_lula26": {
     "B_amplo": null,
     "B_enxuto": 5.701683170434115e-18,
     "max_regioes": 0.7071439646870186,
-    "min_regioes": 0.10241118553016225,
+    "min_regioes": 0.1024111855301622,
+    "nacional_dentro_das_regioes": false,
     "robusto": false
    },
    "terceiros22_para_renan26": {
     "B_amplo": null,
-    "B_enxuto": 0.23433122406477727,
+    "B_enxuto": 0.2343312240647772,
     "max_regioes": 0.2409260599911565,
-    "min_regioes": 0.09768025379210395,
+    "min_regioes": 0.0976802537921039,
+    "nacional_dentro_das_regioes": true,
     "robusto": true
    }
   },
@@ -1651,15 +1667,15 @@
   }
  },
  "condicoes_nao_executadas": {
-  "A5": "renda por setor censitario nao publicada pelo IBGE na pasta de agregados por setor (lista de 20/mai/2026: sem arquivo de rendimento); nao executa",
-  "A6": "nao foram coletadas tabelas por grupo de pelo menos 2 institutos nos dois anos; nao executa",
-  "B5": "nao foram coletadas 5 medicoes de rejeicao do mesmo instituto em 2026; nao executa",
-  "H10": "propaganda gratuita e gasto parcial nao coletados em formato legivel por maquina; nao executa",
-  "H14": "redes sociais: sem dado publico confiavel; nao testavel",
-  "H2": "a unica serie estruturada de avaliacao do governo (Wikipedia) termina em nov/2025 e tem no maximo 6 medicoes por instituto; abaixo das 8 exigidas; nao executa. A comparacao dos cinco presidentes tambem nao foi montada",
-  "H3_municipal": "Bolsa Familia de agosto de 2022 por municipio nao esta nas URLs publicas de download; so a parte por UF (PNAD) e a descritiva nacional foram feitas",
-  "H5": "nao foram coletadas 5 medicoes do 'principal problema' do mesmo instituto em 2026; nao executa",
-  "eventos_2025": "V01 a V04 (e os demais de 2025) sem teste: depende da serie de avaliacao do governo (H2)"
+  "A5": "a renda por setor censitário não está publicada pelo IBGE na pasta de agregados por setor (lista de 20/mai/2026, sem arquivo de rendimento); não executa",
+  "A6": "não foram coletadas tabelas por grupo de pelo menos 2 institutos nos dois anos; não executa",
+  "B5": "não foram coletadas 5 medições de rejeição do mesmo instituto em 2026; não executa",
+  "Episódios de 2025": "V01 a V04 ficam sem teste: dependem da série de avaliação do governo (H2)",
+  "H10": "propaganda gratuita e gasto parcial não foram coletados em formato legível por máquina; não executa",
+  "H14": "redes sociais: sem dado público confiável; não testável",
+  "H2": "a única série estruturada de avaliação do governo (Wikipédia) termina em nov/2025 e tem no máximo 6 medições por instituto, abaixo das 8 exigidas; não executa. A comparação dos cinco presidentes também não foi montada",
+  "H3 por município": "o Bolsa Família de agosto de 2022 por município não está nas URLs públicas de download; só a parte por UF (PNAD) e o quadro descritivo nacional foram feitos",
+  "H5": "não foram coletadas 5 medições do \"principal problema\" do mesmo instituto em 2026; não executa"
  },
  "h1": {
   "correlacoes_municipais_ponderadas": {
@@ -2561,18 +2577,18 @@
    "confianca": "alta",
    "evidencia": "forte para a base",
    "hipotese": "H1",
-   "nome": "Heranca e identidade (a base)",
-   "o_que_sustenta": "correlacao municipal ponderada entre o voto em Jair (2022) e em Flavio (2026) de 0.98; retencao de 97% dos eleitores de Jair em Flavio (intervalo regional 89 a 100%)",
+   "nome": "Herança e identidade (a base)",
+   "o_que_sustenta": "correlação municipal ponderada entre o voto em Jair (2022) e em Flávio (2026) de 0,98; retenção de 97% dos eleitores de Jair em Flávio (intervalo entre as regiões: 89% a 100%)",
    "situacao": "consistente",
-   "tamanho": "n/a (explica o piso, nao a virada)"
+   "tamanho": "n/a (explica o piso, não a virada)"
   },
   {
    "confianca": "baixa",
-   "evidencia": "nao testavel",
+   "evidencia": "não testável",
    "hipotese": "H2",
    "nome": "Referendo sobre o governo",
-   "o_que_sustenta": "a unica serie estruturada de avaliacao do governo (Wikipedia) termina em nov/2025 e tem no maximo 6 medicoes por instituto; abaixo das 8 exigidas; nao executa. A comparacao dos cinco presidentes tambem nao foi montada",
-   "situacao": "nao testavel",
+   "o_que_sustenta": "a única série estruturada de avaliação do governo (Wikipédia) termina em nov/2025 e tem no máximo 6 medições por instituto, abaixo das 8 exigidas; não executa. A comparação dos cinco presidentes também não foi montada",
+   "situacao": "não testável",
    "tamanho": "n/e"
   },
   {
@@ -2580,52 +2596,52 @@
    "evidencia": "fraca",
    "hipotese": "H3",
    "nome": "Economia",
-   "o_que_sustenta": "indicadores nacionais melhoraram entre 2022 e 2026 (desocupacao 9.3% para 5.4%, renda real +19.2%) enquanto o PT caiu; entre as 27 UFs, a virada foi maior onde a desocupacao caiu menos (coeficiente 1.06 ponto por ponto, p = 0.016), sem repetir no placebo",
+   "o_que_sustenta": "indicadores nacionais melhoraram entre 2022 e 2026 (desocupação de 9,3% para 5,4%, renda real +19,2%) enquanto o PT caiu; entre as 27 UFs, a virada foi maior onde a desocupação caiu menos (coeficiente 1,06 ponto por ponto percentual, p = 0,016), sem repetir no placebo",
    "situacao": "inconsistente (descritivo)",
    "tamanho": "n/e"
   },
   {
-   "confianca": "media",
+   "confianca": "média",
    "evidencia": "forte pela regra literal; depende do limiar (Lulinha)",
    "hipotese": "H4",
-   "nome": "Episodios e eventos dos dois lados",
-   "o_que_sustenta": "V17 coincide com movimento no sentido esperado (4 de 6 institutos acima do normal); V19 coincide (4 de 9, 1 pelo limiar amostral); o bloco de setembro move a margem mas mistura alvos dos dois lados e tem so 3 institutos",
+   "nome": "Episódios e eventos dos dois lados",
+   "o_que_sustenta": "o episódio das mensagens coincide com movimento no sentido esperado (4 de 6 institutos acima do normal); o da investigação de Lulinha coincide (4 de 9, e 1 pelo limiar amostral); o bloco de setembro move a margem, mas mistura alvos dos dois lados e tem só 3 institutos",
    "situacao": "consistente em parte",
-   "tamanho": "mensagens Flavio-Vorcaro: -5.4 ponto de margem (contra Flavio); Lulinha: +1.2 (mediana de todos os institutos)"
+   "tamanho": "mensagens Flávio-Vorcaro: -5,4 ponto de margem (contra Flávio); Lulinha: +1,2 (mediana de todos os institutos)"
   },
   {
    "confianca": "baixa",
-   "evidencia": "nao testavel",
+   "evidencia": "não testável",
    "hipotese": "H5",
    "nome": "Pauta",
-   "o_que_sustenta": "nao foram coletadas 5 medicoes do 'principal problema' do mesmo instituto em 2026; nao executa",
-   "situacao": "nao testavel",
+   "o_que_sustenta": "não foram coletadas 5 medições do \"principal problema\" do mesmo instituto em 2026; não executa",
+   "situacao": "não testável",
    "tamanho": "n/e"
   },
   {
-   "confianca": "media",
-   "evidencia": "forte (movimento na serie e aritmetica pesquisa-urna em varios institutos)",
+   "confianca": "média",
+   "evidencia": "forte (movimento na série e aritmética pesquisa-urna em vários institutos)",
    "hipotese": "H6",
-   "nome": "Consolidacao e voto util da direita",
-   "o_que_sustenta": "os outros candidatos cairam 4.2 pontos da ultima pesquisa a urna e o candidato do PL ficou com 116% da queda (mediana 100%); em 7 de 7 institutos ficou com mais de metade e o PT em 0. Em 2022 os outros tambem cairam (3.9 pontos) e o candidato do PL ficou com mais de metade em 9 de 13 institutos: o encolhimento dos outros na reta final nao e novidade de 2026, o que muda e a concentracao no mesmo lado",
+   "nome": "Consolidação e voto útil da direita",
+   "o_que_sustenta": "os outros candidatos caíram 4,2 pontos da última pesquisa à urna e o candidato do PL ficou com 116% da queda (mediana 100%); em 7 de 7 institutos ficou com mais da metade, e o PT em 0. Em 2022 os outros também caíram (3,9 pontos) e o candidato do PL ficou com mais da metade em 9 de 13 institutos: o encolhimento dos outros na reta final não é novidade de 2026; o que muda é a concentração no mesmo lado",
    "situacao": "consistente",
-   "tamanho": "+6.9 ponto de margem na media das pesquisas entre 3/ago e 28/set; 4.2 da ultima pesquisa a urna (mediana), parecido com 2022 (4.5)"
+   "tamanho": "+6,9 ponto de margem na média das pesquisas entre 3/ago e 28/set; 4,2 da última pesquisa à urna (mediana), parecido com 2022 (4,5)"
   },
   {
-   "confianca": "media",
+   "confianca": "média",
    "evidencia": "desenho causal sem efeito detectado",
    "hipotese": "H7",
-   "nome": "Maquina local (prefeitos de 2024)",
-   "o_que_sustenta": "descontinuidade em 477 municipios: efeito de +1.39 ponto (erro padrao 0.96, p = 0.15), dentro do que o placebo de 2018-2022 mostra (+1.15)",
+   "nome": "Máquina local (prefeitos de 2024)",
+   "o_que_sustenta": "descontinuidade em 477 municípios: efeito de +1,39 ponto (erro padrão 0,96, p = 0,15), dentro do que o placebo de 2018-2022 mostra (+1,15)",
    "situacao": "inconsistente",
    "tamanho": "n/e"
   },
   {
-   "confianca": "media",
+   "confianca": "média",
    "evidencia": "fraca",
    "hipotese": "H8",
-   "nome": "Religiao e valores",
-   "o_que_sustenta": "a virada foi MENOR onde ha mais evangelicos (-1.21 ponto por desvio-padrao de 10.3 pontos, p = 0.003); no placebo de 2018-2022 o sinal foi o oposto (+1.71); leitura compativel com teto (onde Jair ja tinha muito, sobrou menos para subir)",
+   "nome": "Religião e valores",
+   "o_que_sustenta": "a virada foi MENOR onde há mais evangélicos (-1,21 ponto por desvio-padrão de 10,3 pontos, p = 0,003); no placebo de 2018-2022 o sinal foi o oposto (+1,71); o sinal permanece ao controlar pelo voto de Jair em 2022 (-1,01, p = 0,024), então não se explica só por efeito teto",
    "situacao": "inconsistente",
    "tamanho": "n/e"
   },
@@ -2634,25 +2650,25 @@
    "evidencia": "fraca",
    "hipotese": "H9",
    "nome": "Governadores aliados",
-   "o_que_sustenta": "virada media de 8.5 ponto nas 10 UFs com governador apoiador de Flavio e de 7.6 nas 5 com governador apoiador de Lula (diferenca +0.8; p de permutacao = 0.63)",
+   "o_que_sustenta": "virada média de 8,5 ponto nas 10 UFs com governador apoiador de Flávio e de 7,6 nas 5 com governador apoiador de Lula (diferença +0,8; p de permutação = 0,63)",
    "situacao": "inconsistente",
    "tamanho": "n/e"
   },
   {
    "confianca": "baixa",
-   "evidencia": "nao testavel",
+   "evidencia": "não testável",
    "hipotese": "H10",
    "nome": "Estrutura de campanha",
-   "o_que_sustenta": "propaganda gratuita e gasto parcial nao coletados em formato legivel por maquina; nao executa",
-   "situacao": "nao testavel",
+   "o_que_sustenta": "propaganda gratuita e gasto parcial não foram coletados em formato legível por máquina; não executa",
+   "situacao": "não testável",
    "tamanho": "n/e"
   },
   {
    "confianca": "baixa",
    "evidencia": "fraca",
    "hipotese": "H11",
-   "nome": "O candidato (por que Flavio e nao 'a direita')",
-   "o_que_sustenta": "Caiado, Zema e Ratinho rendiam bem menos que Flavio nos cenarios; Tarcisio rendia perto ou um pouco mais ate o fim de 2025 e menos que Flavio em 2026 (primeiro trimestre); Michelle Bolsonaro nao esta nos dados",
+   "nome": "O candidato (por que Flávio e não \"a direita\")",
+   "o_que_sustenta": "Caiado, Zema e Ratinho Júnior rendiam bem menos que Flávio nos cenários; Tarcísio rendia perto ou um pouco mais até o fim de 2025 e menos que Flávio no primeiro trimestre de 2026; Michelle Bolsonaro não está nos dados",
    "situacao": "consistente em parte",
    "tamanho": "n/e"
   },
@@ -2661,29 +2677,97 @@
    "evidencia": "forte (conta exata)",
    "hipotese": "H12",
    "nome": "Comparecimento",
-   "o_que_sustenta": "o termo de comparecimento responde por -3.8% do ganho de votos do candidato do PL e por -1.1% da perda do PT; a troca liquida de voto, por 93% e 122%",
+   "o_que_sustenta": "o termo de comparecimento é pequeno e de sinal contrário: -3,8% do ganho de votos do candidato do PL e -1,1% da perda do PT; a troca líquida de voto responde por 93% e 122% (o segundo passa de 100% porque os outros termos têm sinal contrário)",
    "situacao": "inconsistente",
    "tamanho": "n/e"
   },
   {
    "confianca": "baixa",
-   "evidencia": "fraca (o placebo repete o padrao)",
+   "evidencia": "fraca (o placebo repete o padrão)",
    "hipotese": "H13",
-   "nome": "Renovacao do eleitorado",
-   "o_que_sustenta": "municipios cujo eleitorado envelheceu mais tiveram virada menor (-0.68 ponto por desvio-padrao); o placebo de 2018-2022 mostra o mesmo sinal (-1.19), e sem efeito fixo de UF o sinal some",
+   "nome": "Renovação do eleitorado",
+   "o_que_sustenta": "municípios cujo eleitorado envelheceu mais tiveram virada menor (-0,68 ponto por desvio-padrão); o placebo de 2018-2022 mostra o mesmo sinal (-1,19), e sem efeito fixo de UF o sinal some",
    "situacao": "inconsistente (envelhecimento)",
    "tamanho": "n/e"
   },
   {
    "confianca": "baixa",
-   "evidencia": "nao testavel",
+   "evidencia": "não testável",
    "hipotese": "H14",
    "nome": "Redes sociais",
-   "o_que_sustenta": "redes sociais: sem dado publico confiavel; nao testavel",
-   "situacao": "nao testavel",
+   "o_que_sustenta": "redes sociais: sem dado público confiável; não testável",
+   "situacao": "não testável",
    "tamanho": "n/e"
   }
  ],
+ "revisao": {
+  "V17_sem_um_instituto": {
+   "mediana_max": -5.286855482933909,
+   "mediana_min": -5.5082061333175005,
+   "n": 6,
+   "sinal_mantido_em_todos": true
+  },
+  "V19_sem_um_instituto": {
+   "mediana_max": 1.766840651313515,
+   "mediana_min": 0.7110058971761113,
+   "n": 9,
+   "sinal_mantido_em_todos": true
+  },
+  "campanha_por_instituto": {
+   "institutos": 7,
+   "institutos_com_movimento_positivo": 6,
+   "movimento_maximo": 8.676759181384924,
+   "movimento_minimo": -0.9620826259196349
+  },
+  "campanha_sem_correcao_de_instituto": {
+   "28_set": -1.7709119756351868,
+   "3_ago": -8.362094356268937,
+   "movimento": 6.59118238063375
+  },
+  "controle_pelo_voto_de_jair_2022": {
+   "idade_com_jair22": {
+    "coef": -0.6601835450480199,
+    "n": 5567,
+    "p": 0.0034994345478583278,
+    "se": 0.22608419305577998
+   },
+   "idade_sem_controle": {
+    "coef": -0.684261969716982,
+    "n": 5567,
+    "p": 0.004708449534417787,
+    "se": 0.24210250911548836
+   },
+   "religiao_com_jair22": {
+    "coef": -1.0069285934807626,
+    "n": 5567,
+    "p": 0.023563225951063044,
+    "se": 0.44472166259112683
+   },
+   "religiao_sem_controle": {
+    "coef": -1.207504746631085,
+    "n": 5567,
+    "p": 0.0026883541605217877,
+    "se": 0.40232812797449347
+   }
+  },
+  "erro_2026_sem_um_instituto": {
+   "media_max": -4.280915743831535,
+   "media_min": -5.370700598572106,
+   "mediana_max": -4.089668835642261,
+   "mediana_min": -5.14205959290604
+  },
+  "fracao_pl_so_5_institutos_conhecidos": {
+   "fracao_media": 1.2797527035864142,
+   "fracao_minima": 0.876577069762483,
+   "institutos": [
+    "Datafolha",
+    "MDA",
+    "PoderData",
+    "Quaest",
+    "Real Time"
+   ]
+  }
+ },
  "sintese": {
   "pesquisas_e_urna": {
    "diferenca_entre_urna_e_pesquisa": 2.783834288346535,
@@ -2745,6 +2829,20 @@
      "virada_nas_pesquisas": 7.483758120939534
     }
    }
+  }
+ },
+ "val": {
+  "independente": {
+   "falham": [],
+   "numeros": 13,
+   "passam": 13
+  },
+  "oficial_2026": {
+   "abstencao_publicada_pct": 21.08,
+   "margem_dos_percentuais_publicados": 1.87,
+   "pct_flavio": 47.03,
+   "pct_lula": 45.16,
+   "validos": 119300788
   }
  }
 }

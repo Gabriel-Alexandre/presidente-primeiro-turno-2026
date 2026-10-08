@@ -60,3 +60,22 @@ As quatro do projeto de checagem (nada de contar mentira de ninguém, nada de re
 | inferência ecológica errando o total | restrições e conferência contra o oficial em cada ajuste |
 | o TSE devolve 429 | um coletor só, com limitador adaptativo |
 | o vídeo vira peça de campanha | teste do recorte em cada frase |
+
+## 9. O que foi executado (07/out/2026)
+
+| Parte | Estado | Observação |
+|---|---|---|
+| A1, A2, A3 | ✅ | resultado, onde está a virada, troca de voto contra comparecimento |
+| A4 | ✅ | regressão ecológica com restrições; só os fluxos estáveis entram nas conclusões |
+| A5, A6 | ⛔ | condição do §10 do pré-registro falsa (renda por setor não publicada; tabelas por grupo não coletadas) |
+| B1 a B4 | ✅ | B4 só em 3 institutos |
+| B5 | ⛔ | rejeição não coletada |
+| H1, H11, H12 | ✅ | |
+| H2 | ⛔ | avaliação do governo sem 8 medições por instituto |
+| H3 | 🟡 | descritivo nacional e por UF; por município, não (Bolsa Família de 2022) |
+| H4 | 🟡 | 13 episódios com data confirmada; 3 grupos testados; eventos de 2025 não testados |
+| H5, H10 | ⛔ | condições falsas |
+| H6 | ✅ | pela aritmética pesquisa-urna (emenda 4) |
+| H7, H8, H9, H13 | ✅ | com placebo, correção de Benjamini-Hochberg onde cabe |
+| H14 | ⛔ | não testável |
+| Veredito | ✅ | `docs/LEITURA_DA_IA.md`, com revisão adversarial; **sem** as cinco leituras |

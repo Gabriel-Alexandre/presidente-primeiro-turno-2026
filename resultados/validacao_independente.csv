@@ -1,0 +1,14 @@
+numero,recontagem_independente,resultados_resumo,diferenca,tolerancia,passa,unidade
+"margem de 2026 (Flavio menos Lula, pontos dos validos), arquivo oficial nacional",1.8650044457376092,1.8649747310816385,2.971465597068068e-05,0.02,True,pontos
+"margem de 2022 (Jair menos Lula), arquivo oficial por municipio",-5.233167305421745,-5.233167305421745,0.0,0.02,True,pontos
+virada 2022 para 2026,7.098171751159354,7.098142036503383,2.9714655971346815e-05,0.03,True,pontos
+ganho do candidato do PL (pontos),3.8302198019267166,3.8282302861382362,0.0019895157884803893,0.02,True,pontos
+perda de Lula (pontos),3.267951949232639,3.2699117503651465,-0.001959801132507266,0.02,True,pontos
+votos a mais do candidato do PL,5032158.0,5030401.0,1757.0,5000.0,True,votos
+votos a menos de Lula,-3379966.0,-3381712.0,1746.0,5000.0,True,votos
+outros candidatos na urna de 2026 (% dos validos),7.809459732990192,7.813409049911179,-0.0039493169209876555,0.02,True,pontos
+contribuicao do Sudeste (% da virada),37.868029900681265,37.87,-0.001970099318732821,0.5,True,% da virada
+contribuicao do Nordeste (% da virada),23.471333219334685,23.47,0.0013332193346862198,0.5,True,% da virada
+correlacao municipal Jair 2022 x Flavio 2026,0.9842834951979273,0.9842839972021495,-5.020042221914878e-07,0.005,True,correlacao
+"Datafolha de 3/out, Lula (wikitext x HTML)",42.0,42.0,0.0,0.0,True,pontos
+"Datafolha de 3/out, Flavio (wikitext x HTML)",40.0,40.0,0.0,0.0,True,pontos

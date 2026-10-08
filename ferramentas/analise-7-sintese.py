@@ -84,19 +84,18 @@ def main() -> None:
     registrar("h4.tamanhos_mediana_de_todos_os_testados", tam)
     # --- condicoes de nao execucao (pre-registro, secao 10)
     cond = {
-        "A5": "renda por setor censitario nao publicada pelo IBGE na pasta de agregados por setor (lista de 20/mai/2026: sem arquivo de rendimento); nao executa",
-        "A6": "nao foram coletadas tabelas por grupo de pelo menos 2 institutos nos dois anos; nao executa",
-        "B5": "nao foram coletadas 5 medicoes de rejeicao do mesmo instituto em 2026; nao executa",
-        "H5": "nao foram coletadas 5 medicoes do 'principal problema' do mesmo instituto em 2026; nao executa",
-        "H10": "propaganda gratuita e gasto parcial nao coletados em formato legivel por maquina; nao executa",
-        "H2": "a unica serie estruturada de avaliacao do governo (Wikipedia) termina em nov/2025 e tem no maximo 6 medicoes por instituto; abaixo das 8 exigidas; nao executa. A comparacao dos cinco presidentes tambem nao foi montada",
-        "H3_municipal": "Bolsa Familia de agosto de 2022 por municipio nao esta nas URLs publicas de download; so a parte por UF (PNAD) e a descritiva nacional foram feitas",
-        "eventos_2025": "V01 a V04 (e os demais de 2025) sem teste: depende da serie de avaliacao do governo (H2)",
-        "H14": "redes sociais: sem dado publico confiavel; nao testavel",
+        "A5": "a renda por setor censitário não está publicada pelo IBGE na pasta de agregados por setor (lista de 20/mai/2026, sem arquivo de rendimento); não executa",
+        "A6": "não foram coletadas tabelas por grupo de pelo menos 2 institutos nos dois anos; não executa",
+        "B5": "não foram coletadas 5 medições de rejeição do mesmo instituto em 2026; não executa",
+        "H5": "não foram coletadas 5 medições do \"principal problema\" do mesmo instituto em 2026; não executa",
+        "H10": "propaganda gratuita e gasto parcial não foram coletados em formato legível por máquina; não executa",
+        "H2": "a única série estruturada de avaliação do governo (Wikipédia) termina em nov/2025 e tem no máximo 6 medições por instituto, abaixo das 8 exigidas; não executa. A comparação dos cinco presidentes também não foi montada",
+        "H3 por município": "o Bolsa Família de agosto de 2022 por município não está nas URLs públicas de download; só a parte por UF (PNAD) e o quadro descritivo nacional foram feitos",
+        "Episódios de 2025": "V01 a V04 ficam sem teste: dependem da série de avaliação do governo (H2)",
+        "H14": "redes sociais: sem dado público confiável; não testável",
     }
     registrar("condicoes_nao_executadas", cond)
     # --- o placar
-    hc = lambda k: R[k]
     ev = R["h4"]["grupos"]
     v17 = next(x for x in ev if x["ids"] == "V17")
     v19 = next(x for x in ev if x["ids"] == "V19")
@@ -106,34 +105,36 @@ def main() -> None:
     h7 = R["h7"]["resultados"]["direita_vs_nao_direita_h5"]
     h9 = R["h9"]["resultados"]["2026"]
     h3 = R["h3"]["por_uf"]
-    bh = R["bh"]["passa_a_5pct"]
     corr = R["h1"]["correlacoes_municipais_ponderadas"]
     ret = R["a4"]["fluxo"]["jair22_para_flavio26"]
+    mac = R["h3"]["nacional_descritivo"]
+    vg = lambda x, n=1: f"{x:.{n}f}".replace(".", ",")
+    sv = lambda x, n=1: f"{x:+.{n}f}".replace(".", ",")
     linhas = [
-        ("H1", "Heranca e identidade (a base)", "consistente", "n/a (explica o piso, nao a virada)", "forte para a base",
-         "alta", f"correlacao municipal ponderada entre o voto em Jair (2022) e em Flavio (2026) de {corr['jair22_flavio26']:.2f}; retencao de {100*ret['B_amplo']:.0f}% dos eleitores de Jair em Flavio (intervalo regional {100*ret['min_regioes']:.0f} a {100*ret['max_regioes']:.0f}%)"),
-        ("H2", "Referendo sobre o governo", "nao testavel", "n/e", "nao testavel", "baixa", cond["H2"]),
-        ("H3", "Economia", "inconsistente (descritivo)", "n/e", "fraca",
-         "baixa", f"indicadores nacionais melhoraram entre 2022 e 2026 (desocupacao {R['h3']['nacional_descritivo']['desocupacao_trimestral']['t2_2022']}% para {R['h3']['nacional_descritivo']['desocupacao_trimestral']['t2_2026']}%, renda real {R['h3']['nacional_descritivo']['rendimento_real_reais']['variacao_pct']:+.1f}%) enquanto o PT caiu; entre as 27 UFs, a virada foi maior onde a desocupacao caiu menos (coeficiente {h3['d_desocupacao_pontos']['coef']:.2f} ponto por ponto, p = {h3['d_desocupacao_pontos']['p']:.3f}), sem repetir no placebo"),
-        ("H4", "Episodios e eventos dos dois lados", "consistente em parte", f"mensagens Flavio-Vorcaro: {v17['mediana_delta']:.1f} ponto de margem (contra Flavio); Lulinha: {v19['mediana_delta']:+.1f} (mediana de todos os institutos)", "forte pela regra literal; depende do limiar (Lulinha)",
-         "media", f"V17 coincide com movimento no sentido esperado ({v17['institutos_acima_do_normal']:.0f} de {v17['institutos_testados']} institutos acima do normal); V19 coincide ({v19['institutos_acima_do_normal']:.0f} de {v19['institutos_testados']}, {v19['institutos_acima_limiar_amostral']:.0f} pelo limiar amostral); o bloco de setembro move a margem mas mistura alvos dos dois lados e tem so {sep['institutos_testados']} institutos"),
-        ("H5", "Pauta", "nao testavel", "n/e", "nao testavel", "baixa", cond["H5"]),
-        ("H6", "Consolidacao e voto util da direita", "consistente", f"{s['margem_media_das_pesquisas_semanais']['movimento_na_campanha']:+.1f} ponto de margem na media das pesquisas entre 3/ago e 28/set; {-s['erro_margem_2026_mediano']:.1f} da ultima pesquisa a urna (mediana), parecido com 2022 ({-s['erro_margem_2022_mediano']:.1f})", "forte (movimento na serie e aritmetica pesquisa-urna em varios institutos)",
-         "media", f"os outros candidatos cairam {h6['2026']['queda_dos_outros_media']:.1f} pontos da ultima pesquisa a urna e o candidato do PL ficou com {100*h6['2026']['fracao_media_que_ficou_com_o_candidato_do_pl']:.0f}% da queda (mediana {100*h6['2026']['fracao_mediana']:.0f}%); em {h6['2026']['institutos_em_que_o_pl_ficou_com_mais_de_metade']} de {h6['2026']['institutos']} institutos ficou com mais de metade e o PT em {h6['2026']['institutos_em_que_o_pt_ficou_com_mais_de_metade']}. Em 2022 os outros tambem cairam ({h6['2022']['queda_dos_outros_media']:.1f} pontos) e o candidato do PL ficou com mais de metade em {h6['2022']['institutos_em_que_o_pl_ficou_com_mais_de_metade']} de {h6['2022']['institutos']} institutos: o encolhimento dos outros na reta final nao e novidade de 2026, o que muda e a concentracao no mesmo lado"),
-        ("H7", "Maquina local (prefeitos de 2024)", "inconsistente", "n/e", "desenho causal sem efeito detectado", "media",
-         f"descontinuidade em {h7['V']['n']} municipios: efeito de {h7['V']['efeito']:+.2f} ponto (erro padrao {h7['V']['se']:.2f}, p = {h7['V']['p']:.2f}), dentro do que o placebo de 2018-2022 mostra ({h7['placebo_V0']['efeito']:+.2f})"),
-        ("H8", "Religiao e valores", "inconsistente", "n/e", "fraca", "media",
-         f"a virada foi MENOR onde ha mais evangelicos ({h8['principal']['coef']:+.2f} ponto por desvio-padrao de {R['h8']['dp_pct_evangelicos_pontos']:.1f} pontos, p = {h8['principal']['p']:.3f}); no placebo de 2018-2022 o sinal foi o oposto ({h8['placebo_2018_2022']['coef']:+.2f}); leitura compativel com teto (onde Jair ja tinha muito, sobrou menos para subir)"),
+        ("H1", "Herança e identidade (a base)", "consistente", "n/a (explica o piso, não a virada)", "forte para a base", "alta",
+         f"correlação municipal ponderada entre o voto em Jair (2022) e em Flávio (2026) de {vg(corr['jair22_flavio26'], 2)}; retenção de {vg(100 * ret['B_amplo'], 0)}% dos eleitores de Jair em Flávio (intervalo entre as regiões: {vg(100 * ret['min_regioes'], 0)}% a {vg(100 * ret['max_regioes'], 0)}%)"),
+        ("H2", "Referendo sobre o governo", "não testável", "n/e", "não testável", "baixa", cond["H2"]),
+        ("H3", "Economia", "inconsistente (descritivo)", "n/e", "fraca", "baixa",
+         f"indicadores nacionais melhoraram entre 2022 e 2026 (desocupação de {vg(mac['desocupacao_trimestral']['t2_2022'])}% para {vg(mac['desocupacao_trimestral']['t2_2026'])}%, renda real {sv(mac['rendimento_real_reais']['variacao_pct'])}%) enquanto o PT caiu; entre as 27 UFs, a virada foi maior onde a desocupação caiu menos (coeficiente {vg(h3['d_desocupacao_pontos']['coef'], 2)} ponto por ponto percentual, p = {vg(h3['d_desocupacao_pontos']['p'], 3)}), sem repetir no placebo"),
+        ("H4", "Episódios e eventos dos dois lados", "consistente em parte", f"mensagens Flávio-Vorcaro: {sv(v17['mediana_delta'])} ponto de margem (contra Flávio); Lulinha: {sv(v19['mediana_delta'])} (mediana de todos os institutos)", "forte pela regra literal; depende do limiar (Lulinha)", "média",
+         f"o episódio das mensagens coincide com movimento no sentido esperado ({v17['institutos_acima_do_normal']:.0f} de {v17['institutos_testados']} institutos acima do normal); o da investigação de Lulinha coincide ({v19['institutos_acima_do_normal']:.0f} de {v19['institutos_testados']}, e {v19['institutos_acima_limiar_amostral']:.0f} pelo limiar amostral); o bloco de setembro move a margem, mas mistura alvos dos dois lados e tem só {sep['institutos_testados']} institutos"),
+        ("H5", "Pauta", "não testável", "n/e", "não testável", "baixa", cond["H5"]),
+        ("H6", "Consolidação e voto útil da direita", "consistente", f"{sv(s['margem_media_das_pesquisas_semanais']['movimento_na_campanha'])} ponto de margem na média das pesquisas entre 3/ago e 28/set; {vg(-s['erro_margem_2026_mediano'])} da última pesquisa à urna (mediana), parecido com 2022 ({vg(-s['erro_margem_2022_mediano'])})", "forte (movimento na série e aritmética pesquisa-urna em vários institutos)", "média",
+         f"os outros candidatos caíram {vg(h6['2026']['queda_dos_outros_media'])} pontos da última pesquisa à urna e o candidato do PL ficou com {vg(100 * h6['2026']['fracao_media_que_ficou_com_o_candidato_do_pl'], 0)}% da queda (mediana {vg(100 * h6['2026']['fracao_mediana'], 0)}%); em {h6['2026']['institutos_em_que_o_pl_ficou_com_mais_de_metade']} de {h6['2026']['institutos']} institutos ficou com mais da metade, e o PT em {h6['2026']['institutos_em_que_o_pt_ficou_com_mais_de_metade']}. Em 2022 os outros também caíram ({vg(h6['2022']['queda_dos_outros_media'])} pontos) e o candidato do PL ficou com mais da metade em {h6['2022']['institutos_em_que_o_pl_ficou_com_mais_de_metade']} de {h6['2022']['institutos']} institutos: o encolhimento dos outros na reta final não é novidade de 2026; o que muda é a concentração no mesmo lado"),
+        ("H7", "Máquina local (prefeitos de 2024)", "inconsistente", "n/e", "desenho causal sem efeito detectado", "média",
+         f"descontinuidade em {h7['V']['n']} municípios: efeito de {sv(h7['V']['efeito'], 2)} ponto (erro padrão {vg(h7['V']['se'], 2)}, p = {vg(h7['V']['p'], 2)}), dentro do que o placebo de 2018-2022 mostra ({sv(h7['placebo_V0']['efeito'], 2)})"),
+        ("H8", "Religião e valores", "inconsistente", "n/e", "fraca", "média",
+         f"a virada foi MENOR onde há mais evangélicos ({sv(h8['principal']['coef'], 2)} ponto por desvio-padrão de {vg(R['h8']['dp_pct_evangelicos_pontos'])} pontos, p = {vg(h8['principal']['p'], 3)}); no placebo de 2018-2022 o sinal foi o oposto ({sv(h8['placebo_2018_2022']['coef'], 2)}); o sinal permanece ao controlar pelo voto de Jair em 2022 ({sv(R['revisao']['controle_pelo_voto_de_jair_2022']['religiao_com_jair22']['coef'], 2)}, p = {vg(R['revisao']['controle_pelo_voto_de_jair_2022']['religiao_com_jair22']['p'], 3)}), então não se explica só por efeito teto"),
         ("H9", "Governadores aliados", "inconsistente", "n/e", "fraca", "baixa",
-         f"virada media de {h9['virada_media_bolsonaristas']:.1f} ponto nas {len(h9['ufs_bolsonaristas'])} UFs com governador apoiador de Flavio e de {h9['virada_media_lula']:.1f} nas {len(h9['ufs_lula'])} com governador apoiador de Lula (diferenca {h9['diferenca']:+.1f}; p de permutacao = {h9['p_permutacao']:.2f})"),
-        ("H10", "Estrutura de campanha", "nao testavel", "n/e", "nao testavel", "baixa", cond["H10"]),
-        ("H11", "O candidato (por que Flavio e nao 'a direita')", "consistente em parte", "n/e", "fraca", "baixa",
-         "Caiado, Zema e Ratinho rendiam bem menos que Flavio nos cenarios; Tarcisio rendia perto ou um pouco mais ate o fim de 2025 e menos que Flavio em 2026 (primeiro trimestre); Michelle Bolsonaro nao esta nos dados"),
+         f"virada média de {vg(h9['virada_media_bolsonaristas'])} ponto nas {len(h9['ufs_bolsonaristas'])} UFs com governador apoiador de Flávio e de {vg(h9['virada_media_lula'])} nas {len(h9['ufs_lula'])} com governador apoiador de Lula (diferença {sv(h9['diferenca'])}; p de permutação = {vg(h9['p_permutacao'], 2)})"),
+        ("H10", "Estrutura de campanha", "não testável", "n/e", "não testável", "baixa", cond["H10"]),
+        ("H11", "O candidato (por que Flávio e não \"a direita\")", "consistente em parte", "n/e", "fraca", "baixa",
+         "Caiado, Zema e Ratinho Júnior rendiam bem menos que Flávio nos cenários; Tarcísio rendia perto ou um pouco mais até o fim de 2025 e menos que Flávio no primeiro trimestre de 2026; Michelle Bolsonaro não está nos dados"),
         ("H12", "Comparecimento", "inconsistente", "n/e", "forte (conta exata)", "alta",
-         f"o termo de comparecimento responde por {R['a3']['pl']['pct_comparecimento']['a']:.1f}% do ganho de votos do candidato do PL e por {R['a3']['pt']['pct_comparecimento']['a']:.1f}% da perda do PT; a troca liquida de voto, por {R['a3']['pl']['pct_parcela']['a']:.0f}% e {R['a3']['pt']['pct_parcela']['a']:.0f}%"),
-        ("H13", "Renovacao do eleitorado", "inconsistente (envelhecimento)", "n/e", "fraca (o placebo repete o padrao)", "baixa",
-         f"municipios cujo eleitorado envelheceu mais tiveram virada menor ({h13['60_mais_por_dp']['principal']['coef']:+.2f} ponto por desvio-padrao); o placebo de 2018-2022 mostra o mesmo sinal ({h13['60_mais_por_dp']['placebo_2018_2022']['coef']:+.2f}), e sem efeito fixo de UF o sinal some"),
-        ("H14", "Redes sociais", "nao testavel", "n/e", "nao testavel", "baixa", cond["H14"]),
+         f"o termo de comparecimento é pequeno e de sinal contrário: {vg(R['a3']['pl']['pct_comparecimento']['a'])}% do ganho de votos do candidato do PL e {vg(R['a3']['pt']['pct_comparecimento']['a'])}% da perda do PT; a troca líquida de voto responde por {vg(R['a3']['pl']['pct_parcela']['a'], 0)}% e {vg(R['a3']['pt']['pct_parcela']['a'], 0)}% (o segundo passa de 100% porque os outros termos têm sinal contrário)"),
+        ("H13", "Renovação do eleitorado", "inconsistente (envelhecimento)", "n/e", "fraca (o placebo repete o padrão)", "baixa",
+         f"municípios cujo eleitorado envelheceu mais tiveram virada menor ({sv(h13['60_mais_por_dp']['principal']['coef'], 2)} ponto por desvio-padrão); o placebo de 2018-2022 mostra o mesmo sinal ({sv(h13['60_mais_por_dp']['placebo_2018_2022']['coef'], 2)}), e sem efeito fixo de UF o sinal some"),
+        ("H14", "Redes sociais", "não testável", "n/e", "não testável", "baixa", cond["H14"]),
     ]
     p = pd.DataFrame(linhas, columns=["hipotese", "nome", "situacao", "tamanho", "evidencia", "confianca", "o_que_sustenta"])
     tabela("placar", p)
