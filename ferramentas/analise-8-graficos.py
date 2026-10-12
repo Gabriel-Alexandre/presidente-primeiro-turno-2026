@@ -17,7 +17,7 @@ import numpy as np  # noqa: E402
 import pandas as pd  # noqa: E402
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from presidente.comum import CONGRESSO, DER, FIG_VIDEO, RES  # noqa: E402
+from presidente.comum import caber_na_figura, descolar_da_fonte, CONGRESSO, DER, FIG_VIDEO, RES  # noqa: E402
 
 AZUL, LARANJA, CINZA, ESCURO, CLARO = "#1f5fa8", "#d9730d", "#8a8f98", "#1b1f24", "#eef0f3"
 plt.rcParams.update({"font.family": "DejaVu Sans", "axes.spines.top": False, "axes.spines.right": False, "axes.edgecolor": "#555", "axes.labelcolor": ESCURO,
@@ -45,6 +45,8 @@ def fig(titulo: str, sub: str = "", fonte: str = ""):
 
 def salvar(f, nome: str) -> None:
     FIG_VIDEO.mkdir(parents=True, exist_ok=True)
+    caber_na_figura(f)
+    descolar_da_fonte(f)
     f.savefig(FIG_VIDEO / f"{nome}.png", dpi=100)
     plt.close(f)
     print("ok", nome, flush=True)

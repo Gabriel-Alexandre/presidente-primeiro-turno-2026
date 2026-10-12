@@ -67,3 +67,38 @@ def derivado_apuracao(uf: str, ano: int | None = None, turno: int = 1) -> tuple[
     if ano is None:
         return base / "uf" / f"{uf}-votos.parquet", base / "uf" / f"{uf}-secoes.parquet"
     return base / "historico" / f"{ano}-{turno}-{uf}-votos.parquet", base / "historico" / f"{ano}-{turno}-{uf}-secoes.parquet"
+
+
+def caber_na_figura(f, folga: float = 0.03) -> None:
+    """Empurra os eixos pra dentro até nenhum rótulo sair da figura pela esquerda (o rótulo do eixo y cortado).
+    Só mexe quando precisa: o intervalo horizontal ocupado pelos eixos é comprimido pra a direita, mantendo a borda direita."""
+    f.canvas.draw()
+    r = f.canvas.get_renderer()
+    larg = f.bbox.width
+    x0 = min(ax.get_tightbbox(r).x0 for ax in f.axes)
+    if x0 >= folga * larg:
+        return
+    desloca = (folga * larg - x0) / larg
+    pos = [ax.get_position() for ax in f.axes]
+    esq, dir_ = min(p.x0 for p in pos), max(p.x1 for p in pos)
+    k = (dir_ - esq - desloca) / (dir_ - esq)
+    for ax, p in zip(f.axes, pos):
+        ax.set_position([esq + desloca + (p.x0 - esq) * k, p.y0, p.width * k, p.height])
+    f.canvas.draw()
+
+
+def descolar_da_fonte(f, folga_px: float = 12) -> None:
+    """Sobe os eixos até o rótulo de baixo (eixo x) não encostar no texto da fonte no rodapé da figura."""
+    f.canvas.draw()
+    r = f.canvas.get_renderer()
+    rodape = [t for t in f.texts if t.get_position()[1] < 0.1 and t.get_text()]
+    if not rodape:
+        return
+    topo_fonte = max(t.get_window_extent(r).y1 for t in rodape)
+    y0 = min(ax.get_tightbbox(r).y0 for ax in f.axes)
+    if y0 >= topo_fonte + folga_px:
+        return
+    sobe = (topo_fonte + folga_px - y0) / f.bbox.height
+    for ax in f.axes:
+        p = ax.get_position()
+        ax.set_position([p.x0, p.y0 + sobe, p.width, p.height - sobe])
