@@ -38,6 +38,8 @@ def main() -> None:
         return int(x.get(True, 0)), int(x.get(False, 0))
     sim = {a: lin(a) for a in ("lula_governo", "flavio_oposicao", "ambos")}
     rv = R["revisao"]
+    e6 = pd.read_csv(RES / "b6_erro_por_instituto_e_rodada.csv")
+    DF = list(e6[e6.instituto == "Datafolha"].erro) + [x for r in R["b6"]["contexto_2014"].values() for k, x in r["por_instituto"].items() if k == "Datafolha"]
     ctl = rv["controle_pelo_voto_de_jair_2022"]
     P = R["sintese"]["pesquisas_e_urna"]
     pv = P["virada_vista_nas_pesquisas_por_resumo"]
@@ -83,6 +85,16 @@ O que mudou no texto por causa da revisão está marcado com **→**.
 3. **Teste do recorte:** nenhuma frase isolada serve de material de campanha de um lado só; as três que poderiam (as mensagens de Flávio com Vorcaro, a investigação de Lulinha e o erro das pesquisas) vêm sempre ao lado da sua contraparte.
 4. **Previsão do 2º turno:** nenhuma.
 
+## Passada 4 (11/out/2026): o retorno do autor, e o que ele derrubou
+
+O autor leu o roteiro do vídeo e questionou três coisas: se as pesquisas tinham sido cruzadas com as eleições anteriores, instituto por instituto; se a economia descrita batia com a vida real; e se o caso de Nossa Senhora Aparecida era notícia falsa. As três perguntas acharam defeito.
+
+1. **O 2018 da série de pesquisas estava errado.** O código lia, no Pindograma, a coluna com o resultado da urna (`pct`) no lugar da coluna da pesquisa (`valid_result`); por isso 2018 aparecia com erro "perto de zero" e "sem direção". **→ Corrigido em `analise-3`; 2018 passa a ter o voto de Jair subestimado em {R['b2']['2018']['institutos_com_pl_subestimado']} de {R['b2']['2018']['institutos']} institutos.** A versão de 07/out do roteiro dizia "em 2018 o erro ficou perto de zero", e a frase saiu.
+2. **Três pesquisas da véspera de 2026 tinham saído da conta por defeito de coleta, não de fonte.** AtlasIntel e Futura publicam o número em PDF; a página da Palver foi salva comprimida e o verificador não descomprimia. As três foram conferidas na fonte original em 11/out e entraram (`dados/CAPTURAS_INSTITUTOS.csv`); a Futura entrou com o número do PDF, diferente da tabela da Wikipédia. Com elas, os institutos verificados de 2026 vão de 7 para {R['b2']['2026']['institutos']}, e a frase "os 7 institutos subestimaram o candidato do PL" vira "os {R['b2']['2026']['institutos']} deram a ele menos voto do que a urna; na diferença, 8 de 10 mostraram o PL pior" (Futura e Palver mostravam Flávio na frente).
+3. **"7 de 7" do Datafolha inclui erros pequenos.** Das 7 rodadas desde 2014, em {sum(1 for x in DF if abs(x) <= 2)} o erro na diferença foi de até 2 pontos (dentro do que a margem de erro explica) e em {sum(1 for x in DF if abs(x) > 2)} passou disso. **→ O relatório e o roteiro dizem "às vezes por pouco, às vezes por quase dez pontos".** As rodadas também não são independentes (um mesmo choque de eleição pesa em todos os institutos), então o padrão não vira probabilidade.
+4. **A economia de 07/out estava incompleta.** O texto dizia que "os indicadores melhoraram", o que é verdade para o emprego e para a inflação em 12 meses, mas deixava de fora o preço acumulado, a dívida das famílias, as empresas em recuperação judicial e a sensação das pessoas. **→ Emenda 10 e seção 7A do relatório, com 16 trechos conferidos no texto original de fontes que não são do governo (DIEESE, Serasa, Genial/Quaest) além do IBGE e do Banco Central.** A H3 passou de "inconsistente" para "consistente em parte (descritivo)". Teste do outro lado: o autor disse que "tudo ficou pelo menos três vezes mais caro"; na média os índices não mostram isso (a comida em casa subiu {R['e14']['precos']['Alimentação no domicílio']['desde_jan20']:.0f}% desde 2020); para o café, mostram ({R['e14']['precos']['Café moído']['desde_jan20']:.0f}% desde 2020). O relatório diz as duas coisas.
+5. **Nossa Senhora Aparecida.** O episódio V23 estava descrito como "reportagem da GloboNews e reação de Flávio e da CNBB", sem dizer que a afirmação era falsa. **→ O relatório diz que o TSE manteve fora do ar os posts que ligavam Flávio a ela (30/09).**
+
 ## O que a revisão não resolveu
 
 - A regra "evidência forte" para H4 e H6 vale para movimento da série no momento certo em dois ou mais institutos; **o placar não consegue dizer que o movimento foi causado pelo evento**, e o veredito não diz.
@@ -104,6 +116,10 @@ O que mudou no texto por causa da revisão está marcado com **→**.
 | 8 | quatro afirmações do veredito sem lastro (recuperação do episódio das mensagens, dois terços na urna, tamanhos parecidos dos episódios, efeito teto) | leitura crítica e passadas 1 e 2 | corrigidas ou removidas |
 | 9 | datas: o fim das sanções Magnitsky foi em 12/12/2025 (a lista dizia 2026); a Record anunciou o cancelamento do debate em 23/09 | confirmação por duas reportagens | datas corrigidas |
 | 10 | o analisador da tabela de pesquisas tratava a coluna "Others" como candidato | contagem de colunas | filtro por título do link |
+| 11 | 2018: a série lia o resultado da urna no lugar do da pesquisa | pergunta do autor sobre 2018, 11/out | coluna certa; passada 4 |
+| 12 | três pesquisas da véspera de 2026 fora da conta por PDF e página comprimida | pergunta do autor sobre o cruzamento das pesquisas, 11/out | conferidas na fonte original; passada 4 |
+| 13 | a economia descrita só pelo emprego e pela inflação em 12 meses | retorno do autor, 10/out | emenda 10, seção 7A |
+| 14 | V23 descrito sem dizer que a afirmação era falsa | retorno do autor, 10/out | nota no relatório |
 """
     (RAIZ / "docs" / "REVISAO_ADVERSARIAL.md").write_text(tx, encoding="utf-8")
     print("ok", len(tx.splitlines()), "linhas")

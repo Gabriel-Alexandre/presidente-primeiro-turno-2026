@@ -1496,7 +1496,7 @@
   "efeito_casa_pontos": {
    "AtlasIntel": -3.25,
    "Datafolha": -1.16,
-   "Futura": 4.24,
+   "Futura": 4.25,
    "Gerp": 6.86,
    "Ideia": -0.36,
    "Indexa": -2.38,
@@ -1536,32 +1536,32 @@
    "2026-09-07": -4.51,
    "2026-09-14": -2.82,
    "2026-09-21": -3.38,
-   "2026-09-28": -1.5
+   "2026-09-28": -1.49
   },
   "pesquisas_na_serie_dez2025_em_diante": 136,
   "primeira_semana": {
-   "margem": -26.22174757050946,
+   "margem": -26.220428773671525,
    "semana": "2025-12-01"
   },
   "primeira_semana_com_flavio_na_frente": null,
   "semanas_com_flavio_na_frente": 0,
   "ultima_semana": {
-   "margem": -1.5044708518320202,
+   "margem": -1.4937291846255847,
    "semana": "2026-09-28"
   }
  },
  "b2": {
   "2018": {
-   "erro_margem_mediano": 0.24000215455665241,
-   "erro_margem_medio": 0.3017879372351935,
-   "erro_pl_medio": 0.829627870837431,
-   "erro_pt_medio": 0.5278399336022375,
-   "fracao_pl_media": null,
-   "fracao_pl_mediana": null,
+   "erro_margem_mediano": -1.1968588353946465,
+   "erro_margem_medio": -2.5732290306309364,
+   "erro_pl_medio": -4.728521698799649,
+   "erro_pt_medio": -2.1552926681687126,
+   "fracao_pl_media": 0.9551523938782682,
+   "fracao_pl_mediana": 0.7092393228184073,
    "institutos": 10,
-   "institutos_com_pl_subestimado": 0,
-   "institutos_com_pt_subestimado": 0,
-   "queda_outros_media": 1.3574678044396742
+   "institutos_com_pl_subestimado": 8,
+   "institutos_com_pt_subestimado": 8,
+   "queda_outros_media": -6.883814366968359
   },
   "2022": {
    "erro_margem_mediano": -4.549441390230427,
@@ -1576,26 +1576,26 @@
    "queda_outros_media": -3.8871200049075303
   },
   "2026": {
-   "erro_margem_mediano": -4.163825305794276,
-   "erro_margem_medio": -4.74261567509033,
-   "erro_pl_medio": -4.460179186933644,
-   "erro_pt_medio": 0.2824364881566867,
-   "fracao_pl_media": 1.1623444248057557,
-   "fracao_pl_mediana": 1.000120116407711,
-   "institutos": 7,
-   "institutos_com_pl_subestimado": 7,
-   "institutos_com_pt_subestimado": 3,
-   "queda_outros_media": -4.1777426987769575
+   "erro_margem_mediano": -4.089668835642261,
+   "erro_margem_medio": -3.549323391887723,
+   "erro_pl_medio": -3.63986028302912,
+   "erro_pt_medio": -0.09053689114139658,
+   "fracao_pl_media": 1.1305831899014127,
+   "fracao_pl_mediana": 0.938348593085097,
+   "institutos": 10,
+   "institutos_com_pl_subestimado": 10,
+   "institutos_com_pt_subestimado": 5,
+   "queda_outros_media": -3.730397174170516
   },
-  "2026_apenas_fonte_dupla_ou_verificada": 7
+  "2026_apenas_fonte_dupla_ou_verificada": 10
  },
  "b3": {
   "ultimos_21_dias": {
    "AtlasIntel": {
     "dias": 16,
-    "margem_fim": -2.91750503018109,
+    "margem_fim": -2.8999999999999986,
     "margem_inicio": -2.4514811031665005,
-    "outros_fim": 8.953722334004027,
+    "outros_fim": 8.899999999999999,
     "outros_inicio": 12.35955056179776,
     "pesquisas": 4
    },
@@ -1609,9 +1609,9 @@
    },
    "Futura": {
     "dias": 18,
-    "margem_fim": 2.053388090349081,
+    "margem_fim": 2.1999999999999957,
     "margem_inicio": -0.6389776357827373,
-    "outros_fim": 14.784394250513351,
+    "outros_fim": 12.600000000000001,
     "outros_inicio": 19.06283280085198,
     "pesquisas": 4
    },
@@ -1634,10 +1634,249 @@
   }
  },
  "b4": {
-  "erro_medio": -3.7027140632000672,
-  "institutos": 3,
-  "parte_ultima_hora_media": 0.7490435687148501,
-  "residuo_medio": -4.451757631914917
+  "erro_medio": -2.233844397140853,
+  "institutos": 6,
+  "parte_ultima_hora_media": 0.23391560900677566,
+  "residuo_medio": -2.467760006147629
+ },
+ "b6": {
+  "contexto_2014": {
+   "2014-1": {
+    "erro_mediano": -11.02,
+    "erro_oposicao_mediano": -6.58,
+    "institutos": 5,
+    "mostraram_a_oposicao_mais_fraca": 5,
+    "por_instituto": {
+     "Datafolha": -9.94,
+     "Ibope": -10.14,
+     "MDA": -11.02,
+     "Sensus": -12.45,
+     "Vox Populi": -12.65
+    }
+   },
+   "2014-2": {
+    "erro_mediano": 5.3,
+    "erro_oposicao_mediano": 2.65,
+    "institutos": 6,
+    "mostraram_a_oposicao_mais_fraca": 2,
+    "por_instituto": {
+     "Datafolha": -1.16,
+     "Ibope": -3.24,
+     "MDA": 3.95,
+     "Sensus": 7.48,
+     "Veritá": 9.61,
+     "Vox Populi": 6.65
+    }
+   }
+  },
+  "institutos_com_3_rodadas_ou_mais": [
+   {
+    "chegou_perto": 3,
+    "direcao": "sem lado fixo",
+    "erro_absoluto_medio": 1.61,
+    "erro_medio": 1.61,
+    "instituto": "Futura",
+    "pior_erro": 2.44,
+    "pl_mais_forte": 3,
+    "pl_mais_fraco": 0,
+    "rodadas": 3,
+    "rodadas_lista": "2022-1, 2022-2, 2026-1"
+   },
+   {
+    "chegou_perto": 4,
+    "direcao": "sem lado fixo",
+    "erro_absoluto_medio": 3.06,
+    "erro_medio": -1.79,
+    "instituto": "MDA",
+    "pior_erro": -7.51,
+    "pl_mais_forte": 1,
+    "pl_mais_fraco": 4,
+    "rodadas": 5,
+    "rodadas_lista": "2018-1, 2018-2, 2022-1, 2022-2, 2026-1"
+   },
+   {
+    "chegou_perto": 3,
+    "direcao": "sempre mostrou o PL mais fraco",
+    "erro_absoluto_medio": 3.63,
+    "erro_medio": -3.63,
+    "instituto": "Datafolha",
+    "pior_erro": -9.5,
+    "pl_mais_forte": 0,
+    "pl_mais_fraco": 5,
+    "rodadas": 5,
+    "rodadas_lista": "2018-1, 2018-2, 2022-1, 2022-2, 2026-1"
+   },
+   {
+    "chegou_perto": 3,
+    "direcao": "sem lado fixo",
+    "erro_absoluto_medio": 3.78,
+    "erro_medio": 2.21,
+    "instituto": "Paraná Pesquisas",
+    "pior_erro": 11.02,
+    "pl_mais_forte": 2,
+    "pl_mais_fraco": 2,
+    "rodadas": 4,
+    "rodadas_lista": "2018-1, 2018-2, 2022-1, 2022-2"
+   },
+   {
+    "chegou_perto": 1,
+    "direcao": "sempre mostrou o PL mais fraco",
+    "erro_absoluto_medio": 3.83,
+    "erro_medio": -3.83,
+    "instituto": "Quaest",
+    "pior_erro": -5.77,
+    "pl_mais_forte": 0,
+    "pl_mais_fraco": 3,
+    "rodadas": 3,
+    "rodadas_lista": "2022-1, 2022-2, 2026-1"
+   },
+   {
+    "chegou_perto": 1,
+    "direcao": "sempre mostrou o PL mais fraco",
+    "erro_absoluto_medio": 3.98,
+    "erro_medio": -3.98,
+    "instituto": "Real Time Big Data",
+    "pior_erro": -6.12,
+    "pl_mais_forte": 0,
+    "pl_mais_fraco": 3,
+    "rodadas": 3,
+    "rodadas_lista": "2018-1, 2018-2, 2026-1"
+   },
+   {
+    "chegou_perto": 2,
+    "direcao": "sempre mostrou o PL mais fraco",
+    "erro_absoluto_medio": 4.64,
+    "erro_medio": -4.64,
+    "instituto": "Ipec (antigo Ibope)",
+    "pior_erro": -8.75,
+    "pl_mais_forte": 0,
+    "pl_mais_fraco": 4,
+    "rodadas": 4,
+    "rodadas_lista": "2018-1, 2018-2, 2022-1, 2022-2"
+   },
+   {
+    "chegou_perto": 0,
+    "direcao": "sempre mostrou o PL mais fraco",
+    "erro_absoluto_medio": 4.65,
+    "erro_medio": -4.65,
+    "instituto": "AtlasIntel",
+    "pior_erro": -5.02,
+    "pl_mais_forte": 0,
+    "pl_mais_fraco": 3,
+    "rodadas": 3,
+    "rodadas_lista": "2022-1, 2022-2, 2026-1"
+   },
+   {
+    "chegou_perto": 1,
+    "direcao": "sem lado fixo",
+    "erro_absoluto_medio": 4.91,
+    "erro_medio": -2.08,
+    "instituto": "Ipespe",
+    "pior_erro": -8.75,
+    "pl_mais_forte": 1,
+    "pl_mais_fraco": 3,
+    "rodadas": 4,
+    "rodadas_lista": "2018-1, 2018-2, 2022-1, 2022-2"
+   },
+   {
+    "chegou_perto": 2,
+    "direcao": "sempre mostrou o PL mais fraco",
+    "erro_absoluto_medio": 5.55,
+    "erro_medio": -5.55,
+    "instituto": "PoderData",
+    "pior_erro": -11.14,
+    "pl_mais_forte": 0,
+    "pl_mais_fraco": 4,
+    "rodadas": 4,
+    "rodadas_lista": "2018-1, 2022-1, 2022-2, 2026-1"
+   },
+   {
+    "chegou_perto": 0,
+    "direcao": "sempre mostrou o PL mais forte",
+    "erro_absoluto_medio": 8.37,
+    "erro_medio": 8.37,
+    "instituto": "Veritá",
+    "pior_erro": 11.91,
+    "pl_mais_forte": 3,
+    "pl_mais_fraco": 0,
+    "rodadas": 3,
+    "rodadas_lista": "2018-1, 2022-1, 2022-2"
+   }
+  ],
+  "por_rodada": {
+   "2018-1": {
+    "acertaram_quem_ficou_na_frente": 10,
+    "chegaram_perto": 5,
+    "erro_mediano": -1.2,
+    "erro_medio": -2.57,
+    "erro_pl_mediano": -4.86,
+    "erro_pt_mediano": -2.7,
+    "institutos": 10,
+    "margem_urna": 16.75,
+    "mostraram_pl_mais_forte": 1,
+    "mostraram_pl_mais_fraco": 9,
+    "so_conferidas_erro_mediano": -1.2
+   },
+   "2018-2": {
+    "acertaram_quem_ficou_na_frente": 7,
+    "chegaram_perto": 4,
+    "erro_mediano": 1.12,
+    "erro_medio": 1.69,
+    "erro_pl_mediano": 0.56,
+    "erro_pt_mediano": -0.56,
+    "institutos": 8,
+    "margem_urna": 10.26,
+    "mostraram_pl_mais_forte": 4,
+    "mostraram_pl_mais_fraco": 4,
+    "so_conferidas_erro_mediano": 1.12
+   },
+   "2022-1": {
+    "acertaram_quem_ficou_na_frente": 11,
+    "chegaram_perto": 3,
+    "erro_mediano": -4.55,
+    "erro_medio": -1.96,
+    "erro_pl_mediano": -4.07,
+    "erro_pt_mediano": 0.48,
+    "institutos": 13,
+    "margem_urna": -5.23,
+    "mostraram_pl_mais_forte": 3,
+    "mostraram_pl_mais_fraco": 10,
+    "so_conferidas_erro_mediano": -4.55
+   },
+   "2022-2": {
+    "acertaram_quem_ficou_na_frente": 9,
+    "chegaram_perto": 7,
+    "erro_mediano": -0.37,
+    "erro_medio": -0.06,
+    "erro_pl_mediano": -0.19,
+    "erro_pt_mediano": 0.19,
+    "institutos": 13,
+    "margem_urna": -1.8,
+    "mostraram_pl_mais_forte": 6,
+    "mostraram_pl_mais_fraco": 7,
+    "so_conferidas_erro_mediano": -0.37
+   },
+   "2026-1": {
+    "acertaram_quem_ficou_na_frente": 3,
+    "chegaram_perto": 5,
+    "erro_mediano": -4.09,
+    "erro_medio": -3.79,
+    "erro_pl_mediano": -3.71,
+    "erro_pt_mediano": -0.33,
+    "institutos": 12,
+    "margem_urna": 1.86,
+    "mostraram_pl_mais_forte": 2,
+    "mostraram_pl_mais_fraco": 10,
+    "so_conferidas_erro_mediano": -4.09
+   }
+  },
+  "rodadas_com_mediana_contra_o_pl": 4,
+  "todas_as_rodadas": {
+   "chegaram_perto": 24,
+   "mostraram_pl_mais_forte": 16,
+   "mostraram_pl_mais_fraco": 40,
+   "pesquisas": 56
+  }
  },
  "bh": {
   "cinco_maiores_ufs_por_validos_2026": [
@@ -1676,6 +1915,203 @@
   "H2": "a única série estruturada de avaliação do governo (Wikipédia) termina em nov/2025 e tem no máximo 6 medições por instituto, abaixo das 8 exigidas; não executa. A comparação dos cinco presidentes também não foi montada",
   "H3 por município": "o Bolsa Família de agosto de 2022 por município não está nas URLs públicas de download; só a parte por UF (PNAD) e o quadro descritivo nacional foram feitos",
   "H5": "não foram coletadas 5 medições do \"principal problema\" do mesmo instituto em 2026; não executa"
+ },
+ "e14": {
+  "cesta_sp": {
+   "ago22": 749.78,
+   "ago26": 900.59,
+   "alta_pct": 20.1,
+   "alta_salario_minimo_pct": 33.7,
+   "horas_de_minimo_para_a_cesta_ago22": 136.1,
+   "horas_de_minimo_para_a_cesta_ago26": 122.2,
+   "salario_minimo_2022": 1212.0,
+   "salario_minimo_2026": 1621.0
+  },
+  "dividas": {
+   "comprometimento_maior_da_serie": true,
+   "comprometimento_serie_desde": "01/03/2005",
+   "comprometimento_set22": 27.17,
+   "comprometimento_ultimo": 28.72,
+   "comprometimento_ultimo_mes": "01/07/2026",
+   "nome_sujo_mi_ago26": 83.98,
+   "nome_sujo_mi_mai22": 66.6,
+   "selic_max": 15.0,
+   "selic_max_data": "19/06/2025",
+   "selic_out22": 13.75,
+   "selic_ultima": 13.75
+  },
+  "emprego": {
+   "carteira_mil_2t22": 35043,
+   "carteira_mil_2t26": 39419,
+   "informalidade_2t22": 40.0,
+   "informalidade_2t26": 37.4,
+   "ocupados_mil_2t22": 96445,
+   "ocupados_mil_2t26": 103057
+  },
+  "empresas": {
+   "cnpjs_negativados_jan26_mi": 8.7,
+   "nota": "2022 a 2024 pela conta das altas anuais que a Serasa publica (36,2%, 26,4%, 12,9%); 2025 e o numero publicado",
+   "recuperacao_judicial_empresas": {
+    "2022": 1269,
+    "2023": 1728,
+    "2024": 2184,
+    "2025": 2466
+   },
+   "recuperacao_judicial_processos_2025": 977
+  },
+  "precos": {
+   "Alimentação e bebidas": {
+    "desde_jan20": null,
+    "desde_out22": 19.1,
+    "item": "Alimentação e bebidas",
+    "pico": null
+   },
+   "Alimentação no domicílio": {
+    "desde_jan20": 65.1,
+    "desde_out22": 16.4,
+    "item": "Alimentação no domicílio",
+    "pico": {
+     "acima_de_set22": 17.8,
+     "mes": "202605"
+    }
+   },
+   "Aluguel residencial": {
+    "desde_jan20": null,
+    "desde_out22": 18.5,
+    "item": "Aluguel residencial",
+    "pico": null
+   },
+   "Arroz": {
+    "desde_jan20": 61.1,
+    "desde_out22": 9.5,
+    "item": "Arroz",
+    "pico": {
+     "acima_de_set22": 45.9,
+     "mes": "202406"
+    }
+   },
+   "Aves e ovos": {
+    "desde_jan20": null,
+    "desde_out22": -1.0,
+    "item": "Aves e ovos",
+    "pico": null
+   },
+   "Açúcar refinado": {
+    "desde_jan20": null,
+    "desde_out22": -6.2,
+    "item": "Açúcar refinado",
+    "pico": null
+   },
+   "Batata-inglesa": {
+    "desde_jan20": null,
+    "desde_out22": 45.0,
+    "item": "Batata-inglesa",
+    "pico": null
+   },
+   "Café moído": {
+    "desde_jan20": 165.1,
+    "desde_out22": 43.9,
+    "item": "Café moído",
+    "pico": {
+     "acima_de_set22": 80.9,
+     "mes": "202506"
+    }
+   },
+   "Carnes": {
+    "desde_jan20": 54.4,
+    "desde_out22": 19.2,
+    "item": "Carnes",
+    "pico": {
+     "acima_de_set22": 19.2,
+     "mes": "202609"
+    }
+   },
+   "Energia elétrica residencial": {
+    "desde_jan20": null,
+    "desde_out22": 31.9,
+    "item": "Energia elétrica residencial",
+    "pico": null
+   },
+   "Feijão - carioca (rajado)": {
+    "desde_jan20": null,
+    "desde_out22": 5.4,
+    "item": "Feijão - carioca (rajado)",
+    "pico": null
+   },
+   "Feijão - preto": {
+    "desde_jan20": null,
+    "desde_out22": 0.5,
+    "item": "Feijão - preto",
+    "pico": null
+   },
+   "Frango inteiro": {
+    "desde_jan20": null,
+    "desde_out22": 0.2,
+    "item": "Frango inteiro",
+    "pico": null
+   },
+   "Gasolina": {
+    "desde_jan20": null,
+    "desde_out22": 32.6,
+    "item": "Gasolina",
+    "pico": null
+   },
+   "Leite longa vida": {
+    "desde_jan20": null,
+    "desde_out22": 1.5,
+    "item": "Leite longa vida",
+    "pico": null
+   },
+   "Ovo de galinha": {
+    "desde_jan20": null,
+    "desde_out22": 1.7,
+    "item": "Ovo de galinha",
+    "pico": null
+   },
+   "Plano de saúde": {
+    "desde_jan20": null,
+    "desde_out22": 38.5,
+    "item": "Plano de saúde",
+    "pico": null
+   },
+   "Pão francês": {
+    "desde_jan20": null,
+    "desde_out22": 19.3,
+    "item": "Pão francês",
+    "pico": null
+   },
+   "Tomate": {
+    "desde_jan20": 141.7,
+    "desde_out22": 85.3,
+    "item": "Tomate",
+    "pico": {
+     "acima_de_set22": 117.4,
+     "mes": "202605"
+    }
+   },
+   "Índice geral": {
+    "desde_jan20": 44.7,
+    "desde_out22": 20.8,
+    "item": "Índice geral",
+    "pico": {
+     "acima_de_set22": 20.8,
+     "mes": "202609"
+    }
+   },
+   "Óleo de soja": {
+    "desde_jan20": null,
+    "desde_out22": -13.0,
+    "item": "Óleo de soja",
+    "pico": null
+   }
+  },
+  "sensacao": {
+   "quaest_2025_piorou_pico": 56,
+   "quaest_jun25_piorou": 48,
+   "quaest_jun26_comida_subiu": 69,
+   "quaest_jun26_melhorou": 20,
+   "quaest_jun26_piorou": 44
+  }
  },
  "h1": {
   "correlacoes_municipais_ponderadas": {
@@ -2282,17 +2718,17 @@
     "queda_dos_outros_media": 3.8871200049075303
    },
    "2026": {
-    "fracao_media_que_ficou_com_o_candidato_do_pl": 1.1623444248057557,
-    "fracao_mediana": 1.000120116407711,
-    "institutos": 7,
-    "institutos_com_queda_de_3_ou_mais": 4,
-    "institutos_em_que_o_pl_ficou_com_mais_de_metade": 7,
-    "institutos_em_que_o_pt_ficou_com_mais_de_metade": 0,
+    "fracao_media_que_ficou_com_o_candidato_do_pl": 1.1305831899014127,
+    "fracao_mediana": 0.938348593085097,
+    "institutos": 10,
+    "institutos_com_queda_de_3_ou_mais": 5,
+    "institutos_em_que_o_pl_ficou_com_mais_de_metade": 8,
+    "institutos_em_que_o_pt_ficou_com_mais_de_metade": 2,
     "queda_dos_outros_ic90": [
-     2.6352915083791526,
-     5.985963698464354
+     2.5620812449315093,
+     5.156561051486104
     ],
-    "queda_dos_outros_media": 4.1777426987769575
+    "queda_dos_outros_media": 3.730397174170516
    }
   }
  },
@@ -2593,11 +3029,11 @@
   },
   {
    "confianca": "baixa",
-   "evidencia": "fraca",
+   "evidencia": "fraca (descritivo, cruzado entre fontes)",
    "hipotese": "H3",
-   "nome": "Economia",
-   "o_que_sustenta": "indicadores nacionais melhoraram entre 2022 e 2026 (desocupação de 9,3% para 5,4%, renda real +19,2%) enquanto o PT caiu; entre as 27 UFs, a virada foi maior onde a desocupação caiu menos (coeficiente 1,06 ponto por ponto percentual, p = 0,016), sem repetir no placebo",
-   "situacao": "inconsistente (descritivo)",
+   "nome": "Economia (o bolso)",
+   "o_que_sustenta": "o emprego melhorou de verdade (96,4 para 103,1 milhões de ocupados; informalidade de 40,0% para 37,4%), mas o custo de vida acumulou e a dívida chegou ao maior nível desde 2005: de out/2022 a set/2026 o IPCA somou 20,8%, a comida em casa 16,4% (e 65,1% desde jan/2020), o café 43,9% (chegou a 80,9% em jun/2025); a parte da renda das famílias que vai para pagar dívida chegou a 28,7%, a maior desde 2005; 84,0 milhões de pessoas com nome sujo (eram 66,6); 2466 empresas em recuperação judicial em 2025, o maior número desde 2012; e 44% diziam que a economia piorou contra 20% que melhorou (Genial/Quaest, jun/2026). O salário mínimo subiu mais que a cesta do DIEESE (+33,7% contra +20,1%). Sem dado por eleitor e sem a série de avaliação do governo (H2), não há teste de voto econômico",
+   "situacao": "consistente em parte (descritivo, emenda 10)",
    "tamanho": "n/e"
   },
   {
@@ -2623,9 +3059,9 @@
    "evidencia": "forte (movimento na série e aritmética pesquisa-urna em vários institutos)",
    "hipotese": "H6",
    "nome": "Consolidação e voto útil da direita",
-   "o_que_sustenta": "os outros candidatos caíram 4,2 pontos da última pesquisa à urna e o candidato do PL ficou com 116% da queda (mediana 100%); em 7 de 7 institutos ficou com mais da metade, e o PT em 0. Em 2022 os outros também caíram (3,9 pontos) e o candidato do PL ficou com mais da metade em 9 de 13 institutos: o encolhimento dos outros na reta final não é novidade de 2026; o que muda é a concentração no mesmo lado",
+   "o_que_sustenta": "os outros candidatos caíram 3,7 pontos da última pesquisa à urna e o candidato do PL ficou com 113% da queda (mediana 94%); em 8 de 10 institutos ficou com mais da metade, e o PT em 2. Em 2022 os outros também caíram (3,9 pontos) e o candidato do PL ficou com mais da metade em 9 de 13 institutos: o encolhimento dos outros na reta final não é novidade de 2026; o que muda é a concentração no mesmo lado",
    "situacao": "consistente",
-   "tamanho": "+6,9 ponto de margem na média das pesquisas entre 3/ago e 28/set; 4,2 da última pesquisa à urna (mediana), parecido com 2022 (4,5)"
+   "tamanho": "+6,9 ponto de margem na média das pesquisas entre 3/ago e 28/set; 4,1 da última pesquisa à urna (mediana), parecido com 2022 (4,5)"
   },
   {
    "confianca": "média",
@@ -2720,9 +3156,9 @@
    "movimento_minimo": -0.9620826259196349
   },
   "campanha_sem_correcao_de_instituto": {
-   "28_set": -1.7709119756351868,
+   "28_set": -1.759970846313053,
    "3_ago": -8.362094356268937,
-   "movimento": 6.59118238063375
+   "movimento": 6.602123509955884
   },
   "controle_pelo_voto_de_jair_2022": {
    "idade_com_jair22": {
@@ -2751,10 +3187,10 @@
    }
   },
   "erro_2026_sem_um_instituto": {
-   "media_max": -4.280915743831535,
-   "media_min": -5.370700598572106,
-   "mediana_max": -4.089668835642261,
-   "mediana_min": -5.14205959290604
+   "media_max": -3.1089354062482366,
+   "media_min": -4.180917687532844,
+   "mediana_max": -4.015512365490245,
+   "mediana_min": -4.163825305794276
   },
   "fracao_pl_so_5_institutos_conhecidos": {
    "fracao_media": 1.2797527035864142,
@@ -2770,7 +3206,7 @@
  },
  "sintese": {
   "pesquisas_e_urna": {
-   "diferenca_entre_urna_e_pesquisa": 2.783834288346535,
+   "diferenca_entre_urna_e_pesquisa": 1.5905420051439272,
    "erro_margem_2022_ic90": [
     -5.353921417721799,
     2.0824982469418005
@@ -2779,54 +3215,54 @@
    "erro_margem_2022_medio": -1.9587813867437949,
    "erro_margem_2022_sem_extremos_media": -3.4297534484979737,
    "erro_margem_2026_ic90": [
-    -6.150877972493284,
-    -3.2911408363106647
+    -5.059481757758967,
+    -1.8813990536929477
    ],
-   "erro_margem_2026_mediano": -4.163825305794276,
-   "erro_margem_2026_medio": -4.74261567509033,
-   "erro_margem_2026_sem_extremos_media": -4.942277665757906,
+   "erro_margem_2026_mediano": -4.089668835642261,
+   "erro_margem_2026_medio": -3.549323391887723,
+   "erro_margem_2026_sem_extremos_media": -3.7644304906440613,
    "erro_pl_2022_medio": -2.9229506958256626,
-   "erro_pl_2026_medio": -4.460179186933644,
+   "erro_pl_2026_medio": -3.63986028302912,
    "erro_pt_2022_medio": -0.9641693090818678,
-   "erro_pt_2026_medio": 0.2824364881566867,
+   "erro_pt_2026_medio": -0.09053689114139658,
    "institutos_2022": 13,
-   "institutos_2026": 7,
+   "institutos_2026": 10,
    "institutos_com_pl_subestimado_2022": 11,
-   "institutos_com_pl_subestimado_2026": 7,
+   "institutos_com_pl_subestimado_2026": 10,
    "margem_das_pesquisas_2022_vespera": -7.19194869216554,
-   "margem_das_pesquisas_2026_vespera": -2.8776409440086925,
+   "margem_das_pesquisas_2026_vespera": -1.684348660806085,
    "margem_media_das_pesquisas_semanais": {
-    "movimento_na_campanha": 6.9138474800057255,
-    "semana_de_28_set": -1.5044708518320202,
-    "semana_de_3_ago": -8.418318331837746
+    "movimento_na_campanha": 6.92501000186757,
+    "semana_de_28_set": -1.493729184625585,
+    "semana_de_3_ago": -8.418739186493156
    },
-   "pct_da_virada_visivel_nas_pesquisas": 60.78080328584296,
-   "virada_nas_pesquisas_de_vespera": 4.314307748156848,
+   "pct_da_virada_visivel_nas_pesquisas": 77.59213612570305,
+   "virada_nas_pesquisas_de_vespera": 5.5076000313594555,
    "virada_urna_a_urna": 7.098142036503383,
    "virada_vista_nas_pesquisas_por_resumo": {
     "media": {
      "erro_2022": -1.9587813867437949,
-     "erro_2026": -4.74261567509033,
+     "erro_2026": -3.549323391887723,
      "margem_pesquisas_2022": -7.19194869216554,
-     "margem_pesquisas_2026": -2.8776409440086925,
-     "pct_da_virada_urna": 60.78080328584296,
-     "virada_nas_pesquisas": 4.314307748156848
+     "margem_pesquisas_2026": -1.684348660806085,
+     "pct_da_virada_urna": 77.59213612570305,
+     "virada_nas_pesquisas": 5.5076000313594555
     },
     "media_aparada": {
      "erro_2022": -3.4297534484979737,
-     "erro_2026": -4.942277665757906,
+     "erro_2026": -3.7644304906440613,
      "margem_pesquisas_2022": -8.66292075391972,
-     "margem_pesquisas_2026": -3.0773029346762684,
-     "pct_da_virada_urna": 78.69126583433349,
-     "virada_nas_pesquisas": 5.585617819243451
+     "margem_pesquisas_2026": -1.8994557595624233,
+     "pct_da_virada_urna": 95.28500499954842,
+     "virada_nas_pesquisas": 6.763464994357296
     },
     "mediana": {
      "erro_2022": -4.549441390230427,
-     "erro_2026": -4.163825305794276,
+     "erro_2026": -4.089668835642261,
      "margem_pesquisas_2022": -9.782608695652172,
-     "margem_pesquisas_2026": -2.298850574712638,
-     "pct_da_virada_urna": 105.43263409569795,
-     "virada_nas_pesquisas": 7.483758120939534
+     "margem_pesquisas_2026": -2.2246941045606228,
+     "pct_da_virada_urna": 106.47736481213971,
+     "virada_nas_pesquisas": 7.557914591091549
     }
    }
   }

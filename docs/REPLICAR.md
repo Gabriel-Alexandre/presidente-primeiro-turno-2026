@@ -28,9 +28,10 @@ Caminhos diferentes: variáveis de ambiente `PRESIDENTE_APURACAO` e `PRESIDENTE_
 | 11 | `python ferramentas/analise-4-eventos-e-candidato.py` e `analise-5-candidato.py` | H4 e H11 |
 | 12 | `python ferramentas/analise-6-municipal.py` | H1, H3, H6 por município, H7, H8, H9, H13 |
 | 13 | `python ferramentas/revisao-adversarial.py` | verificações numéricas da revisão |
+| 13b | `python ferramentas/analise-13-institutos.py` e `analise-14-economia.py` | instituto por instituto desde 2014 (emenda 9) e a economia cruzando fontes (emenda 10; lê `dados/brutos/economia-critica/`, conferido por trecho literal) |
 | 14 | `python ferramentas/analise-7-sintese.py` | síntese, condições de não execução e o placar |
 | 15 | `python ferramentas/validacao-independente.py` | recontagem com código e fontes novos |
-| 16 | `python ferramentas/analise-8-graficos.py` | gráficos 1920 x 1080 em `resultados/figuras/video/` |
+| 16 | `python ferramentas/analise-8-graficos.py` e `analise-15-graficos-novos.py` | gráficos 1920 x 1080 em `resultados/figuras/video/` (01 a 14 e 15 a 19) |
 | 17 | `python ferramentas/analise-9-relatorio.py` e `analise-10-revisao.py` | `RELATORIO.md`, `RESUMO_SIMPLES.md`, `docs/LEITURA_DA_IA.md`, `analise-da-ia/DOSSIE.md`, `docs/REVISAO_ADVERSARIAL.md` |
 | 18 | `python -m pytest -q` e `python ferramentas/conferir-linguagem.py` | testes e linguagem |
 

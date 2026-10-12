@@ -1,10 +1,14 @@
 # ESTADO: onde o trabalho parou
 
-**Atualizado em:** 07/out/2026.
+**Atualizado em:** 11/out/2026.
 
 ## Em uma frase
 
-Executado de ponta a ponta: pré-registro em commit antes de qualquer análise, coleta com hash, validação por dois caminhos (13 de 13 números na recontagem independente), análises dos blocos A, B e C, revisão adversarial, placar, veredito do Claude, relatório e 14 gráficos. **Não** foram testados: avaliação do governo, voto econômico por eleitor, pauta, redes sociais, tabelas por grupo de eleitor e gasto de campanha (condições do §10 do pré-registro).
+Executado de ponta a ponta: pré-registro em commit antes de qualquer análise, coleta com hash, validação por dois caminhos (13 de 13 números na recontagem independente), análises dos blocos A, B e C, revisão adversarial, placar, veredito do Claude, relatório e 19 gráficos (15 a 19 em 11/out). **Não** foram testados: avaliação do governo, voto econômico por eleitor, pauta, redes sociais, tabelas por grupo de eleitor e gasto de campanha (condições do §10 do pré-registro).
+
+## 11/out/2026: o retorno do autor
+
+Três perguntas dele acharam defeito, e tudo foi corrigido e registrado (`docs/CORRECOES.md`, emendas 9 e 10 do pré-registro, passada 4 de `docs/REVISAO_ADVERSARIAL.md`): o 2018 das pesquisas lia a coluna da urna; três pesquisas da véspera de 2026 tinham ficado de fora por defeito de coleta; e a economia estava descrita só pelo emprego. Novos: **instituto por instituto desde 2014** (`analise-13`, seção 5.1 do relatório: no 1º turno, quatro eleições seguidas em que a urna deu ao principal candidato contra o PT de 3,7 a 6,6 pontos a mais; Datafolha 7 de 7 e Ipec 6 de 6 mostrando esse candidato mais fraco; Veritá 4 de 4 mais forte) e **a economia cruzando fontes** (`analise-14`, seção 7A). Gráficos 15 a 19.
 
 ## O que está pronto
 

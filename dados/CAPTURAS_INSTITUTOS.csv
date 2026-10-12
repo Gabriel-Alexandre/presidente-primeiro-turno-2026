@@ -1,0 +1,12 @@
+instituto,campo_fim,valido_flavio,valido_lula,conferida,registro_tse,fonte,arquivo_local,sha256,nota
+Datafolha,2026-10-03,,,True,,https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/03/datafolha-presidente-3-outubro.ghtml,,,conferida em 07/out (resultados/pesq_verificacao.csv)
+Quaest,2026-10-03,,,True,,https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/03/quaest-presidente-3-outubro.ghtml,,,conferida em 07/out
+MDA,2026-10-02,,,True,,https://www.cnnbrasil.com.br/eleicoes/cnt-mda-lula-tem-478-dos-votos-validos-no-1o-turno-flavio-421/,,,conferida em 07/out
+PoderData,2026-10-02,,,True,,https://www.poder360.com.br/poderdata/lula-e-flavio-tem-46-cada-um-no-2o-turno-diz-poderdata-aya/,,,conferida em 07/out
+Real Time Big Data,2026-09-30,,,True,,https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-lula-tem-43-no-1o-turno-flavio-39/,,,conferida em 07/out
+Vox Brasil,2026-10-01,,,True,,https://www.cnnbrasil.com.br/eleicoes/vox-flavio-registra-482-no-2o-turno-lula-452/,,,conferida em 07/out
+Indexa,2026-09-29,,,True,,https://www.cnnbrasil.com.br/eleicoes/indexa-broadcast-lula-tem-39-no-1o-turno-flavio-34/,,,conferida em 07/out
+AtlasIntel,2026-10-02,44.1,47.0,True,BR-00999/2026,https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Pesquisa-Atlas_Bloomberg-Nacional-261003.pdf,dados/brutos/capturas-institutos/atlasintel-2026-10-02.pdf,c539366a81bb0d5f9df59d2b1e3ccc29028109530cc341af6363b21d6c9068d2,"conferida em 11/out na pagina 15 do PDF (votos validos, numero em imagem); igual a tabela"
+Futura,2026-10-03,44.8,42.6,True,BR-02431/2026,https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Relatorio_Tracking_Nacional_1_Turno_Final_Votos_Validos-3-1.pdf,dados/brutos/capturas-institutos/futura-2026-10-03.pdf,b6d58bcd9282fff88e3bcafcba74ececa2aa35f1d8020d12a64c31bde5a8f83b,"conferida em 11/out na pagina 5 do PDF (cenario 1, votos validos); a tabela da Wikipedia dava 43,6 e 41,6, vale o PDF"
+Palver,2026-10-03,47.0,43.0,True,BR-00198/2026,https://exame.com/brasil/pesquisa-palver-para-presidente-flavio-bolsonaro-tem-47-e-lula-43-no-1o-turno/,dados/brutos/capturas-institutos/palver-2026-10-03.html,3d21583cb8ec6ad76c62f158f2ec58e26e3482d74117094f2b7fee5a5b818007,"conferida em 11/out no texto: 'Flavio Bolsonaro tem 47% e Lula, 43%' (cenario estimulado; a materia nao separa validos). Em 07/out saiu como nao verificavel porque a captura veio comprimida (gzip) e o verificador nao descomprimia"
+Ideia,2026-09-28,,,False,,,,,sem fonte original achada; fica marcada

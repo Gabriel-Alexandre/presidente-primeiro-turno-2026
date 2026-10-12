@@ -1,7 +1,7 @@
 """Bloco B: B1 (trajetoria), B2 (erro por instituto contra 2018 e 2022), B3 (migracao dos 'outros'), B4 (decomposicao do erro).
 
 Valido de uma pesquisa de 2026: pct / (100 - branco, nulo e indeciso). Valido de 2022: renormalizado entre os candidatos nominais do cenario
-(Pindograma). Valido de 2018: o 'pct' do Pindograma. Margem de pesquisa = Flavio (ou Jair) menos Lula (ou Haddad), em pontos.
+(Pindograma). Valido de 2018: o 'valid_result' do Pindograma (o 'pct' e o resultado da urna; corrigido em 11/out/2026). Margem de pesquisa = Flavio (ou Jair) menos Lula (ou Haddad), em pontos.
 Erro = margem da pesquisa menos margem da urna; negativo = a pesquisa mostrou o candidato do PL pior do que ele teve.
 """
 from __future__ import annotations
@@ -33,6 +33,16 @@ def melhor_cenario() -> pd.DataFrame:
     p.columns = [f"{a}_{b}" for a, b in p.columns]
     p = p.reset_index().merge(cen[["pesquisa", "n", "conjunto"]], on="pesquisa")
     p["campo_fim"] = pd.to_datetime(p.campo_fim)
+    # emenda 9 (11/out/2026): vespera conferida de novo na fonte original (dados/CAPTURAS_INSTITUTOS.csv). AtlasIntel e Futura publicam o
+    # numero em PDF e a Palver veio em pagina comprimida; em 07/out as tres sairam como 'nao verificavel'. Quando a fonte difere da
+    # tabela da Wikipedia (Futura), vale a fonte.
+    conf = pd.read_csv(Path(__file__).resolve().parent.parent / "dados" / "CAPTURAS_INSTITUTOS.csv")
+    for r in conf[conf.conferida].itertuples():
+        m = (p.instituto.replace({"Real Time": "Real Time Big Data"}) == r.instituto) & (p.campo_fim == pd.Timestamp(r.campo_fim))
+        if m.any():
+            p.loc[m, "vespera_verificada"] = True
+            if r.valido_flavio == r.valido_flavio:
+                p.loc[m, ["valido_Flavio", "valido_Lula"]] = [r.valido_flavio, r.valido_lula]
     p["margem"] = p.valido_Flavio - p.valido_Lula
     p["outros_valido"] = 100 - p.valido_Lula - p.valido_Flavio
     return p.sort_values("campo_fim").reset_index(drop=True)
@@ -93,7 +103,9 @@ def pindograma_2018() -> pd.DataFrame:
     a = pd.read_csv(CONGRESSO / "dados/brutos/capturas/pindograma-late-polls-2012-2018.csv", low_memory=False)
     a = a[(a.year == 2018) & (a.CD_CARGO == 1) & (a.turno == 1) & (a.polled_UE == "BR") & (a.estimulada == 1)]
     a["fim"] = pd.to_datetime(a.DT_FIM_PESQUISA)
-    p = a.pivot_table(index=["NR_IDENTIFICACAO_PESQUISA", "scenario_id", "pretty_name", "fim"], columns="NUMERO_CANDIDATO", values="pct", aggfunc="first").reset_index()
+    # 'valid_result' e o valido da PESQUISA; 'pct' e o resultado da URNA (erro da versao de 07/out, docs/CORRECOES.md)
+    a = a[a.NUMERO_CANDIDATO > 0]
+    p = a.pivot_table(index=["NR_IDENTIFICACAO_PESQUISA", "scenario_id", "pretty_name", "fim"], columns="NUMERO_CANDIDATO", values="valid_result", aggfunc="first").reset_index()
     p = p.rename(columns={13: "Haddad", 17: "Jair", "pretty_name": "instituto"}).dropna(subset=["Haddad", "Jair"])
     p["margem"] = p.Jair - p.Haddad
     p["outros"] = 100 - p.Haddad - p.Jair
@@ -111,7 +123,7 @@ def b2_b3(p26: pd.DataFrame) -> None:
         r = x.sort_values("campo_fim").iloc[-1]
         linhas.append({"ano": 2026, "instituto": nome, "campo_fim": r.campo_fim.date(), "pt": r.valido_Lula, "pl": r.valido_Flavio, "outros": r.outros_valido, "verificada": bool(r.vespera_verificada), "fonte_dupla": bool(r.vespera_verificada)})
     for ano, df, ptc, plc, ele, janela in ((2022, pindograma_2022(), "Lula", "Jair", ELEICAO_2022, 8), (2018, pindograma_2018(), "Haddad", "Jair", ELEICAO_2018, 8)):
-        w = df[(df.fim >= pd.Timestamp(ele - timedelta(days=janela)))]
+        w = df[(df.fim >= pd.Timestamp(ele - timedelta(days=janela))) & (df.fim < pd.Timestamp(ele))]  # boca de urna, no dia, nao entra
         for nome, x in w.groupby("instituto"):
             r = x.sort_values("fim").iloc[-1]
             linhas.append({"ano": ano, "instituto": nome, "campo_fim": r.fim.date(), "pt": r[ptc], "pl": r[plc], "outros": r.outros, "verificada": True, "fonte_dupla": False})

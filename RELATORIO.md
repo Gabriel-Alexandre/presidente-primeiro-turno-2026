@@ -1,21 +1,23 @@
 # Relatório: presidente, 1º turno de 2026
 
-> **O que este projeto não diz.** Em quem cada pessoa votou, nem por que votou: tudo aqui é entre municípios, instituições e datas. Intenção de ninguém. **Quem vai ganhar o 2º turno** (25/10/2026): nenhuma previsão. Se as pesquisas foram "tendenciosas": a palavra não entra, e o que se mede é erro e direção do erro. O peso das **redes sociais**, da **avaliação do governo**, da **economia no bolso do eleitor** e do **gasto de campanha**: não foi possível testar com dado público (seção 9). Causa onde o desenho só mostra coincidência. **Flávio Bolsonaro terminou o 1º turno em primeiro; ele não venceu a eleição.**
+> **O que este projeto não diz.** Em quem cada pessoa votou, nem por que votou: tudo aqui é entre municípios, instituições e datas. Intenção de ninguém. **Quem vai ganhar o 2º turno** (25/10/2026): nenhuma previsão. Se as pesquisas foram "tendenciosas": a palavra não entra, porque ela fala de intenção; o que se mede é erro e direção do erro, instituto por instituto, desde 2014 (seção 5.1). O peso das **redes sociais**, da **avaliação do governo** e do **gasto de campanha**: não foi possível testar com dado público (seção 9). A **economia do bolso** foi descrita cruzando fontes (seção 7A), sem teste no nível do eleitor. Causa onde o desenho só mostra coincidência. **Flávio Bolsonaro terminou o 1º turno em primeiro; ele não venceu a eleição.**
 
 **Quem fez a análise.** Claude Sonnet 5.5 (Anthropic), no Claude Code (aplicativo para computador), em 07/out/2026; o planejamento e a validação do plano foram do Claude Opus 5.5, na mesma sessão de trabalho. O autor montou e dirigiu o processo; as leituras e o veredito são do Claude e vêm marcados. Os testes e os limiares foram escritos e gravados em commit (`014e6b7`) **antes** de qualquer análise (`docs/PRE_REGISTRO.md`); as emendas, cada uma com "antes ou depois de ver o resultado", estão na §12 de lá. Todo número deste texto sai de `resultados/RESUMO.json`.
 
-## Em dez achados
+## Em doze achados
 
 1. Flávio Bolsonaro (PL) terminou o 1º turno em primeiro, com 47,03% dos votos válidos (arquivo oficial), e Lula (PT) com 45,16%. O 2º turno é em 25/10/2026. Em 2022, Lula terminou o 1º turno 5,23 pontos na frente do candidato do PL; em 2026, o candidato do PL terminou 1,87 na frente: uma **virada de 7,10 pontos** na margem.
 2. A virada se divide quase ao meio: o candidato do PL ganhou 3,83 pontos e Lula perdeu 3,27. Em votos, são 5,03 milhões a mais para um e 3,38 milhões a menos para o outro.
 3. Ela veio de todas as regiões e é um fenômeno do interior: Sudeste 37,9%, Nordeste 23,5%, Sul 22,4%, Centro-Oeste 8,9%, Norte 7,3%; interior 90,4%, capitais 9,6%.
 4. Quase todo o ganho foi **troca de voto dentro dos municípios** (93,2% do ganho do candidato do PL), e não comparecimento (-3,8%). A abstenção quase não mexeu (20,9% para 21,1%).
 5. A **base é herdada**: a correlação entre o voto em Jair em 2022 e em Flávio em 2026, município a município, é 0,98, e a estimativa ecológica põe cerca de 97,1% dos eleitores de Jair em Flávio (estável entre regiões e especificações).
-6. A média das pesquisas (instituto a instituto corrigida) manteve **Lula à frente até a última semana** (-1,5 ponto de margem), e **subiu 6,9 pontos a favor de Flávio entre 3/ago e 28/set**. Todos os 7 institutos verificados subestimaram o candidato do PL na última pesquisa (erro da margem: mediana -4,2, média -4,7); em 2022 foi parecido (mediana -4,5, 11 de 13 institutos).
-7. Nas três últimas semanas, os outros candidatos encolheram em todos os institutos que mais pesquisaram, e da última pesquisa à urna perderam 4,2 pontos; o candidato do PL ficou com mais da metade dessa queda em 7 de 7 institutos e Lula em 0. Em 2022 os outros também encolheram, e o candidato do PL ficou com mais da metade em 9 de 13.
-8. **Episódios dos dois lados.** As mensagens de Flávio com Daniel Vorcaro (13/05) coincidem com uma queda de 5,4 pontos na margem do candidato do PL (mediana entre os institutos); a média semanal ficou em -9,0 entre as semanas de 18/05 e 27/07, contra -4,3 nas semanas anteriores, e só voltou ao patamar anterior na semana de 14/09; a autorização do STF para investigar Lulinha (30/07) coincide com +1,2 ponto (mediana), um movimento que depende do limiar usado; os cinco episódios de setembro juntos coincidem com +4,5, mas misturam alvos dos dois lados e só 3 institutos têm par de pesquisas.
-9. **Por lugar, quatro hipóteses não se sustentam:** a virada foi menor onde há mais evangélicos; o envelhecimento do eleitorado não a explica (e o padrão aparece também no placebo de 2018 a 2022); quem ganhou a prefeitura por pouco em 2024 não se distingue de quem perdeu; e os estados com governador apoiador de Flávio não tiveram virada diferente dos de governador apoiador de Lula.
-10. **O que não dá para testar com dado público:** avaliação do governo, voto econômico no nível do eleitor, pauta, redes sociais, tabelas por grupo de eleitor e gasto de campanha. Os indicadores nacionais melhoraram entre 2022 e 2026 (desocupação de 9,3% para 5,4% no 2º trimestre; renda real do trabalho +19,2%), o que é um fato descritivo e não um teste.
+6. A média das pesquisas (instituto a instituto corrigida) manteve **Lula à frente até a última semana** (-1,5 ponto de margem), e **subiu 6,9 pontos a favor de Flávio entre 3/ago e 28/set**. Na última pesquisa, os 10 institutos verificados deram ao candidato do PL menos voto do que ele teve na urna (erro da margem: mediana -4,1); em 2022 foi parecido (mediana -4,5).
+7. **O erro tem lado, e se repete no 1º turno** (B6, emenda 9). No 1º turno de 2014, 2018, 2022 e 2026, a urna deu ao principal candidato contra o PT +6,6, +4,9, +4,1 e +3,7 pontos a mais do que a mediana das pesquisas; no 2º turno o erro fica perto de zero e sem lado fixo. Datafolha mostrou esse candidato mais fraco do que a urna em 7 de 7 rodadas desde 2014 e o Ipec (antigo Ibope) em 6 de 6; a Veritá, mais forte em 4 de 4. O dado mede direção; intenção, não.
+8. Nas três últimas semanas, os outros candidatos encolheram em todos os institutos que mais pesquisaram, e da última pesquisa à urna perderam 3,7 pontos; o candidato do PL ficou com mais da metade dessa queda em 8 de 10 institutos e Lula em 2 (voto útil e consolidação; a conta inclui os indecisos).
+9. **Episódios dos dois lados.** As mensagens de Flávio com Daniel Vorcaro (13/05) coincidem com uma queda de 5,4 pontos na margem do candidato do PL (mediana entre os institutos); a média semanal ficou em -9,0 entre as semanas de 18/05 e 27/07, contra -4,3 nas semanas anteriores, e só voltou ao patamar anterior na semana de 14/09; a autorização do STF para investigar Lulinha (30/07) coincide com +1,2 ponto (mediana), um movimento que depende do limiar usado; os cinco episódios de setembro juntos coincidem com +4,5, mas misturam alvos dos dois lados e só 3 institutos têm par de pesquisas. Um deles, a história de que Flávio tiraria de Nossa Senhora Aparecida o título de padroeira, era **notícia falsa**, e o TSE manteve fora do ar os posts que o ligavam a ela (30/09).
+10. **A economia do bolso** (seção 7A, emenda 10): o emprego melhorou de verdade (96,4 para 103,1 milhões de ocupados), mas o preço acumulou (comida em casa +16,4% desde out/2022 e +65,1% desde 2020; café +43,9%), a parte da renda que vai para pagar dívida é a maior desde 2005, há 84,0 milhões de pessoas com nome sujo e 2.466 empresas entraram em recuperação judicial em 2025, o maior número desde 2012; e 44% diziam que a economia piorou, contra 20% que melhorou. É descrição cruzada entre fontes, não teste de voto.
+11. **Por lugar, quatro hipóteses não se sustentam:** a virada foi menor onde há mais evangélicos; o envelhecimento do eleitorado não a explica (e o padrão aparece também no placebo de 2018 a 2022); quem ganhou a prefeitura por pouco em 2024 não se distingue de quem perdeu; e os estados com governador apoiador de Flávio não tiveram virada diferente dos de governador apoiador de Lula.
+12. **O que não dá para testar com dado público:** avaliação do governo, voto econômico no nível do eleitor, pauta, redes sociais, tabelas por grupo de eleitor e gasto de campanha.
 
 ## 1. O resultado (A1)
 
@@ -83,23 +85,64 @@ Composição do voto de Flávio na especificação ampla: 89,6% de eleitores de 
 
 **Trajetória (B1).** Margem média semanal do candidato do PL menos Lula, com cada instituto corrigido pelo próprio desvio: -26,2 na semana de 01/12/2025, -8,4 em 3/ago e -1,5 em 28/set. Nenhuma semana teve o candidato do PL à frente. A urna deu +1,9.
 
-**Erro por instituto (B2).** Na última pesquisa de cada instituto, o candidato do PL foi subestimado em todos os 7 institutos verificados de 2026 e em 11 de 13 de 2022; em 2018 o erro foi de +0,3 (sem direção). O erro da margem foi de mediana -4,2 e média -4,7 (intervalo de 90% da média: -6,2 a -3,3) em 2026, e de mediana -4,5 e média -2,0 em 2022; a média de 2022 é puxada por dois institutos muito fora da curva (média sem os dois extremos: -3,4). **O erro típico de 2026 foi do tamanho do de 2022, não maior.**
+**Erro por instituto (B2).** Na última pesquisa de cada instituto, o voto do candidato do PL foi subestimado em 10 dos 10 institutos verificados de 2026 (a Palver por 0,03 ponto) e em 11 de 13 de 2022; em 2018, o de Jair em 8 de 10, com erro da margem de -1,2 na mediana, porque Haddad também saiu menor do que foi. Em 11/out/2026 três pesquisas da véspera foram conferidas de novo na fonte original (AtlasIntel e Futura em PDF; Palver em página que o coletor salvou comprimida) e entraram; a da Futura entrou com o número do PDF, que difere da tabela da Wikipédia (`dados/CAPTURAS_INSTITUTOS.csv`). E o 2018 da versão de 07/out estava errado: usava a coluna do Pindograma com o resultado da urna, não o da pesquisa (`docs/CORRECOES.md`). O erro da margem foi de mediana -4,1 e média -3,5 (intervalo de 90% da média: -5,1 a -1,9) em 2026, e de mediana -4,5 e média -2,0 em 2022; a média de 2022 é puxada por dois institutos muito fora da curva (média sem os dois extremos: -3,4). **O erro típico de 2026 foi do tamanho do de 2022, não maior.**
 
 | Instituto | Fim do campo | Lula (válidos) | Flávio (válidos) | Erro da margem (pontos) |
 |---|---|---|---|---|
+| AtlasIntel | 2026-10-02 | 47,0 | 44,1 | -4,8 |
 | Datafolha | 2026-10-03 | 45,2 | 43,0 | -4,0 |
+| Futura | 2026-10-03 | 42,6 | 44,8 | +0,3 |
 | Indexa | 2026-09-29 | 43,8 | 38,2 | -7,5 |
 | MDA | 2026-10-02 | 47,7 | 42,1 | -7,5 |
+| Palver | 2026-10-03 | 43,0 | 47,0 | +2,1 |
 | PoderData | 2026-10-02 | 44,7 | 43,6 | -2,9 |
 | Quaest | 2026-10-03 | 46,0 | 43,7 | -4,2 |
 | Real Time | 2026-09-30 | 45,7 | 41,5 | -6,1 |
 | Vox Brasil | 2026-10-01 | 45,0 | 45,9 | -1,0 |
 
-**Quanto da virada as pesquisas mostravam.** Entre as vésperas de 2022 e de 2026, a margem das pesquisas andou 4,3 pontos pela média (60,8% da virada de 7,10), 5,6 pela média aparada (78,7%) e 7,5 pela mediana (105,4%). **O dado não permite dizer qual fração apareceu só na urna**; a resposta depende do resumo usado.
+**Quanto da virada as pesquisas mostravam.** Entre as vésperas de 2022 e de 2026, a margem das pesquisas andou 5,5 pontos pela média (77,6% da virada de 7,10), 6,8 pela média aparada (95,3%) e 7,6 pela mediana (106,5%). **O dado não permite dizer qual fração apareceu só na urna**; a resposta depende do resumo usado.
 
-**Os outros candidatos (B3).** Da última pesquisa verificada à urna, os outros caíram 4,2 pontos (intervalo de 90%: 2,6 a 6,0); o candidato do PL ficou com 116,2% dessa queda em média (mediana 100,0%). Isso inclui como os indecisos se distribuíram, porque o valor válido da pesquisa tira os indecisos em proporção. Nas três últimas semanas, em cada um dos 5 institutos com mais rodadas, os outros encolheram (começo da janela: de 12,4% a 19,3% dos válidos; fim: de 9,0% a 14,8%), e a margem do candidato do PL melhorou em 4 deles. A comparação por município de 2022 para 2026 (B3c) não mostra o mesmo padrão: onde os outros caíram mais, foi Lula, não o candidato do PL, que mais ganhou (coeficiente de Lula sobre a queda dos outros -1,12; do candidato do PL +0,12); mas os "outros" de 2022 (Ciro, Tebet) e de 2026 (Caiado, Cury, Renan) são pessoas diferentes.
+**Os outros candidatos (B3).** Da última pesquisa verificada à urna, os outros caíram 3,7 pontos (intervalo de 90%: 2,6 a 5,2); o candidato do PL ficou com 113,1% dessa queda em média (mediana 93,8%). Isso inclui como os indecisos se distribuíram, porque o valor válido da pesquisa tira os indecisos em proporção. Nas três últimas semanas, em cada um dos 5 institutos com mais rodadas, os outros encolheram (começo da janela: de 12,4% a 19,3% dos válidos; fim: de 8,9% a 12,6%), e a margem do candidato do PL melhorou em 4 deles. A comparação por município de 2022 para 2026 (B3c) não mostra o mesmo padrão: onde os outros caíram mais, foi Lula, não o candidato do PL, que mais ganhou (coeficiente de Lula sobre a queda dos outros -1,12; do candidato do PL +0,12); mas os "outros" de 2022 (Ciro, Tebet) e de 2026 (Caiado, Cury, Renan) são pessoas diferentes.
 
-**Decomposição do erro (B4).** Só 3 institutos têm última pesquisa verificada e pelo menos 3 pesquisas em 21 dias. Neles o erro médio da margem foi de -3,7; a parte consistente com mudança de última hora (extrapolação da tendência do instituto) foi de +0,7 e o resíduo de -4,5. A parte atribuível a comparecimento diferencial não pôde ser medida (exigiria pesquisa por UF).
+**Decomposição do erro (B4).** Só 6 institutos têm última pesquisa verificada e pelo menos 3 pesquisas em 21 dias. Neles o erro médio da margem foi de -2,2; a parte consistente com mudança de última hora (extrapolação da tendência do instituto) foi de +0,2 e o resíduo de -2,5. A parte atribuível a comparecimento diferencial não pôde ser medida (exigiria pesquisa por UF).
+
+### 5.1 Instituto por instituto, desde 2014 (B6, emenda 9)
+
+Pedido do autor (10/out): olhar pelo menos as duas eleições anteriores e esta, instituto por instituto, para ver se existe padrão, se algum erra sempre para o mesmo lado e qual chega mais perto. Última pesquisa de cada instituto com campo terminado de 1 a 8 dias antes da votação (sem boca de urna), votos válidos, contra a urna. 2018 e 2022: base do Pindograma (pesquisas com registro no TSE), conferida contra a imprensa no projeto do Congresso; 2026: a série deste projeto; 2014 (Aécio contra Dilma) entra como contexto. Regras escritas antes de juntar as rodadas: "chegou perto" é errar a diferença em até 4 pontos; "puxa sempre para o mesmo lado" é estar em 3 rodadas ou mais, todas com erro no mesmo sentido, e erro médio de 2 pontos ou mais.
+
+| Rodada | Institutos | Erro mediano da diferença | Mostraram o candidato contra o PT mais fraco | Mais forte | A urna deu a ele a mais (mediana, pontos) | Chegaram perto (até 4) |
+|---|---|---|---|---|---|---|
+| 2014, 1º turno (contexto) | 5 | -11,0 | 5 | 0 | +6,6 | · |
+| 2014, 2º turno (contexto) | 6 | +5,3 | 2 | 4 | -2,6 | · |
+| 2018, 1º turno | 10 | -1,2 | 9 | 1 | +4,9 | 5 |
+| 2018, 2º turno | 8 | +1,1 | 4 | 4 | -0,6 | 4 |
+| 2022, 1º turno | 13 | -4,5 | 10 | 3 | +4,1 | 3 |
+| 2022, 2º turno | 13 | -0,4 | 7 | 6 | +0,2 | 7 |
+| 2026, 1º turno | 12 | -4,1 | 10 | 2 | +3,7 | 5 |
+
+| Instituto (3 rodadas ou mais, 2018 a 2026) | Rodadas | Erro médio | Erro sem sinal, médio | PL mais fraco | PL mais forte | Chegou perto | Direção |
+|---|---|---|---|---|---|---|---|
+| Futura | 3 | +1,6 | 1,6 | 0 | 3 | 3 | sem lado fixo |
+| MDA | 5 | -1,8 | 3,1 | 4 | 1 | 4 | sem lado fixo |
+| Datafolha | 5 | -3,6 | 3,6 | 5 | 0 | 3 | sempre mostrou o PL mais fraco |
+| Paraná Pesquisas | 4 | +2,2 | 3,8 | 2 | 2 | 3 | sem lado fixo |
+| Quaest | 3 | -3,8 | 3,8 | 3 | 0 | 1 | sempre mostrou o PL mais fraco |
+| Real Time Big Data | 3 | -4,0 | 4,0 | 3 | 0 | 1 | sempre mostrou o PL mais fraco |
+| Ipec (antigo Ibope) | 4 | -4,6 | 4,6 | 4 | 0 | 2 | sempre mostrou o PL mais fraco |
+| AtlasIntel | 3 | -4,7 | 4,7 | 3 | 0 | 0 | sempre mostrou o PL mais fraco |
+| Ipespe | 4 | -2,1 | 4,9 | 3 | 1 | 1 | sem lado fixo |
+| PoderData | 4 | -5,5 | 5,5 | 4 | 0 | 2 | sempre mostrou o PL mais fraco |
+| Veritá | 3 | +8,4 | 8,4 | 0 | 3 | 0 | sempre mostrou o PL mais forte |
+
+Leitura dos dados, sem opinião:
+- **No 1º turno, quatro eleições seguidas com o mesmo erro:** a urna deu ao principal candidato contra o PT de 3,7 a 6,6 pontos a mais do que a mediana das pesquisas. O erro estava nele: o voto do candidato do PT ficou perto do que as pesquisas mostravam em 2022 (+0,5) e 2026 (-0,3).
+- **No 2º turno, o erro quase some e não tem lado fixo:** -2,6 (2014), -0,6 (2018) e +0,2 (2022). Em 2014 a maioria mostrou o Aécio mais forte do que a urna.
+- **Por instituto:** Datafolha mostrou o candidato contra o PT mais fraco em 7 de 7 rodadas desde 2014, e o Ipec (antigo Ibope) em 6 de 6, inclusive no 2º turno de 2014, quando a maioria errou para o outro lado. Às vezes por pouco, às vezes por muito: no Datafolha, 3 das 7 rodadas ficaram em até 2 pontos (dentro do que a margem de erro explica) e a maior chegou a 9,9. A Veritá mostrou esse candidato mais forte em 4 de 4. Quem mais chegou perto, entre os de 3 rodadas ou mais, foi a Futura (3 de 3 dentro de 4 pontos) e o MDA (4 de 5).
+- **O que isto não diz:** por que cada instituto erra. Erro com lado fixo pode vir do jeito de amostrar, de quem aceita responder, de quem decide no fim ou de quem vai votar. As rodadas não são independentes (um mesmo choque de eleição pesa em todos os institutos), então "sete de sete" é um padrão, e não uma probabilidade.
+
+![Instituto por instituto](resultados/figuras/video/15_institutos_desde_2014.png)
+
+![1º e 2º turno](resultados/figuras/video/16_primeiro_e_segundo_turno.png)
 
 ## 6. Episódios dos dois lados (H4)
 
@@ -129,6 +172,8 @@ Teste (pré-registro, §5): por instituto com 8 ou mais rodadas, a mudança da m
 | 30/07, STF autoriza investigar Lulinha | Lula e governo | 9 | +1,2 | 4 | 2 | 1 | coincide, no sentido esperado; **depende do limiar** |
 | Setembro (V09, V21, V23, V26, V27) | dos dois lados | 3 | +4,5 | 2 | 1 | 1 | coincide, sem sentido esperado |
 
+**V23 era uma notícia falsa.** A afirmação de que Flávio tiraria de Nossa Senhora Aparecida o título de padroeira circulou a partir de 23/09; em 30/09 o TSE manteve fora do ar as publicações que o ligavam a ela, e os ministros consideraram falso que ele tenha proposto, apoiado ou articulado a medida (CNN Brasil, 30/09/2026, captura em `dados/brutos/economia-critica/tse_ns_cnn.html`). O episódio entra no teste como exposição do candidato, que é o que ele foi, e não como fato sobre ele.
+
 As duas colunas de sensibilidade foram definidas **depois** de ver as diferenças por instituto (emenda 3). V16 e V12 (dezembro de 2025) não têm instituto com par antes e depois. **Os episódios de 2025 (V01 a V04) não foram testados**, porque dependiam da série de avaliação do governo, que não alcança as 8 medições exigidas. Sem confirmação de data saíram 12 episódios, entre eles os de ministros do STF no caso Master anteriores a setembro, o da Operação Contenção e o das sanções e tarifas de 2026.
 
 Efeito não é causa: "coincide com movimento" quer dizer que a série se moveu além do normal naquela janela. O movimento depois das mensagens de Flávio com Vorcaro **durou meses**: a média semanal foi de -4,3 entre 30/03 e 11/05, de -9,0 entre 18/05 e 27/07, e só voltou a esse patamar anterior na semana de 14/09, já na campanha.
@@ -151,8 +196,56 @@ Todas as regressões usam o município como unidade, peso pelos válidos de 2026
 - **H13 (renovação do eleitorado):** onde o eleitorado envelheceu mais, a virada foi menor, e o placebo repete o padrão (sinal igual, tamanho maior); sem efeito fixo de UF o sinal some. A variação média ponderada de eleitores com 60 anos ou mais foi de +2,7 ponto e a de 16 a 24 anos, -1,7: se há efeito de composição, ele ajudaria Lula, não Flávio. Sem pesquisa por idade (A6), a evidência não passa de fraca.
 - **H7 (máquina local):** 477 municípios na janela de 5 pontos (259 com direita vencedora e 218 com direita perdedora); o efeito de +1,39 ponto está dentro do intervalo do placebo. Poder suficiente (mais de 200 municípios). A variante só com o PL, janela de 5 pontos: +0,97 (p = 0,551).
 - **H9 (governadores aliados):** virada média de 8,5 pontos nas 10 UFs com governador apoiador de Flávio e de 7,6 nas 5 com governador apoiador de Lula; diferença de +0,8 (p de permutação 0,626).
-- **H3 (economia):** descritivo nacional, não é teste. Desocupação de 9,3% no 2º trimestre de 2022 para 5,4% no de 2026 (mínimo de 5,1% no 4º trimestre de 2025); renda real do trabalho de R$ 3.136 para R$ 3.738 (+19,2%); inflação em 12 meses de 4,1% (set/2022) para 3,1% (set/2026), e a de alimentos de 9,5% para 3,5%; Selic meta de 13,75% em out/2022 e 13,75% em set/2026 (chegou a 15,00% no período). Entre as 27 UFs, a virada foi maior onde a desocupação caiu menos (p = 0,016), mas o placebo não confirma e 27 pontos são poucos.
+- **H3 (economia), o recorte de 07/out:** descritivo nacional, não é teste; a leitura que vale é a da seção 7A. Desocupação de 9,3% no 2º trimestre de 2022 para 5,4% no de 2026 (mínimo de 5,1% no 4º trimestre de 2025); renda real do trabalho de R$ 3.136 para R$ 3.738 (+19,2%); inflação em 12 meses de 4,1% (set/2022) para 3,1% (set/2026), e a de alimentos de 9,5% para 3,5%; Selic meta de 13,75% em out/2022 e 13,75% em set/2026 (chegou a 15,00% no período). Entre as 27 UFs, a virada foi maior onde a desocupação caiu menos (p = 0,016), mas o placebo não confirma e 27 pontos são poucos.
 - **H11 (por que Flávio e não outro nome):** nos cenários de pesquisa, Caiado, Zema e Ratinho Júnior rendiam muito menos que Flávio contra Lula; Tarcísio rendia perto (diferença média de +0,8 ponto no 4º trimestre de 2025) e passou a render menos (diferença de -4,8 no 1º de 2026). Michelle Bolsonaro não está nos dados coletados.
+
+## 7A. A economia do bolso, cruzando fontes (H3 relida, emenda 10)
+
+Pedido do autor (10/out): os indicadores oficiais de emprego e de inflação em 12 meses melhoraram, mas a sensação de quem vive no país é outra; comparar preços de 2022 e de agora, recuperação judicial, dívidas e o que as pessoas dizem. Cada número tem o trecho literal conferido no arquivo capturado (`resultados/e14_conferencia_trechos.csv`; arquivos e hashes em `dados/CAPTURAS_ECONOMIA.csv`).
+
+**A inflação em 12 meses caindo não quer dizer preço caindo.** Quer dizer que ele sobe mais devagar. O que o bolso sente é o acumulado:
+
+| Item (IPCA, IBGE) | out/2022 a set/2026 | jan/2020 a set/2026 | Mês do pico | No pico, acima de set/2022 (%) |
+|---|---|---|---|---|
+| Índice geral | +20,8% | +44,7% | 202609.0 | 20.8 |
+| Alimentação no domicílio | +16,4% | +65,1% | 202605.0 | 17.8 |
+| Café moído | +43,9% | +165,1% | 202506.0 | 80.9 |
+| Carnes | +19,2% | +54,4% | 202609.0 | 19.2 |
+| Tomate | +85,3% | +141,7% | 202605.0 | 117.4 |
+| Arroz | +9,5% | +61,1% | 202406.0 | 45.9 |
+| Pão francês | +19,3% | · | · | · |
+| Energia elétrica residencial | +31,9% | · | · | · |
+| Gasolina | +32,6% | · | · | · |
+| Aluguel residencial | +18,5% | · | · | · |
+| Plano de saúde | +38,5% | · | · | · |
+
+| Indicador | 2022 | 2025 ou 2026 | Fonte |
+|---|---|---|---|
+| Cesta básica em São Paulo | R$ 749,78 (ago) | R$ 900,59 (ago), +20,1% | DIEESE |
+| Salário mínimo | R$ 1212,00 | R$ 1621,00, +33,7% | DIEESE |
+| Horas de salário mínimo para a cesta de São Paulo | 136,1 | 122,2 | conta sobre o DIEESE (220 horas por mês) |
+| Pessoas trabalhando (2º trimestre) | 96,4 milhões | 103,1 milhões | IBGE, PNAD |
+| Com carteira assinada, setor privado | 35,0 milhões | 39,4 milhões | IBGE, PNAD |
+| Informalidade | 40,0% | 37,4% | IBGE, PNAD |
+| Pessoas com nome sujo | 66,6 milhões (mai, o maior número até então) | 83,98 milhões (ago/2026) | Serasa |
+| Parte da renda das famílias que vai para pagar dívida | 27,17% (set) | 28,72% (jul/2026), a maior desde 2005 | Banco Central, série 29034 |
+| Selic | 13,75% | pico de 15,00% (jun/2025); 13,75% hoje | Banco Central |
+| Empresas em recuperação judicial no ano | cerca de 1.269 | 2.466 (2025), o maior número desde 2012 | Serasa (2022 pela conta das altas publicadas) |
+| A economia piorou nos últimos 12 meses | · | 44% (jun/2026; chegou a 56% em 2025), contra 20% que melhorou | Genial/Quaest |
+| O preço da comida subiu nos últimos 12 meses | · | 69% (jun/2026) | Genial/Quaest |
+
+Leitura dos dados, sem opinião:
+- **O emprego melhorou de verdade**, e não é só a taxa: há mais gente trabalhando e mais gente com carteira, e a informalidade caiu. O salário mínimo subiu mais do que a cesta básica.
+- **O custo de vida não voltou:** a comida em casa está +65,1% acima de janeiro de 2020, o café +165,1% (quase o triplo), e itens que se compram todo dia (café, tomate, conta de luz, gasolina) subiram bem mais do que a média desde 2022. "Tudo três vezes mais caro" não é o que os índices mostram na média; é o que eles mostram para o café desde 2020.
+- **A dívida apertou:** com juros altos, a parte da renda que vai para pagar dívida é a maior desde 2005, há 17 milhões de pessoas a mais com nome sujo do que em 2022, e o número de empresas em recuperação judicial quase dobrou.
+- **A sensação acompanha o bolso, e não o índice:** o dobro das pessoas dizia que a economia piorou.
+- **O que isto não diz:** se, e quanto, isso mudou voto. Sem a série de avaliação do governo (H2) e sem dado por eleitor, a economia segue sem teste; a descrição é consistente com voto econômico contra quem governa, e é isso que a H3 passou a dizer.
+
+![Preços](resultados/figuras/video/17_precos_desde_2022_e_2020.png)
+
+![Emprego e dívidas](resultados/figuras/video/18_emprego_e_dividas.png)
+
+![Sensação](resultados/figuras/video/19_sensacao_economia.png)
 
 ## 8. O placar
 
@@ -160,7 +253,7 @@ Todas as regressões usam o município como unidade, peso pelos válidos de 2026
 |---|---|---|---|---|
 | H1 | Herança e identidade (a base) | consistente | forte para a base | alta |
 | H2 | Referendo sobre o governo | não testável | não testável | baixa |
-| H3 | Economia | inconsistente (descritivo) | fraca | baixa |
+| H3 | Economia (o bolso) | consistente em parte (descritivo, emenda 10) | fraca (descritivo, cruzado entre fontes) | baixa |
 | H4 | Episódios e eventos dos dois lados | consistente em parte | forte pela regra literal; depende do limiar (Lulinha) | média |
 | H5 | Pauta | não testável | não testável | baixa |
 | H6 | Consolidação e voto útil da direita | consistente | forte (movimento na série e aritmética pesquisa-urna em vários institutos) | média |
@@ -193,6 +286,7 @@ O detalhe de cada linha e o veredito estão em `docs/LEITURA_DA_IA.md`. Os taman
 - **Recontagem independente** (`ferramentas/validacao-independente.py`, código novo e outras fontes): 13 de 13 números conferem, com diferença máxima de 0,004 ponto e de 1,8 mil votos.
 - Perfil do eleitorado contra o eleitorado apto dos boletins: diferença total de 0,000% (2022) e 0,004% (2026).
 - Testes automáticos (`python -m pytest -q`) e conferência de linguagem (`ferramentas/conferir-linguagem.py`).
+- **11/out/2026:** o 2018 da série de pesquisas usava o resultado da urna no lugar do da pesquisa (erro "perto de zero" que não existia); três pesquisas da véspera de 2026 saíram como não verificáveis por defeito de coleta (PDF e página comprimida) e foram conferidas na fonte original; a da Futura entrou com o número do PDF. Detalhe em `docs/CORRECOES.md`.
 - Erros achados no caminho e corrigidos estão em `docs/CORRECOES.md`; a revisão adversarial, em `docs/REVISAO_ADVERSARIAL.md`.
 
 ## 11. Como refazer

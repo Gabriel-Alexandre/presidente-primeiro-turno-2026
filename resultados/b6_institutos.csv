@@ -1,0 +1,23 @@
+instituto,rodadas,erro_medio,erro_absoluto_medio,pl_mais_fraco,pl_mais_forte,chegou_perto,pior_erro,rodadas_lista,direcao
+MDA,5,-1.79,3.06,4,1,4,-7.51,"2018-1, 2018-2, 2022-1, 2022-2, 2026-1",sem lado fixo
+Datafolha,5,-3.63,3.63,5,0,3,-9.5,"2018-1, 2018-2, 2022-1, 2022-2, 2026-1",sempre mostrou o PL mais fraco
+Paraná Pesquisas,4,2.21,3.78,2,2,3,11.02,"2018-1, 2018-2, 2022-1, 2022-2",sem lado fixo
+Ipec (antigo Ibope),4,-4.64,4.64,4,0,2,-8.75,"2018-1, 2018-2, 2022-1, 2022-2",sempre mostrou o PL mais fraco
+Ipespe,4,-2.08,4.91,3,1,1,-8.75,"2018-1, 2018-2, 2022-1, 2022-2",sem lado fixo
+PoderData,4,-5.55,5.55,4,0,2,-11.14,"2018-1, 2022-1, 2022-2, 2026-1",sempre mostrou o PL mais fraco
+Futura,3,1.61,1.61,0,3,3,2.44,"2022-1, 2022-2, 2026-1",sem lado fixo
+Quaest,3,-3.83,3.83,3,0,1,-5.77,"2022-1, 2022-2, 2026-1",sempre mostrou o PL mais fraco
+Real Time Big Data,3,-3.98,3.98,3,0,1,-6.12,"2018-1, 2018-2, 2026-1",sempre mostrou o PL mais fraco
+AtlasIntel,3,-4.65,4.65,3,0,0,-5.02,"2022-1, 2022-2, 2026-1",sempre mostrou o PL mais fraco
+Veritá,3,8.37,8.37,0,3,0,11.91,"2018-1, 2022-1, 2022-2",sempre mostrou o PL mais forte
+Ideia,2,-4.09,4.09,2,0,1,-5.29,"2022-1, 2026-1",poucas rodadas
+IPRI,2,0.24,9.04,1,1,0,9.28,"2018-1, 2018-2",poucas rodadas
+Vox Populi,2,-9.29,9.29,2,0,0,-10.26,"2018-1, 2018-2",poucas rodadas
+Brasmarket,2,14.81,14.81,0,2,0,21.77,"2022-1, 2022-2",poucas rodadas
+Ranking Pesquisa,1,0.15,0.15,0,1,1,0.15,2022-2,poucas rodadas
+Vox Brasil,1,-0.97,0.97,1,0,1,-0.97,2026-1,poucas rodadas
+Palver,1,2.14,2.14,0,1,1,2.14,2026-1,poucas rodadas
+FSB,1,-5.52,5.52,1,0,0,-5.52,2022-1,poucas rodadas
+Gerp,1,6.25,6.25,0,1,0,6.25,2022-2,poucas rodadas
+Nexus,1,-7.13,7.13,1,0,0,-7.13,2026-1,poucas rodadas
+Indexa,1,-7.48,7.48,1,0,0,-7.48,2026-1,poucas rodadas
